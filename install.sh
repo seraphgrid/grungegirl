@@ -23,3 +23,5 @@ echo 'installation complete.'
 echo 'version 0.1.0 - Party Kids'
 
 echo "alias grungegirl='python ~/grungegirl/main.py'" >> ~/.bashrc
+
+source ~/.bashrc
