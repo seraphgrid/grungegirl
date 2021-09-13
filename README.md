@@ -5,4 +5,4 @@ grungegirl aims to make available a massive amount of information about differen
 
 expect a psych update extremely soon. this one is for you, ronald reagan!
 
-to install it, run the install.sh file, then copy and paste the following to `~/.bashrc`: `alias grungegirl='python main.py'`
+to install it, run the `install.sh` file, then copy and paste the following to `~/.bashrc`: `alias grungegirl='python main.py'`
