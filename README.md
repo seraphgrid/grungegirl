@@ -2,6 +2,8 @@
 
 # grungegirl 
 
+welcome to elif city
+
 grungegirl aims to make available a massive amount of information about different drugs offline. built in python for easy transportability, grungegirl makes an effort to provide a utility for getting quick information about drugs. it's terminal-based, which means you can (or need to) alias a command in order to use it. but the terminal is the fastest thing in linux, so being able to whip open information about drugs is useful.
 
 planned updates include: marketplaces, popular sellers of each drug, psychedelics, dissos, stims, depressants.
