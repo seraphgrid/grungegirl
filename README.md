@@ -6,6 +6,6 @@ grungegirl aims to make available a massive amount of information about differen
 
 planned updates include: marketplaces, popular sellers of each drug, psychedelics, dissos, stims, depressants.
 
-to install it, run the `install.sh` file, then copy and paste the following to `~/.bashrc`: `alias grungegirl='python main.py'`
+to install it, run the `install.sh` file.
 
 SOON THE INSTALL PROCESS WON'T SUCK SO MUCH, PLEASE BE PATIENT. THIS IS A TEST BUILD.
