@@ -43,7 +43,7 @@ elif drug == "meth":
 # Fentanyl
 
 elif drug == "fentanyl":
-	os.system('python ~/grungegirl/ent.py')
+	os.system('python ~/grungegirl/fent.py')
 
 # Coke
 
