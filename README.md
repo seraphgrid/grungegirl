@@ -7,5 +7,5 @@ expect a psych update extremely soon. this one is for you, ronald reagan!
 
 to install it, run the install.sh file, then copy and paste the following to `~/.bashrc`:
 
-`#grungegirl
-alias grungegirl='python main.py'`
+`#grungegirl`
+`alias grungegirl='python main.py'`
