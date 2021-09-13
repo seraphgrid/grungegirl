@@ -12,14 +12,12 @@ to install it, run the `install.sh` file.
 
 i will get a lot of questions about the file layout. the answer is simple. i don't want my main.py crowded with all the things i plan to do for each entry. it is going to get extremely trippy and modular. i need my ducks lined up in a row. think of it as a spider's body layout, with all necessary components of the spider keeping it alive. now imagine if that spider could transform or modify each of its parts individually. upgraded poison, higher jump height. longer legs. bigger eyes. deeper stare. 
 
-![image](https://user-images.githubusercontent.com/90430427/133165416-e009fb21-b4ca-46e4-b3d2-1b61543a1a41.png)
-
 
 ## planned updates
 
 - Dissociatives
 - Psychedelics
 - Astrology
-- Onion Link Redirect, Sellers, Marketplaces, Amazon
+- Onion Link/Tor Browser Redirect, Sellers, Marketplaces, Amazon
 
-![image](https://user-images.githubusercontent.com/90430427/133165535-c5d4f6a0-2ae0-4a0d-acec-fc3372270fa9.png)
+![image](https://user-images.githubusercontent.com/90430427/133165416-e009fb21-b4ca-46e4-b3d2-1b61543a1a41.png)
