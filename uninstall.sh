@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-echo ''alias grungegirl='python ~/grungegirl/main.py''' ~/.bashrc
-
 rm -r ~/grungegirl
 
 echo 'uninstallation complete.'

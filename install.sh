@@ -22,4 +22,4 @@ cp xanax.py ~/grungegirl
 echo 'installation complete.'
 echo 'version 0.1.0 - Party Kids'
 
-echo "alias grungegirl='python ~/grungegirl/main.py'" ~/.bashrc
+echo "alias grungegirl='python ~/grungegirl/main.py'" >> ~/.bashrc
