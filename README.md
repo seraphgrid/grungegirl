@@ -15,9 +15,10 @@ i will get a lot of questions about the file layout. the answer is simple. i don
 
 ## planned updates
 
-- Dissociatives
-- Psychedelics
-- Astrology
+- Dissociatives Mass Update
+- Psychedelics Mass Update
+- Stimulants Mass Update
+- Astrology Mass Update
 - Onion Link/Tor Browser Redirect, Sellers, Marketplaces, Amazon
 
 ![image](https://user-images.githubusercontent.com/90430427/133165416-e009fb21-b4ca-46e4-b3d2-1b61543a1a41.png)
