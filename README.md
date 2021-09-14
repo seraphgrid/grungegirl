@@ -27,6 +27,8 @@ i will get a lot of questions about the file layout. the answer is simple. i don
 
 ## included functions
 
-`web` opens the ability to search psychonaut.wiki for more information related to the available list of drugs. it uses lynx for maximum speed when handling python code. it will probably be this way for a while.
+`web` opens the ability to search psychonaut.wiki for more information related to the available list of drugs. it uses lynx for maximum speed when handling python code. it will probably be this way for a while. vaporwave helps. 
+
+`exit` will formally exit the application. you could also just spam ctrl + c. 
 
 
