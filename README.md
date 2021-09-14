@@ -20,5 +20,13 @@ i will get a lot of questions about the file layout. the answer is simple. i don
 - Stimulants Mass Update
 - Astrology Mass Update
 - Onion Link/Tor Browser Redirect, Sellers, Marketplaces, Amazon
+- Lynx Integration/brow.sh integration
+- `buy` will open a list of products that you can access online in a browser of your choosing.
 
 ![image](https://user-images.githubusercontent.com/90430427/133165416-e009fb21-b4ca-46e4-b3d2-1b61543a1a41.png)
+
+## included functions
+
+`web` opens the ability to search psychonaut.wiki for more information related to the available list of drugs. it uses lynx for maximum speed when handling python code. it will probably be this way for a while.
+
+
