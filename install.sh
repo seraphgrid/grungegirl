@@ -18,6 +18,7 @@ cp shrooms.py ~/grungegirl
 cp speed.py ~/grungegirl
 cp weed.py ~/grungegirl
 cp xanax.py ~/grungegirl
+cp query.py ~/grungegirl
 
 echo 'installation complete.'
 echo 'version 0.1.0 - Party Kids'
