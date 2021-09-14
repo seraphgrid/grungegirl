@@ -21,7 +21,7 @@ cp xanax.py ~/grungegirl
 cp query.py ~/grungegirl
 
 echo 'installation complete.'
-echo 'version 0.1.0 - Party Kids'
+echo 'version 0.1.3 - Party Girls'
 
 echo "alias grungegirl='python ~/grungegirl/main.py'" >> ~/.bashrc
 

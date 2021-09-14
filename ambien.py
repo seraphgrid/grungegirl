@@ -15,7 +15,7 @@ ambiult = "Ultimate: 50 mg +"
 def ambi():
     print("Ambien")
     print(ambiinfo)
-    pritn(ambiinfo2)
+    print(ambiinfo2)
     print(ambifx)
     print(ambitot)
     print(ambiae)

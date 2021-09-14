@@ -82,7 +82,12 @@ elif search == "dph":
     subprocess.run(["lynx", "--anonymous", "https://psychonautwiki.org/wiki/Dph"])
     print("Finished searching for DPH, you fucking idiot!")
 
+# exit software
+elif search == "exit":
+	exit("Goodbye!")
+
 else:
     print("Query returns no results.")
+    os.system('python ~/grungegirl/query.py')
 
 os.system('python ~/grungegirl/main.py')

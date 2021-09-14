@@ -4,8 +4,8 @@
 import os
 
 # version name, version tagline, drug search
-print("grungegirl - 0.1 - Party Kids")
-print("This one is for you, Ronald Reagan!")
+print("grungegirl - 0.1.3 - Party Girls")
+print("Hitomi Tanaka... my god...")
 drug = input("Drug: ")
 
 if drug == "web":
@@ -85,5 +85,9 @@ elif drug == "shrooms":
 
 elif drug == "dph":
 	os.system('python ~/grungegirl/dph.py')
+
+# exit software
+elif drug == "exit":
+	exit("Goodbye!")
 
 os.system('python ~/grungegirl/main.py')
