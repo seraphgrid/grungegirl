@@ -6,7 +6,7 @@ welcome to elif city
 
 grungegirl aims to make available a massive amount of information about different drugs offline. built in python for easy transportability, grungegirl makes an effort to provide a utility for getting quick information about drugs. it's terminal-based, which means you can (or need to) alias a command in order to use it. but the terminal is the fastest thing in linux, so being able to whip open information about drugs is useful.
 
-to install it, run the `install.sh` file.
+to install it, run the `install.py` file.
 
 ## explaining the file layout
 
