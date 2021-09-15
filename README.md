@@ -2,25 +2,30 @@
 
 # grungegirl 
 
-welcome to elif city
+welcome.
 
-grungegirl aims to make available a massive amount of information about different drugs offline. built in python for easy transportability, grungegirl makes an effort to provide a utility for getting quick information about drugs. it's terminal-based, which means you can (or need to) alias a command in order to use it. but the terminal is the fastest thing in linux, so being able to whip open information about drugs is useful.
+`grungegirl` is aiming to be the premier drug culture application. it is the hacker's drug encyclopedia. it follows the unix philosophy, so expect great things related to drugs. it aims to be undyingly faithful to python, but will see some rust integration for speed. i was an avid believer in the way death grips ran things. so now i follow the same approach when it comes to often tiring aspects of self-undoing. transformation in 12th house astrology is somewhat of a forbidden practice. 
 
-to install it, run the `install.py` file.
+but `grungegirl` is built to break the rules and complete my destiny. to install it, run the `install.py` file. the `install.py` file will install `lynx`, move necessities to a folder in `$HOME` and bind a `python` command to the command `grungegirl`. 
+
+
+![image](https://user-images.githubusercontent.com/90430427/133360635-6154db5b-5693-4914-841e-ba87523ddde7.png)
+
+
+to install it, run the `install.py` file. the `install.py` will install `lynx`, move necessities to a folder in `$HOME` and bind a command.
 
 ## explaining the file layout
 
-i will get a lot of questions about the file layout. the answer is simple. i don't want my main.py crowded with all the things i plan to do for each entry. it is going to get extremely trippy and modular. i need my ducks lined up in a row. think of it as a spider's body layout, with all necessary components of the spider keeping it alive. now imagine if that spider could transform or modify each of its parts individually. upgraded poison, higher jump height. longer legs. bigger eyes. deeper stare. 
+the spider-leg layout is an innovative decision emphasizing the modular aspect of python code and extending the capabilities of the software. it made the use of `lynx` possible through its "jumping-spider" style import installation. every line of code is implemented by hand, so it's like giving myself extra arms. it's modularity will come in handy when i give the lynx integration its final polish around 0.6.0. folders will be applied to different sections. 
 
 
 ## planned updates
 
-- Dissociatives Mass Update
-- Psychedelics Mass Update
-- Stimulants Mass Update
-- Astrology Mass Update
-- Onion Link/Tor Browser Redirect, Sellers, Marketplaces, Amazon
-- Lynx Integration/brow.sh integration
+- Massive repository of drugs organized by category, class, price and legality.
+- Overwhelming breadth of information related to astrology, accessible offline and fast.
+- Onion Link/Tor Browser Redirect, Sellers, Marketplaces, Amazon. Editable through Python coding to launch a browser of your choice.
+- brow.sh integration. 
+- `crypto` command for monitoring, selling and wallet.
 - `buy` will open a list of products that you can access online in a browser of your choosing.
 
 ![image](https://user-images.githubusercontent.com/90430427/133165416-e009fb21-b4ca-46e4-b3d2-1b61543a1a41.png)
