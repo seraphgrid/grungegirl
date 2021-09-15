@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/90430427/133154198-7da21197-0acb-43ac-8155-4d1edbcf3f02.png)
 
-# grungegirl 
+# grungegirl. cli-based drug search for girls.
 
 welcome.
 
@@ -14,22 +14,22 @@ but `grungegirl` is built to break the rules and complete my destiny. to install
 
 to install it, run the `install.py` file. the `install.py` will install `lynx`, move necessities to a folder in `$HOME` and bind a command. in the future, it will also attempt to compile `browsh` from source or otherwise install it cleanly in distros where it can get away with it. this is for you, ronald reagan.
 
-## why was this even bothered with
+## why was this even bothered with. idiot.
 
 in the twelfth house of astrology there is an affinity to dream. this app exists to keep dreamers alive. when drugs combine with the unix philosophy, you get something incredibly powerful that helps drugs stay in motion while providing ample resources for harm redux. when this began, i was programming the software to be used by someone under the influence of any drug. as long as they could spell and read, they could launch the application and use it. it is the junkie hacker's ultimate tool.
 
 drugs need to be containerized anyway. what's cooler than being able to understand quick info about drugs in a heartbeat without the necessity of an internet connection? this can something extremely powerful and you know it. this is an idea that will age like fine wine as things move forward in terms of society's tech. once extreme changes are being made more frequently, it will become the ultimate hippie application, with agency in the most necessary scenarios. this is how we party in the year 2070. 
 
-https://64.media.tumblr.com/434aa7c321b27e4ca01da2a699f71b2f/97a86cb0cf8c0e1d-b2/s400x600/ac08bdd9be189c3ee5731db6e2a0e8b390a8e976.gif
+![image](https://im7.ezgif.com/tmp/ezgif-7-090feff80056.gif)
 
-## explaining the file layout
+## explaining the file layout. innovative and jittery.
 
 the spider-leg layout is an innovative decision emphasizing the modular aspect of python code and extending the capabilities of the software. it made the use of `lynx` possible through its "jumping-spider" style import installation. every line of code is implemented by hand, so it's like giving myself extra arms. it's modularity will come in handy when i give the lynx integration its final polish around 0.6.0. folders will be applied to different sections. 
 
 ![image](https://user-images.githubusercontent.com/90430427/133361279-919c0133-e847-4602-ac44-0620a868b8bb.png)
 
 
-## planned updates
+## planned updates. cycles for the future.
 
 - Massive repository of drugs organized by category, class, price and legality.
 - Overwhelming breadth of information related to astrology, accessible offline and fast.
@@ -42,7 +42,7 @@ the spider-leg layout is an innovative decision emphasizing the modular aspect o
 
 ![image](https://user-images.githubusercontent.com/90430427/133165416-e009fb21-b4ca-46e4-b3d2-1b61543a1a41.png)
 
-## included functions
+## included functions. humble beginnings.
 
 `web` opens the ability to search psychonaut.wiki for more information related to the available list of drugs. it uses lynx for maximum speed when handling python code. it will probably be this way for a while. vaporwave helps. 
 
