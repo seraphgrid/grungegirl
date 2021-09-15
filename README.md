@@ -32,12 +32,12 @@ but with bones comes fertilization, and it is time for this soil to grow somethi
 for now, just trust me. the spider-leg layout is a decision emphasizing the modular aspect of python code and extending the capabilities of the software. i notice that this layout folds in and out like an umbrella on a system due to install/uninstall pathing. it made the use of `lynx` possible through its "jumping-spider" style import installation. 
 
 it's modularity will come in handy when i give the lynx integration its final polish around 0.6.0. folders will be applied to different sections. 
-the only other option is to have a few files that are just fucking huge and annoying to work through when wanting to make quick changes. the files also won't be able to borrow content from one another in order to mix and match information.
+the only other option is to have a few files that are just fucking huge and annoying to work through when wanting to make quick changes. the files in another, way more monolithic layout also won't be able to borrow content from one another in order to mix and match information.
 
 ![image](https://user-images.githubusercontent.com/90430427/133361279-919c0133-e847-4602-ac44-0620a868b8bb.png)
 
 
-the spider provides a strong idea for maintaining modularity in my code. each leg is a modicum of a larger scale project that needs each leg to work. without the legs, nothing moves. the body is made of files like `install.py`, `uninstall.py` and `query.py`. These three files are the head and torso of the spider, bringing motor functionality to the legs. that now means each leg can be upgraded individually without affecting the rest of the body. this will make updating information very easy in the future.
+the spider provides a strong symbolic reference for maintaining modularity in my code. each leg is a modicum of a larger scale project that needs each leg to work. without the legs, nothing moves. the body is made of files like `install.py`, `uninstall.py` and `query.py`. These three files are the head and torso of the spider, bringing motor functionality to the legs. that now means each leg can be upgraded individually without affecting the rest of the body. this will make updating information very easy in the future.
 
 the only downside is that i need to open lots of files to make huge updates to layout and formatting. that's for me to worry about though, and affects no part of the user experience.
 
