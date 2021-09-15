@@ -4,14 +4,15 @@
 
 welcome.
 
-`grungegirl` is aiming to be the premier drug culture application. it is the hacker's encyclopedia for drugs, programmed by a hardcore feminist, struggling with themes of oppression in drug culture. drugs and their addicts are treated unfairly, even by people who are meant to support them. they are also viewed as lesser by society, even though many of them are smarter and better.
+`grungegirl` is aiming to be the premier drug culture application. it is the hacker's encyclopedia for drugs, programmed by a hardcore feminist who is struggling with themes of oppression in drug culture. drugs and their addicts are treated unfairly, even by people who are meant to support them. they are also viewed as lesser by society, even though many of them are smarter and better.
 
-`grungegirl` is built to break the rules. this is the swiss army knife for those interested in drug culture. it is not built to enable users, as this application has very little choice over whether or not that person becomes a drug addict after using it.
+`grungegirl` is built to break the rules. mentioning its purpose as an application gets the conversation started, and the moral high horses come out to play. 
+
+this is the swiss army knife for those interested in drug culture. it is not built to enable users, as this application has very little choice over whether or not that person becomes a drug addict after using it.
 
 it is instead built to level the playing field, giving people who are often ignored by society tools that help them explore and conquer the world of drugs. drugs can destroy lives, but so can everything else. we shouldn't hurt those that choose to indulge in them. 
 
 ![image](https://user-images.githubusercontent.com/90430427/133360635-6154db5b-5693-4914-841e-ba87523ddde7.png)
-
 
 to install it, run the `install.py` file. 
 the `install.py` file will install `browsh`, move necessities to a folder in `$HOME` and bind a command. 
@@ -21,15 +22,21 @@ in the future, it will also attempt to compile `browsh` from source or otherwise
 
 like i said, drug addicts are treated very poorly throughout history. it's time to have a small win within the community, making an application that adds movement to that lifestyle. drugs can benefit from a bit of organization, anyway. there's nothing cooler to me right now other than being able to understand quick info about drugs in a heartbeat. 
 
-## explaining the file layout. innovative and jittery.
+it's something i've needed for a while, but never knew how to bring into existence until now. as an addict myself, i've been told the idea is "life-saving" by people within the drug community. that is how i know i'm on to something. people who could really use a utility like this are aware of how badly they've needed it. it's become subconscious in the mind of a drug addict to always be worth bones.
 
-for now, just trust me. the spider-leg layout is an innovative decision emphasizing the modular aspect of python code and extending the capabilities of the software. it made the use of `lynx` possible through its "jumping-spider" style import installation. every line of code is implemented by hand, so it's like giving myself extra arms. it's modularity will come in handy when i give the lynx integration its final polish around 0.6.0. folders will be applied to different sections. 
+but with bones comes fertilization, and it is time for this soil to grow something mutated and new. it feels cool to be apart of a neglected community if you're helping them. 
+
+## explaining the spider leg file theory
+
+for now, just trust me. the spider-leg layout is a decision emphasizing the modular aspect of python code and extending the capabilities of the software. i notice that this layout folds in and out like an umbrella on a system due to install/uninstall pathing. it made the use of `lynx` possible through its "jumping-spider" style import installation. 
+
+it's modularity will come in handy when i give the lynx integration its final polish around 0.6.0. folders will be applied to different sections. 
+the only other option is to have a few files that are just fucking huge and annoying to work through when wanting to make quick changes. the files also won't be able to borrow content from one another in order to mix and match information.
 
 ![image](https://user-images.githubusercontent.com/90430427/133361279-919c0133-e847-4602-ac44-0620a868b8bb.png)
 
-the only option to have a few files that are just fucking huge and annoying to work through when wanting to make quick changes. i notice that this layout folds in and out like an umbrella on a system due to install/uninstall pathing. it's not a legitimately innovative idea. im just being annoying. 
 
-but it is a strong idea for maintaining modularity in the code and being able to replace parts with new ones whenever necessary.
+the spider provides a strong idea for maintaining modularity in my code. 
 
 
 ## planned updates. cycles for the future.
