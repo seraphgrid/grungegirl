@@ -16,9 +16,9 @@ to install it, run the `install.py` file. the `install.py` will install `lynx`, 
 
 ## why was this even bothered with. idiot.
 
-in the twelfth house of astrology there is an affinity to dream. this app exists to keep dreamers alive. when drugs combine with the unix philosophy, you get something incredibly powerful that helps drugs stay in motion while providing ample resources for harm redux. when this began, i was programming the software to be used by someone under the influence of any drug. as long as they could spell and read, they could launch the application and use it. it is the junkie hacker's ultimate tool.
+in the twelfth house of astrology there is an affinity to dream. this app exists to keep dreamers alive. when drugs combine with the unix philosophy, you get something incredibly powerful that helps drugs stay in motion while providing ample resources for harm redux. when this began, i was programming the software to be used by someone under the influence of any drug. as long as they could spell and read, they could launch the application and use it. it is the drug-loving hacker's ultimate tool.
 
-drugs need to be containerized anyway. what's cooler than being able to understand quick info about drugs in a heartbeat without the necessity of an internet connection? this can something extremely powerful and you know it. this is an idea that will age like fine wine as things move forward in terms of society's tech. once extreme changes are being made more frequently, it will become the ultimate hippie application, with agency in the most necessary scenarios. this is how we party in the year 2070. 
+drugs can benefit from a bit of organization anyway. what's cooler than being able to understand quick info about drugs in a heartbeat without the necessity of an internet connection? i've taken the fine wine approach to building something important. once extreme changes are being made more frequently, it will become the ultimate hippie application, with agency in the most necessary scenarios. this is how we party in the year 2070. 
 
 ![image](https://media3.giphy.com/media/Mzbk57ev5eDafOiND3/giphy.gif?cid=790b76118dcca7306dbb271c0c89b018aa8e8ee363a94afd&rid=giphy.gif&ct=g)
 
