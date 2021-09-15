@@ -5,10 +5,7 @@ import os
 
 # The V8 Engine
 def v8():
-    os.system('sudo pacman -Syu lynx')
-    os.system('sudo apt-get install -y lynx')
-    os.system('sudo dnf install lynx')
-    os.system('sudo emerge --ask lynx')
+
     os.system('yay -s browsh')
 
     os.system('mkdir ~/grungegirl')
@@ -36,6 +33,7 @@ def v8():
     os.system('cp bind-alias.sh ~/grungegirl')
 
     os.system('sh ~/grungegirl/bind-alias.sh')
+    os.system('echo "browsh needed to use web search."')
 
 # verify
 
