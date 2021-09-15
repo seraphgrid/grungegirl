@@ -18,6 +18,7 @@
 * Marketplace list started for psychedelics.
 * Provide link for Discord server.
 * Installation .bat for Windows.
+* Hyperlinking integration.
 
 0.3.0 - Psych Ward
 -----------------------------
@@ -27,7 +28,6 @@
 * All astrology signs and planets added.
 * Groundwork for Tor/Onion integration complete.
 * Angel number repository being added. First 6 triple-digit numbers.
-* Five dissociatives added, with sellers/marketplaces.
 
 0.4.0 - Spring Cleaning
 -----------------------------
@@ -46,3 +46,12 @@
 * Five more dissos added.
 * Popular angel number list completed.
 * Five more dissociative added.
+
+0.6.0 - Sex Party
+-----------------------------
+
+* This update comes with features integrated for fun and is the precursor to the orgy update of 0.9.0.
+* porn command added with the ability to launch the system's default browser to a list of porn sites.
+* trippy command that opens up a random trippy video in the system's default browser.
+* begin designing api for web-based interactions, like scoreboards, marketplaces, prices, etc.
+* at least 14 asteroids uploaded.

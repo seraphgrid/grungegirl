@@ -1,11 +1,9 @@
-#!/usr/bin/env python
-
 # Imports
 import os
 
 # version name, version tagline, drug search
-print("grungegirl - 0.1.3 - Party Girls")
-print("Hitomi Tanaka... my god...")
+print("grungegirl - 0.1.5 - Hitomi Tanaka")
+print("my god... those breasts...")
 drug = input("Drug: ")
 
 if drug == "web":
