@@ -24,7 +24,7 @@ drugs need to be containerized anyway. what's cooler than being able to understa
 
 ## explaining the file layout. innovative and jittery.
 
-the spider-leg layout is an innovative decision emphasizing the modular aspect of python code and extending the capabilities of the software. it made the use of `lynx` possible through its "jumping-spider" style import installation. every line of code is implemented by hand, so it's like giving myself extra arms. it's modularity will come in handy when i give the lynx integration its final polish around 0.6.0. folders will be applied to different sections. 
+for now, just trust me. the spider-leg layout is an innovative decision emphasizing the modular aspect of python code and extending the capabilities of the software. it made the use of `lynx` possible through its "jumping-spider" style import installation. every line of code is implemented by hand, so it's like giving myself extra arms. it's modularity will come in handy when i give the lynx integration its final polish around 0.6.0. folders will be applied to different sections. 
 
 ![image](https://user-images.githubusercontent.com/90430427/133361279-919c0133-e847-4602-ac44-0620a868b8bb.png)
 
@@ -51,3 +51,6 @@ the spider-leg layout is an innovative decision emphasizing the modular aspect o
 ![image](https://user-images.githubusercontent.com/90430427/133362528-8c613e06-56f8-40bf-b2fc-4b01bce7d19a.png)
 
 
+## is it legal
+
+yes. this application is designed for research.
