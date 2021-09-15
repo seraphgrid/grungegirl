@@ -18,6 +18,8 @@ to install it, run the `install.py` file. the `install.py` will install `lynx`, 
 
 the spider-leg layout is an innovative decision emphasizing the modular aspect of python code and extending the capabilities of the software. it made the use of `lynx` possible through its "jumping-spider" style import installation. every line of code is implemented by hand, so it's like giving myself extra arms. it's modularity will come in handy when i give the lynx integration its final polish around 0.6.0. folders will be applied to different sections. 
 
+![image](https://user-images.githubusercontent.com/90430427/133361279-919c0133-e847-4602-ac44-0620a868b8bb.png)
+
 
 ## planned updates
 
@@ -35,5 +37,7 @@ the spider-leg layout is an innovative decision emphasizing the modular aspect o
 `web` opens the ability to search psychonaut.wiki for more information related to the available list of drugs. it uses lynx for maximum speed when handling python code. it will probably be this way for a while. vaporwave helps. 
 
 `exit` will formally exit the application. you could also just spam ctrl + c. 
+
+![image](https://user-images.githubusercontent.com/90430427/133361320-23973a79-ae24-430c-ab1b-4cf15c523c4b.png)
 
 
