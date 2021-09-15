@@ -36,7 +36,9 @@ the only other option is to have a few files that are just fucking huge and anno
 ![image](https://user-images.githubusercontent.com/90430427/133361279-919c0133-e847-4602-ac44-0620a868b8bb.png)
 
 
-the spider provides a strong idea for maintaining modularity in my code. 
+the spider provides a strong idea for maintaining modularity in my code. each leg is a modicum of a larger scale project that needs each leg to work. without the legs, nothing moves. the body is made of files like `install.py`, `uninstall.py` and `query.py`. These three files are the head and torso of the spider, bringing motor functionality to the legs. that now means each leg can be upgraded individually without affecting the rest of the body. this will make updating information very easy in the future.
+
+the only downside is that i need to open lots of files to make huge updates to layout and formatting. that's for me to worry about though, and affects no part of the user experience.
 
 
 ## planned updates. cycles for the future.
