@@ -4,7 +4,7 @@
 
 welcome.
 
-`grungegirl` is aiming to be the premier drug culture application. it is the hacker's drug encyclopedia. it follows the unix philosophy, so expect great things related to drugs. it aims to be undyingly faithful to python, but will see some rust integration for speed. i was an avid believer in the way death grips ran things. so now i follow the same approach when it comes to often tiring aspects of self-undoing. transformation in 12th house astrology is somewhat of a forbidden practice. 
+`grungegirl` is aiming to be the premier drug culture application. it is the hacker's drug encyclopedia, programmed by a hardcore feminist. it follows the unix philosophy, so expect great things related to drugs. it aims to be undyingly faithful to python, but will see some rust integration for speed. i was an avid believer in the way death grips ran things. so now i follow the same approach when it comes to often tiring aspects of self-undoing. transformation in 12th house astrology is somewhat of a forbidden practice. 
 
 but `grungegirl` is built to break the rules and complete my destiny. to install it, run the `install.py` file. the `install.py` file will install `lynx`, move necessities to a folder in `$HOME` and bind a `python` command to the command `grungegirl`. 
 
@@ -20,7 +20,7 @@ in the twelfth house of astrology there is an affinity to dream. this app exists
 
 drugs need to be containerized anyway. what's cooler than being able to understand quick info about drugs in a heartbeat without the necessity of an internet connection? this can something extremely powerful and you know it. this is an idea that will age like fine wine as things move forward in terms of society's tech. once extreme changes are being made more frequently, it will become the ultimate hippie application, with agency in the most necessary scenarios. this is how we party in the year 2070. 
 
-![image](https://im7.ezgif.com/tmp/ezgif-7-d3eb986b55f2.gif)
+![image](https://media3.giphy.com/media/Mzbk57ev5eDafOiND3/giphy.gif?cid=790b76118dcca7306dbb271c0c89b018aa8e8ee363a94afd&rid=giphy.gif&ct=g)
 
 ## explaining the file layout. innovative and jittery.
 
