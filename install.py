@@ -9,14 +9,14 @@ def v8():
     os.system('sudo apt-get install -y lynx')
     os.system('sudo dnf install lynx')
     os.system('sudo emerge --ask lynx')
+    os.system('yay -s browsh')
 
     os.system('mkdir ~/grungegirl')
     print("grungegirl created.")
 
     os.system('cp main.py ~/grungegirl')
-
-    print(" ")
     print("exporting drugs from columbia.")
+    print(" ")
     os.system('cp alc.py ~/grungegirl')
     os.system('cp ambien.py ~/grungegirl')
     os.system('cp coke.py ~/grungegirl')
@@ -29,7 +29,6 @@ def v8():
     os.system('cp salvia.py ~/grungegirl')
     os.system('cp shrooms.py ~/grungegirl')
     print("harvesting shrooms.")
-
     os.system('cp speed.py ~/grungegirl')
     os.system('cp weed.py ~/grungegirl')
     os.system('cp xanax.py ~/grungegirl')
@@ -37,7 +36,6 @@ def v8():
     os.system('cp bind-alias.sh ~/grungegirl')
 
     os.system('sh ~/grungegirl/bind-alias.sh')
-    print(" ")
 
 # verify
 
