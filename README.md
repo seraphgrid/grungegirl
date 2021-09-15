@@ -4,21 +4,22 @@
 
 welcome.
 
-`grungegirl` is aiming to be the premier drug culture application. it is the hacker's encyclopedia for drugs, programmed by a hardcore feminist. i mention my feminism because feminism shares a lot of similar traits with drug culture. drugs and their addicts are treated unfairly, even by people who are meant to support them.
+`grungegirl` is aiming to be the premier drug culture application. it is the hacker's encyclopedia for drugs, programmed by a hardcore feminist, struggling with themes of oppression in drug culture. drugs and their addicts are treated unfairly, even by people who are meant to support them. they are also viewed as lesser by society, even though many of them are smarter and better.
 
-now i am making something that every drug addict could use, out of sheer rebellion. it's a swiss army knife in the drug department as it relates to the internet. i was an avid believer in the way death grips ran things. i follow the same rebellious approach when it comes to creating software. 
+`grungegirl` is built to break the rules. this is the swiss army knife for those interested in drug culture. it is not built to enable users, as this application has very little choice over whether or not that person becomes a drug addict after using it.
 
-`grungegirl` is built to break the rules. it will monitor, make available, and maintain all resources related to drugs. this isn't to "enable drug users". it is an offline repository of information that can go online at will.
-
+it is instead built to level the playing field, giving people who are often ignored by society tools that help them explore and conquer the world of drugs. drugs can destroy lives, but so can everything else. we shouldn't hurt those that choose to indulge in them. 
 
 ![image](https://user-images.githubusercontent.com/90430427/133360635-6154db5b-5693-4914-841e-ba87523ddde7.png)
 
 
-to install it, run the `install.py` file. the `install.py` file will install `lynx`, move necessities to a folder in `$HOME` and bind a command. in the future, it will also attempt to compile `browsh` from source or otherwise install it cleanly in distros where it can get away with it. this is for you, ronald reagan.
+to install it, run the `install.py` file. 
+the `install.py` file will install `browsh`, move necessities to a folder in `$HOME` and bind a command. 
+in the future, it will also attempt to compile `browsh` from source or otherwise install it cleanly in distros where it can get away with it.
 
 ## why was this even bothered with. idiot.
 
-like i said, drug addicts are treated very poorly throughout history. it's time to have a small win within the community, making an application that pushes the bounds. drugs can benefit from a bit of organization anyway. what's cooler than being able to understand quick info about drugs in a heartbeat without the necessity of an internet connection? this is how we party in the year 2070.
+like i said, drug addicts are treated very poorly throughout history. it's time to have a small win within the community, making an application that adds movement to that lifestyle. drugs can benefit from a bit of organization, anyway. there's nothing cooler to a drug addict than being able to understand quick info about drugs in a heartbeat. this is how we party in the year 2070.
 
 ## explaining the file layout. innovative and jittery.
 
@@ -37,6 +38,7 @@ for now, just trust me. the spider-leg layout is an innovative decision emphasiz
 - `crypto` command for monitoring cryptocurrency prices and managing a wallet.
 - `buy` will open a list of products that you can access online in a browser of your choosing.
 - `rehab` will use approximate location to find and target rehabs in your area.
+- `reports` will display trip reports based on whatever drug you request to hear them about.
 
 
 ![image](https://user-images.githubusercontent.com/90430427/133165416-e009fb21-b4ca-46e4-b3d2-1b61543a1a41.png)
