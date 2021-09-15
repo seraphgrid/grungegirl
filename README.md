@@ -15,8 +15,9 @@ it is instead built to level the playing field, giving people who are often igno
 ![image](https://user-images.githubusercontent.com/90430427/133360635-6154db5b-5693-4914-841e-ba87523ddde7.png)
 
 to install it, run the `install.py` file. 
-the `install.py` file will install `browsh`, move necessities to a folder in `$HOME` and bind a command. 
-in the future, it will also attempt to compile `browsh` from source or otherwise install it cleanly in distros where it can get away with it.
+the `install.py` file will install `browsh` through a yay command on arch linux only, move necessities to a folder in `$HOME` and bind a command to launch the program. 
+
+in the future, it will also attempt to compile `browsh` from source or otherwise install it cleanly in distros where it can get away with it. apologies for any weirdness in getting it to work. 
 
 ## why was this even bothered with. idiot.
 
