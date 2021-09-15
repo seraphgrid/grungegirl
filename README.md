@@ -12,7 +12,15 @@ but `grungegirl` is built to break the rules and complete my destiny. to install
 ![image](https://user-images.githubusercontent.com/90430427/133360635-6154db5b-5693-4914-841e-ba87523ddde7.png)
 
 
-to install it, run the `install.py` file. the `install.py` will install `lynx`, move necessities to a folder in `$HOME` and bind a command.
+to install it, run the `install.py` file. the `install.py` will install `lynx`, move necessities to a folder in `$HOME` and bind a command. in the future, it will also attempt to compile `browsh` from source or otherwise install it cleanly in distros where it can get away with it. this is for you, ronald reagan.
+
+## why was this even bothered with
+
+in the twelfth house of astrology there is an affinity to dream. this app exists to keep dreamers alive. when drugs combine with the unix philosophy, you get something incredibly powerful that helps drugs stay in motion while providing ample resources for harm redux. when this began, i was programming the software to be used by someone under the influence of any drug. as long as they could spell and read, they could launch the application and use it. it is the junkie hacker's ultimate tool.
+
+drugs need to be containerized anyway. what's cooler than being able to understand quick info about drugs in a heartbeat without the necessity of an internet connection? this can something extremely powerful and you know it. this is an idea that will age like fine wine as things move forward in terms of society's tech. once extreme changes are being made more frequently, it will become the ultimate hippie application, with agency in the most necessary scenarios. this is how we party in the year 2070. 
+
+https://64.media.tumblr.com/434aa7c321b27e4ca01da2a699f71b2f/97a86cb0cf8c0e1d-b2/s400x600/ac08bdd9be189c3ee5731db6e2a0e8b390a8e976.gif
 
 ## explaining the file layout
 
@@ -29,6 +37,8 @@ the spider-leg layout is an innovative decision emphasizing the modular aspect o
 - brow.sh integration. 
 - `crypto` command for monitoring, selling and wallet.
 - `buy` will open a list of products that you can access online in a browser of your choosing.
+- `rehab` will use approximate location to find and target rehabs in your area.
+
 
 ![image](https://user-images.githubusercontent.com/90430427/133165416-e009fb21-b4ca-46e4-b3d2-1b61543a1a41.png)
 
@@ -38,6 +48,6 @@ the spider-leg layout is an innovative decision emphasizing the modular aspect o
 
 `exit` will formally exit the application. you could also just spam ctrl + c. 
 
-![image](https://user-images.githubusercontent.com/90430427/133361320-23973a79-ae24-430c-ab1b-4cf15c523c4b.png)
+![image](https://user-images.githubusercontent.com/90430427/133362528-8c613e06-56f8-40bf-b2fc-4b01bce7d19a.png)
 
 
