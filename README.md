@@ -21,6 +21,8 @@ in the twelfth house of astrology there is an affinity to dream. this app exists
 drugs can benefit from a bit of organization anyway. what's cooler than being able to understand quick info about drugs in a heartbeat without the necessity of an internet connection? i've taken the fine wine approach to building something important. once extreme changes are being made more frequently, it will become the ultimate hippie application, with agency in the most necessary scenarios. this is how we party in the year 2070. 
 
 
+![image](https://i.giphy.com/media/qs6V6b9Y6JC5YnVKj9/giphy.webp)
+
 
 ## explaining the file layout. innovative and jittery.
 
