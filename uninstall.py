@@ -7,8 +7,5 @@ import os
 
 os.system('sudo rm -r ~/grungegirl')
 print("grungegirl removed.")
-
-print('uninstallation complete.')
-print('version 0.1.5 - Hitomi Tanaka')
-
+print('version 0.1.6 - why is fentanyl real')
 print('sorry to piss you off.')

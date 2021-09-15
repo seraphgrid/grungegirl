@@ -14,26 +14,30 @@ def v8():
     os.system('cp main.py ~/grungegirl')
     print("exporting drugs from columbia.")
     print(" ")
-    os.system('cp alc.py ~/grungegirl')
-    os.system('cp ambien.py ~/grungegirl')
-    os.system('cp coke.py ~/grungegirl')
-    os.system('cp dph.py ~/grungegirl')
-    os.system('cp dxm.py ~/grungegirl')
-    os.system('cp fent.py ~/grungegirl')
-    os.system('cp mdma.py ~/grungegirl')
-    os.system('cp meth.py ~/grungegirl')
-    os.system('cp pey.py ~/grungegirl')
-    os.system('cp salvia.py ~/grungegirl')
-    os.system('cp shrooms.py ~/grungegirl')
+    os.system('cp drugs/alc.py ~/grungegirl')
+    os.system('cp drugs/ambien.py ~/grungegirl')
+    os.system('cp drugs/coke.py ~/grungegirl')
+    os.system('cp drugs/dph.py ~/grungegirl')
+    os.system('cp drugs/dxm.py ~/grungegirl')
+    os.system('cp drugs/fent.py ~/grungegirl')
+    os.system('cp drugs/mdma.py ~/grungegirl')
+    os.system('cp drugs/meth.py ~/grungegirl')
+    os.system('cp drugs/pey.py ~/grungegirl')
+    os.system('cp drugs/salvia.py ~/grungegirl')
+    os.system('cp drugs/shrooms.py ~/grungegirl')
+    os.system('cp drugs/speed.py ~/grungegirl')
+    os.system('cp drugs/weed.py ~/grungegirl')
+    os.system('cp drugs/xanax.py ~/grungegirl')
     print("harvesting shrooms.")
-    os.system('cp speed.py ~/grungegirl')
-    os.system('cp weed.py ~/grungegirl')
-    os.system('cp xanax.py ~/grungegirl')
+    print(" ")
+    print("integrating browsh functionality.")
     os.system('cp query.py ~/grungegirl')
     os.system('cp bind-alias.sh ~/grungegirl')
-
+    print("aliasing grungegirl.")
     os.system('sh ~/grungegirl/bind-alias.sh')
-    os.system('echo "browsh needed to use web search."')
+    print("browsh needed to use web search.")
+    print("if the install was successful then ignore this.")
+
 
 # verify
 
@@ -44,5 +48,4 @@ if verify == "n":
 
 if verify == "y":
     print("Starting program.")
-
     v8()

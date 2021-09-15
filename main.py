@@ -2,90 +2,90 @@
 import os
 
 # version name, version tagline, drug search
-print("grungegirl - 0.1.5 - Hitomi Tanaka")
-print("my god... those breasts...")
+print("grungegirl - 0.1.6 - why is fentanyl real")
+print("there is no reason for fentanyl to exist")
 drug = input("Drug: ")
 
-if drug == "web":
+if drug.lower() == "web":
 	os.system('python ~/grungegirl/query.py')
 
 # Weed
 
-if drug == "weed":
+if drug.lower() == "weed":
 	os.system('python ~/grungegirl/weed.py')
 
 # DXM
 
-elif drug == "dxm":
+elif drug.lower() == "dxm":
 	os.system('python ~/grungegirl/dxm.py')
 
 # Alcohol
 
-elif drug == "alc":
+elif drug.lower() == "alc":
 	os.system('python ~/grungegirl/alc.py')
 
 # LSD
 
-elif drug == "lsd":
+elif drug.lower() == "lsd":
 	os.system('python ~/grungegirl/lsd.py')
 
 # MDMA
 
-elif drug == "mdma":
+elif drug.lower() == "mdma":
 	os.system('python ~/grungegirl/mdma.py')
 
 # Meth
 
-elif drug == "meth":
+elif drug.lower() == "meth":
 	os.system('python ~/grungegirl/meth.py')
 
 # Fentanyl
 
-elif drug == "fentanyl":
+elif drug.lower() == "fentanyl":
 	os.system('python ~/grungegirl/fent.py')
 
 # Coke
 
-elif drug == "coke":
+elif drug.lower() == "coke":
 	os.system('python ~/grungegirl/coke.py')
 
 # Speed
 
-elif drug == "speed":
+elif drug.lower() == "speed":
 	os.system('python ~/grungegirl/speed.py')
 
 # Peyote
 
-elif drug == "peyote":
+elif drug.lower() == "peyote":
 	os.system('python ~/grungegirl/pey.py')
 
 # Ambien
 
-elif drug == "ambien":
+elif drug.lower() == "ambien":
 	os.system('python ~/grungegirl/ambien.py')
 
 # Salvia
 
-elif drug == "salvia":
+elif drug.lower() == "salvia":
 	os.system('python ~/grungegirl/salvia.py')
 
 # Xanax
 
-elif drug == "xanax":
+elif drug.lower() == "xanax":
 	os.system('python ~/grungegirl/xanax.py')
 
 # shrooms
 
-elif drug == "shrooms":
+elif drug.lower() == "shrooms":
 	os.system('python ~/grungegirl/shrooms.py')
 
 # dph
 
-elif drug == "dph":
+elif drug.lower() == "dph":
 	os.system('python ~/grungegirl/dph.py')
 
 # exit software
-elif drug == "exit":
+elif drug.lower() == "exit":
 	exit("Goodbye!")
 
 os.system('python ~/grungegirl/main.py')
