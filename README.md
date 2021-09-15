@@ -45,7 +45,7 @@ for now, just trust me. the spider-leg layout is an innovative decision emphasiz
 
 ## included functions. humble beginnings.
 
-- `web` opens the ability to search psychonaut.wiki for more information related to the available list of drugs. it uses lynx for maximum speed when handling python code. it will probably be this way for a while. vaporwave helps. 
+- `web` opens the ability to search psychonaut.wiki for more information related to the available list of drugs. it uses `browsh` for speed and extensibility. it will probably be this way for a while. vaporwave helps. 
 
 - `exit` will formally exit the application. you could also just spam ctrl + c.
 
