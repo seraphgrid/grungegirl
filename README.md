@@ -6,6 +6,8 @@ welcome.
 
 `grungegirl` is aiming to be the premier drug culture application. it is the hacker's encyclopedia for drugs, programmed by a hardcore feminist who is struggling with themes of oppression in drug culture. drugs and their addicts are treated unfairly, even by people who are meant to support them. they are also viewed as lesser by society, even though many of them are smarter and better.
 
+feminism has a lot to do with breaking rules and established paradigms surrounding femininity. i apply this approach to `grungegirl`. that is why it's relevant to me.
+
 `grungegirl` is built to break the rules. mentioning its purpose as an application gets the conversation started, and the moral high horses come out to play. 
 
 this is the swiss army knife for those interested in drug culture. it is not built to enable users, as this application has very little choice over whether or not that person becomes a drug addict after using it.
