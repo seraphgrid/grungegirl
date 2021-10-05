@@ -6,8 +6,6 @@ welcome.
 
 `grungegirl` is aiming to be the premier drug culture application. it is the hacker's encyclopedia for drugs, programmed by a hardcore feminist who is struggling with themes of oppression in drug culture. drugs and their addicts are treated unfairly, even by people who are meant to support them. they are also viewed as lesser by society, even though many of them are smarter and better.
 
-feminism has a lot to do with breaking rules and established paradigms surrounding femininity. i apply this approach to `grungegirl`. that is why it's relevant to me.
-
 `grungegirl` is built to break the rules. mentioning its purpose as an application gets the conversation started, and the moral high horses come out to play. 
 
 this is the swiss army knife for those interested in drug culture. it is not built to enable users, as this application has very little choice over whether or not that person becomes a drug addict after using it.
@@ -64,5 +62,7 @@ the only downside is that i need to open lots of files to make huge updates to l
 - `web` opens the ability to search psychonaut.wiki for more information related to the available list of drugs. 
 
 - `exit` will formally exit the application. you could also just spam ctrl + c.
+
+- `astro` will send the application into astrology mode where you can conduct research on the multiple subjects related to astrology. there is even online horoscopes!
 
 ![image](https://user-images.githubusercontent.com/90430427/133362528-8c613e06-56f8-40bf-b2fc-4b01bce7d19a.png)

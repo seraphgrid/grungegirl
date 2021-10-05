@@ -29,11 +29,6 @@ elif drug.lower() == "dxm":
 elif drug.lower() == "alc":
 	os.system('python ~/.grungegirl/drugs/alc.py')
 
-# LSD
-
-elif drug.lower() == "lsd":
-	os.system('python ~/.grungegirl/drugs/lsd.py')
-
 # MDMA
 
 elif drug.lower() == "mdma":
@@ -59,30 +54,36 @@ elif drug.lower() == "coke":
 elif drug.lower() == "speed":
 	os.system('python ~/.grungegirl/drugs/speed.py')
 
-# Peyote
+# Psychedelics
 
 elif drug.lower() == "peyote":
-	os.system('python ~/.grungegirl/drugs/pey.py')
+	os.system('python ~/.grungegirl/drugs/psychedelics/pey.py')
+
+elif drug.lower() == "salvia":
+	os.system('python ~/.grungegirl/drugs/psychedelics/salvia.py')
+
+elif drug.lower() == "lsd":
+	os.system('python ~/.grungegirl/drugs/psychedelics/lsd.py')
+
+elif drug.lower() == "shrooms":
+	os.system('python ~/.grungegirl/drugs/psychhedelics/shrooms.py')
+
+elif drug.lower() == '1p':
+	os.system('python ~/.grungegirl/drugs/psychedelics/1P_LSD.py')
+
+elif drug.lower() == 'dmt':
+	os.system('python ~/.grungegirl/drugs/psychedelics/dmt.py')
+
 
 # Ambien
 
 elif drug.lower() == "ambien":
 	os.system('python ~/.grungegirl/drugs/ambien.py')
 
-# Salvia
-
-elif drug.lower() == "salvia":
-	os.system('python ~/.grungegirl/drugs/salvia.py')
-
 # Xanax
 
 elif drug.lower() == "xanax":
 	os.system('python ~/.grungegirl/drugs/xanax.py')
-
-# shrooms
-
-elif drug.lower() == "shrooms":
-	os.system('python ~/.grungegirl/drugs/shrooms.py')
 
 # dph
 
