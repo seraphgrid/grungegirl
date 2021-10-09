@@ -6,8 +6,9 @@ os.system('clear')
 print("backing up your .bashrc file. -death xx")
 os.system('mkdir ~/.bashrc_bak')
 time.sleep(2)
-os.system('sudo cp .bashrc ~/.bashrc_bak')
 os.system('sudo cp .bashrc ~')
+os.system('sudo cp ~/.bashrc ~/.bashrc_bak')
+
 
 # Termux Installation
 
@@ -41,7 +42,7 @@ def termux():
     print(" ")
     time.sleep(1)
     print('copying install files.')
-
+    os.system('sh bind-term.sh')
     print("aliasing grungegirl.")
     time.sleep(2)
     print('use vpn with lynx for max security.')

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-alias grungegirl='python ~/.grungegirl/termmmain.py'
+alias grungegirl='python ~/.grungegirl/termmain.py'
