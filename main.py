@@ -154,4 +154,4 @@ elif drug.lower() == 'close':
 	os.system('cd && clear')
 	exit('grungegirl exiting.')
 
-
+os.system('python ~/.grungegirl/main.py')
