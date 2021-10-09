@@ -12,6 +12,16 @@ os.system('mkdir ~/.bashrc_bak')
 time.sleep(2)
 os.system('sudo cp ~/.bashrc ~/.bashrc_bak')
 
+verify1 = input('Are you using Termux? (y/n) ')
+
+if verify1 == 'y':
+    os.system('python termux/termux.py')
+    exit()
+
+if verify1 == '':
+    os.system('python termux/termux.py')
+    exit()
+
 # The V8 Engine
 
 
@@ -53,7 +63,7 @@ def v8():
     print("aliasing grungegirl.")
     time.sleep(2)
     os.system('sh ~/.grungegirl/bind-alias.sh')
-    print('use vpn with browsh for max security.')
+    print('use vpn with browsh/lynx for max security.')
     print(" ")
     time.sleep(3)
     os.system('cd && clear && . ~/.bashrc')
