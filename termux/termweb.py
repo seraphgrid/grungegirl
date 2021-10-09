@@ -143,6 +143,7 @@ def query():
 
     elif search.lower() == "close":
         exit("closing debbie.")
+
 query()
 
 os.system('python ~/.grungegirl/termweb.py')

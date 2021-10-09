@@ -377,15 +377,15 @@ def astro():
 
     elif query.lower() == 'exit':
         exit('closing strhckr.')
-        os.system('python ~/.grungegirl/main.py')
+        os.system('python ~/.grungegirl/termmain.py')
 
     elif query.lower() == 'clear':
         exit('closing strhckr.')
-        os.system('python ~/.grungegirl/main.py')
+        os.system('python ~/.grungegirl/termmain.py')
 
     elif query.lower() == 'close':
         exit('closing strhckr.')
-        os.system('python ~/.grungegirl/main.py')
+        os.system('python ~/.grungegirl/termmain.py')
     os.system('python ~/.grungegirl/astrology.py')
 
 
