@@ -7,7 +7,8 @@ import subprocess
 # Foundation laid for using tor with browsh.
 
 # search function
-search = input("debbie --> ")
+print('最大限のセキュリティのためにVPNと一緒に使用する')
+search = input("debbieデビー --> ")
 
 # search.lower() conditions
 
@@ -85,6 +86,9 @@ def query():
         os.system("browsh http://psychonautwiki.org/wiki/Alcohol")
         print("Finished searching for alcohol! Bleh!")
 
+    elif search.lower() == "alcohol":
+        os.system("browsh http://psychonautwiki.org/wiki/Alcohol")
+        print("Finished searching for alcohol! Bleh!")
 # mdma
 
 # Fuck these drugs
@@ -139,7 +143,7 @@ def query():
         exit("closing debbie.")
 
     elif search.lower() == "clear":
-        exit("closing debbie.")
+        os.system('clear')
 
     elif search.lower() == "close":
         exit("closing debbie.")

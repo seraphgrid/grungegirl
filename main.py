@@ -4,13 +4,12 @@ import os
 
 # version name, version tagline, drug search
 
-print("grungegirl - 0.2 - babygirl")
-print("you're so beautiful. angels never die.")
+print("グランジガール  - 0.3 - bladee")
+print("愛は痛みです。 愛は至福です。")
 print(" ")
-print("XMR Donation Address:")
-print("46KrXnQKeG7JDWnRBQBRsiezxEaop2ZYC2t8LyXsbjEgLynVb8T9V6Zc9KX1jEfhozhucbGXt44SVYjWn8iyAiFf6As1RqA")
+print("DextroWRLD 1.0 Link: https://discord.gg/EJj9sJsSTN")
 print(" ")
-drug = input("grungegirl --> ")
+drug = input("グランジガール --> ")
 
 # Web (Debbie)
 
@@ -25,6 +24,21 @@ if drug.lower() == "deb":
 
 if drug.lower() == 'w':
 	os.system('python ~/.grungegirl/query.py')
+
+if drug.lower() == 'tarot':
+	os.system('python ~/.grungegirl/tarot.py')
+
+if drug.lower() == 'ravecandy':
+	os.system('python ~/.grungegirl/tarot.py')
+
+if drug.lower() == 'rc':
+	os.system('python ~/.grungegirl/tarot.py')
+
+if drug.lower() == 'trot':
+	os.system('python ~/.grungegirl/tarot.py')
+
+if drug.lower() == 't':
+	os.system('python ~/.grungegirl/tarot.py')
 # Weed
 
 if drug.lower() == "weed":
@@ -142,16 +156,15 @@ elif drug.lower() == 'a':
 # exit software
 
 elif drug.lower() == "exit":
-	os.system('cd && clear')
+	os.system('clear')
 	exit("grungegirl exiting.")
 
 elif drug.lower() == "clear":
-	os.system('cd && clear')
-	exit("grungegirl exiting.")
+	os.system('clear')
 
 
 elif drug.lower() == 'close':
-	os.system('cd && clear')
+	os.system('clear')
 	exit('grungegirl exiting.')
 
-
+os.system('python ~/.grungegirl/main.py')

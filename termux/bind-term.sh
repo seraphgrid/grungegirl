@@ -5,7 +5,7 @@
 echo "alias grungegirl='python ~/.grungegirl/termmain.py'" >> ~/.bashrc
 
 
-echo 'installation complete.'
-echo 'version 0.2 - babygirl'
+echo 'インストールが完了。'
+echo 'version 0.3 - bladee'
 
 . ~/.bashrc

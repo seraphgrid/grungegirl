@@ -12,6 +12,26 @@ print("46KrXnQKeG7JDWnRBQBRsiezxEaop2ZYC2t8LyXsbjEgLynVb8T9V6Zc9KX1jEfhozhucbGXt
 print(" ")
 drug = input("grungegirl --> ")
 
+# astrology (strhckr)
+
+elif drug.lower() == "astro":
+	os.system('python ~/.grungegirl/termastro.py')
+
+elif drug.lower() == "astrology":
+	os.system('python ~/.grungegirl/termastro.py')
+
+elif drug.lower() == "strhckr":
+	os.system('python ~/.grungegirl/termastro.py')
+
+elif drug.lower() == "starhacker":
+	os.system('python ~/.grungegirl/termastro.py')
+
+elif drug.lower() == 'str':
+	os.system('python ~/.grungegirl/termastro.py')
+
+elif drug.lower() == 'a':
+	os.system('python ~/.grungegirl/termastro.py')
+
 # Web (Debbie)
 
 if drug.lower() == "web":
@@ -25,6 +45,24 @@ if drug.lower() == "deb":
 
 if drug.lower() == 'w':
 	os.system('python ~/.grungegirl/termweb.py')
+
+# Tarot (ravecandy)
+
+if drug.lower() == 'tarot':
+	os.system('python ~/.grungegirl/termot.py')
+
+if drug.lower() == 'ravecandy':
+	os.system('python ~/.grungegirl/termot.py')
+
+if drug.lower() == 'rc':
+	os.system('python ~/.grungegirl/termot.py')
+
+if drug.lower() == 'trot':
+	os.system('python ~/.grungegirl/termot.py')
+
+if drug.lower() == 't':
+	os.system('python ~/.grungegirl/termot.py')
+
 # Weed
 
 if drug.lower() == "weed":
@@ -119,25 +157,6 @@ elif drug.lower() == "dxm":
 elif drug.lower() == "dph":
 	os.system('python ~/.grungegirl/drugs/dph.py')
 
-# astrology (strhckr)
-
-elif drug.lower() == "astro":
-	os.system('python ~/.grungegirl/termastro.py')
-
-elif drug.lower() == "astrology":
-	os.system('python ~/.grungegirl/termastro.py')
-
-elif drug.lower() == "strhckr":
-	os.system('python ~/.grungegirl/termastro.py')
-
-elif drug.lower() == "starhacker":
-	os.system('python ~/.grungegirl/termastro.py')
-
-elif drug.lower() == 'str':
-	os.system('python ~/.grungegirl/termastro.py')
-
-elif drug.lower() == 'a':
-	os.system('python ~/.grungegirl/termastro.py')
 
 # exit software
 

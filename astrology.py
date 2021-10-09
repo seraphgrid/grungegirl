@@ -3,8 +3,8 @@ import sys
 
 
 def astro():
-
-    query = input("strhckr --> ")
+    print('占星術と星占い!')
+    query = input("星hacker --> ")
 
 
 # Wiki
@@ -23,23 +23,28 @@ def astro():
 # Horoscope
 
     elif query.lower() == 'daily':
-        os.system('browsh https://www.0800-horoscope.com/daily.php')
+        os.system('browsh https://www.astrosage.com/horoscope/daily-horoscope-todays-horoscope.asp')
+        os.system('clear')
+
+    elif query.lower() == 'tomorrow':
+        os.system('browsh https://www.astrosage.com/horoscope/tomorrow-horoscope.asp')
         os.system('clear')
 
     elif query.lower() == 'weekly':
-        os.system('browsh https://www.0800-horoscope.com/weekly.php')
+        os.system('browsh https://www.astrosage.com/horoscope/weekly-horoscope.asp')
         os.system('clear')
+
     elif query.lower() == 'monthly':
-        os.system('browsh https://www.0800-horoscope.com/monthly.php')
+        os.system('browsh https://www.astrosage.com/horoscope/monthly-aries-horoscope.asp')
         os.system('clear')
     elif query.lower() == 'day':
-        os.system('browsh https://www.0800-horoscope.com/daily.php')
+        os.system('browsh https://www.astrosage.com/horoscope/daily-horoscope-todays-horoscope.asp')
         os.system('clear')
     elif query.lower() == 'week':
-        os.system('browsh https://www.0800-horoscope.com/weekly.php')
+        os.system('browsh https://www.astrosage.com/horoscope/tomorrow-horoscope.asp')
         os.system('clear')
     elif query.lower() == 'month':
-        os.system('browsh https://www.0800-horoscope.com/monthly.php')
+        os.system('browsh https://www.astrosage.com/horoscope/weekly-horoscope.asp')
         os.system('clear')
     elif query.lower() == 'pro':
         os.system('browsh https://www.astro.com/cgi/atxgen.cgi?btyp=wh')
@@ -133,7 +138,7 @@ def astro():
 
 
     elif query.lower() == 'hs6':
-        os.system('python ~/.grungegirl/astrology/houses/sixthhhouse.py')
+        os.system('python ~/.grungegirl/astrology/houses/sixthhouse.py')
 
 
     elif query.lower() == 'hs7':
@@ -387,17 +392,16 @@ def astro():
 
     elif query.lower() == 'exit':
         exit('closing strhckr.')
-        os.system('python ~/.grungegirl/main.py')
+
 
     elif query.lower() == 'clear':
-        exit('closing strhckr.')
-        os.system('python ~/.grungegirl/main.py')
+        os.system('clear')
+
 
     elif query.lower() == 'close':
         exit('closing strhckr.')
-        os.system('python ~/.grungegirl/main.py')
-    os.system('python ~/.grungegirl/astrology.py')
+
 
 
 astro()
-os.system('python ~/.grungegirl/main.py')
+os.system('python ~/.grungegirl/astrology.py')
