@@ -30,12 +30,28 @@ if drug.lower() == 'w':
 if drug.lower() == "weed":
 	os.system('python ~/.grungegirl/drugs/weed.py')
 
-# Alcohol
+# Depressants
 
 elif drug.lower() == "alc":
-	os.system('python ~/.grungegirl/drugs/alc.py')
+	os.system('python ~/.grungegirl/drugs/depress/alc.py')
 
-# MDMA
+elif drug.lower() == 'diazepam':
+	os.system('python ~/.grungegirl/drugs/depress/diaz.py')
+
+elif drug.lower() == 'kratom':
+	os.system('python ~/.grungegirl/drugs/depress/kratom.py')
+
+elif drug.lower() == 'hydrocodone':
+	os.system('python ~/.grungegirl/drugs/depress/hydro.py')
+
+elif drug.lower() == 'gabapentin':
+	os.system('python ~/.grungegirl/drugs/depress/gaba.py')
+
+elif drug.lower() == 'heroin':
+	os.system('python ~/.grungegirl/drugs/depress/heroin.py')
+
+elif drug.lower() == 'xanax':
+	os.system('python ~/.grungegirl/drugs/depress/xanax.py')
 
 # Fentanyl
 
@@ -77,6 +93,18 @@ elif drug.lower() == '1p':
 elif drug.lower() == 'dmt':
 	os.system('python ~/.grungegirl/drugs/psychedelics/dmt.py')
 
+elif drug.lower() == "2cb":
+	os.system('python ~/.grungegirl/drugs/psychedelics/2C-B-Fly.py')
+
+elif drug.lower() == 'aco':
+	os.system('python ~/.grungegirl/drugs/psychedelics/4-AcO-Met.py')
+
+elif drug.lower() == '4ho':
+	os.system('python ~/.grungegirl/drugs/psychedelics/4homet.py')
+
+elif drug.lower() == 'ayahuasca':
+	os.system('python ~/.grungegirl/drugs/psychedelics/ayahuasca.py')
+
 
 # Dissociatives
 
@@ -85,9 +113,6 @@ elif drug.lower() == "ambien":
 
 elif drug.lower() == "dxm":
 	os.system('python ~/.grungegirl/drugs/dxm.py')
-
-elif drug.lower() == "xanax":
-	os.system('python ~/.grungegirl/drugs/xanax.py')
 
 # dph
 

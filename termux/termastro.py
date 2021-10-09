@@ -205,6 +205,16 @@ def astro():
     elif query.lower() == 'pluto':
         os.system('python ~/.grungegirl/astrology/planets/pluto.py')
 
+# Asteroids
+
+    elif query.lower() == 'lilith':
+        os.system('python ~/.grungegirl/astrology/asteroids/lilith.py')
+
+    elif query.lower() == 'chiron':
+        os.system('python ~/.grungegirl/astrology/asteroids/chiron.py')
+
+    elif query.lower() == 'pallas':
+        os.system('python ~/.grungegirl/astrology/asteroids/pallas.py')
 
 # Aspects
 
