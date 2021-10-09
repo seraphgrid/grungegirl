@@ -1,0 +1,56 @@
+0.1.0 - Party Kids
+-----------------------------
+
+* Tightening the installation process.
+* Shaping up and making it easy to understand the filesystem.
+* Establishing portability and CLI-based environment.
+* Providing long-term useability on the first release. 
+* Revitalizing the framework used in two previous failed projects, zenith and ravecandy, and setting the foundation for both to be merged.
+* Added general party drugs of interest.
+
+0.2.0 - Hippie Town
+-----------------------------
+
+* Laying some of the ground work for searching the known internet for sources related to your drug query using w3m.
+* Begin integration of Tor Browser into foundation.
+* Some astrology signs and houses added.
+* Ten psychedelics added to the list of known drugs, with sellers/marketplaces.
+* Marketplace list started for psychedelics.
+* Provide link for Discord server.
+* Shorter install.py. Less lines of code.
+
+0.3.0 - Psych Ward
+-----------------------------
+
+* Twenty psychedelics added to the list.
+* Marketplace for psychedelics complete.
+* All astrology signs and planets added.
+* Groundwork for Tor/Onion integration complete.
+* Angel number repository being added. First 6 triple-digit numbers.
+
+0.4.0 - Spring Cleaning
+-----------------------------
+
+* Make installation/uninstallation script duplicate .bashrc before modifying it.
+* Files organized into folders by category. (Drugs, Astrology, Angel Numbers, Marketplaces & Sellers, etc.)
+* XMR donation address added.
+* Color coding for different drugs by type.
+* Any user feedback is taken into account for the next three updates and fixed overtime.
+* Test hyperlinking in Python console.
+
+0.5.0 - Asteroided
+-----------------------------
+* Chiron, Nessus, Lilith, Vesta, Juno, Pallas, Pholus and Eros added.
+* Major aspects list completed.
+* Five more dissos added.
+* Popular angel number list completed.
+* Five more dissociative added.
+
+0.6.0 - Sex Party
+-----------------------------
+
+* This update comes with features integrated for fun and is the precursor to the orgy update of 0.9.0.
+* porn command added with the ability to launch the system's default browser to a list of porn sites.
+* trippy command that opens up a random trippy video in the system's default browser.
+* begin designing api for web-based interactions, like scoreboards, marketplaces, prices, etc.
+* at least 14 asteroids uploaded.
