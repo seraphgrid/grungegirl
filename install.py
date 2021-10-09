@@ -15,11 +15,11 @@ os.system('sudo cp ~/.bashrc ~/.bashrc_bak')
 verify1 = input('Are you using Termux? (y/n) ')
 
 if verify1 == 'y':
-    os.system('python termux/termux.py')
+    os.system('python ~/grungegirl/termux/termux.py')
     exit()
 
 if verify1 == '':
-    os.system('python termux/termux.py')
+    os.system('python ~/grungegirl/termux/termux.py')
     exit()
 
 # The V8 Engine
