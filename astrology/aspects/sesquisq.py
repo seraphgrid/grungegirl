@@ -1,4 +1,4 @@
-def sesqui()
+def sesqui():
 
     print('')
     print('Sesquisquare')
