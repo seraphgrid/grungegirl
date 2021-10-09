@@ -3,6 +3,7 @@ import os
 
 
 # version name, version tagline, drug search
+
 print("grungegirl - 0.2 - babygirl")
 print("you're so beautiful. angels never die.")
 print(" ")
@@ -22,6 +23,8 @@ if drug.lower() == "debbie":
 if drug.lower() == "deb":
 	os.system('python ~/.grungegirl/query.py')
 
+if drug.lower() == 'w':
+	os.system('python ~/.grungegirl/query.py')
 # Weed
 
 if drug.lower() == "weed":
@@ -96,20 +99,33 @@ elif drug.lower() == "dph":
 elif drug.lower() == "astro":
 	os.system('python ~/.grungegirl/astrology.py')
 
+elif drug.lower() == "astrology":
+	os.system('python ~/.grungegirl/astrology.py')
+
 elif drug.lower() == "strhckr":
 	os.system('python ~/.grungegirl/astrology.py')
 
 elif drug.lower() == "starhacker":
 	os.system('python ~/.grungegirl/astrology.py')
 
+elif drug.lower() == 'str':
+	os.system('python ~/.grungegirl/astrology.py')
+
+elif drug.lower() == 'a':
+	os.system('python ~/.grungegirl/astrology.py')
+
 # exit software
 
 elif drug.lower() == "exit":
+	os.system('cd && clear')
 	exit("grungegirl exiting.")
 
 elif drug.lower() == "clear":
+	os.system('cd && clear')
 	exit("grungegirl exiting.")
 
 elif drug.lower() == 'close':
+	os.system('cd && clear')
 	exit('grungegirl exiting.')
+
 os.system('python ~/.grungegirl/main.py')

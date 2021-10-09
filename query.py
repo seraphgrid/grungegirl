@@ -16,11 +16,14 @@ def query():
 
     if search.lower() == "nothing":
         os.system(
-            "browsh http://psychonautwiki.org/w/index.php?search=&title=Special%3ASearch&go=Go")
+            "browsh http://psychonautwiki.org/")
 
     elif search.lower() == "":
         os.system(
-            "browsh http://psychonautwiki.org/w/index.php?search=&title=Special%3ASearch&go=Go")
+            "browsh http://psychonautwiki.org/")
+
+    elif search.lower() == "search":
+        os.system('browsh http://psychonautwiki.org')
 
 # Weed
     if search.lower() == "weed":
@@ -138,7 +141,7 @@ def query():
     elif search.lower() == "clear":
         exit("closing debbie.")
 
-    elif search.lower() == "clear":
+    elif search.lower() == "close":
         exit("closing debbie.")
 query()
 

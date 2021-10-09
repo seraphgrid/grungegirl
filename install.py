@@ -6,7 +6,7 @@ import os
 import time
 
 # making backup bashrc file
-
+os.system('clear')
 print("backing up your .bashrc file. -death xx")
 os.system('mkdir ~/.bashrc_bak')
 time.sleep(2)
@@ -55,7 +55,8 @@ def v8():
     os.system('sh ~/.grungegirl/bind-alias.sh')
     print('use vpn with browsh for max security.')
     print(" ")
-    time.sleep(1)
+    time.sleep(3)
+    os.system('cd && clear && . ~/.bashrc')
 
 
 v8()
