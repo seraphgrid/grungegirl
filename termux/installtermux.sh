@@ -1,4 +1,4 @@
 #!/bin/sh
 
 pkg install python
-python grungegirl/install.py
+python ../install.py
