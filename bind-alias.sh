@@ -4,6 +4,7 @@
 
 echo "alias grungegirl='python ~/.grungegirl/main.py'" >> ~/.bashrc
 
+
 echo 'installation complete.'
 echo 'version 0.2 - babygirl'
 

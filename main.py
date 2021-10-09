@@ -7,11 +7,19 @@ print("grungegirl - 0.2 - babygirl")
 print("you're so beautiful. angels never die.")
 print(" ")
 print("XMR Donation Address:")
-print("42VzGghQCyMN1yskNbZ4isRLQEkaNXoNZfcg3cR3EsxJQp4YCQzG4uBNZFQBj3zgQLgTQjNj1G6b8ZLv1VrSJqmCQTsVyhZ")
+print("46KrXnQKeG7JDWnRBQBRsiezxEaop2ZYC2t8LyXsbjEgLynVb8T9V6Zc9KX1jEfhozhucbGXt44SVYjWn8iyAiFf6As1RqA")
 print(" ")
-drug = input("Drug: ")
+drug = input("grungegirl --> ")
+
+# Web (Debbie)
 
 if drug.lower() == "web":
+	os.system('python ~/.grungegirl/query.py')
+
+if drug.lower() == "debbie":
+	os.system('python ~/.grungegirl/query.py')
+
+if drug.lower() == "deb":
 	os.system('python ~/.grungegirl/query.py')
 
 # Weed
@@ -19,25 +27,12 @@ if drug.lower() == "web":
 if drug.lower() == "weed":
 	os.system('python ~/.grungegirl/drugs/weed.py')
 
-# DXM
-
-elif drug.lower() == "dxm":
-	os.system('python ~/.grungegirl/drugs/dxm.py')
-
 # Alcohol
 
 elif drug.lower() == "alc":
 	os.system('python ~/.grungegirl/drugs/alc.py')
 
 # MDMA
-
-elif drug.lower() == "mdma":
-	os.system('python ~/.grungegirl/drugs/mdma.py')
-
-# Meth
-
-elif drug.lower() == "meth":
-	os.system('python ~/.grungegirl/drugs/meth.py')
 
 # Fentanyl
 
@@ -49,10 +44,15 @@ elif drug.lower() == "fentanyl":
 elif drug.lower() == "coke":
 	os.system('python ~/.grungegirl/drugs/coke.py')
 
-# Speed
+# Amphetamines
+elif drug.lower() == "mdma":
+	os.system('python ~/.grungegirl/drugs/amphet/mdma.py')
 
 elif drug.lower() == "speed":
-	os.system('python ~/.grungegirl/drugs/speed.py')
+	os.system('python ~/.grungegirl/drugs/amphet/speed.py')
+
+elif drug.lower() == "meth":
+	os.system('python ~/.grungegirl/drugs/amphet/meth.py')
 
 # Psychedelics
 
@@ -66,7 +66,7 @@ elif drug.lower() == "lsd":
 	os.system('python ~/.grungegirl/drugs/psychedelics/lsd.py')
 
 elif drug.lower() == "shrooms":
-	os.system('python ~/.grungegirl/drugs/psychhedelics/shrooms.py')
+	os.system('python ~/.grungegirl/drugs/psychedelics/shrooms.py')
 
 elif drug.lower() == '1p':
 	os.system('python ~/.grungegirl/drugs/psychedelics/1P_LSD.py')
@@ -75,12 +75,13 @@ elif drug.lower() == 'dmt':
 	os.system('python ~/.grungegirl/drugs/psychedelics/dmt.py')
 
 
-# Ambien
+# Dissociatives
 
 elif drug.lower() == "ambien":
 	os.system('python ~/.grungegirl/drugs/ambien.py')
 
-# Xanax
+elif drug.lower() == "dxm":
+	os.system('python ~/.grungegirl/drugs/dxm.py')
 
 elif drug.lower() == "xanax":
 	os.system('python ~/.grungegirl/drugs/xanax.py')
@@ -90,16 +91,25 @@ elif drug.lower() == "xanax":
 elif drug.lower() == "dph":
 	os.system('python ~/.grungegirl/drugs/dph.py')
 
-# astrology
+# astrology (strhckr)
 
 elif drug.lower() == "astro":
 	os.system('python ~/.grungegirl/astrology.py')
 
+elif drug.lower() == "strhckr":
+	os.system('python ~/.grungegirl/astrology.py')
+
+elif drug.lower() == "starhacker":
+	os.system('python ~/.grungegirl/astrology.py')
+
 # exit software
+
 elif drug.lower() == "exit":
-	exit("Goodbye!")
+	exit("grungegirl exiting.")
 
 elif drug.lower() == "clear":
-	exit("Goodbye!")
+	exit("grungegirl exiting.")
 
+elif drug.lower() == 'close':
+	exit('grungegirl exiting.')
 os.system('python ~/.grungegirl/main.py')
