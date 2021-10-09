@@ -14,14 +14,14 @@ it is instead built to level the playing field, giving people who are often igno
 
 ![image](https://user-images.githubusercontent.com/90430427/133360635-6154db5b-5693-4914-841e-ba87523ddde7.png)
 
-to install it, git clone this directory, then run `python install.py`. 
-the `install.py` file will install `browsh`, move necessities to a folder in `$HOME` and bind a command to launch the program. don't worry, any binaries that the program downloads are deleted automatically. 
+to install it, run the `install.py` file. 
+the `install.py` file will install `browsh` through a yay command on arch linux only, move necessities to a folder in `$HOME` and bind a command to launch the program. 
 
 in the future, it will also attempt to compile `browsh` from source or otherwise install it cleanly in distros where it can get away with it. apologies for any weirdness in getting it to work. 
 
 ## why was this even bothered with. idiot.
 
-like i said, drug addicts are treated very poorly throughout history, similar to women. it's time to have a small win within the community, making an application that adds movement to that lifestyle. drugs can benefit from a bit of organization, anyway. there's nothing cooler to me right now other than being able to understand quick info about drugs in a heartbeat. 
+like i said, drug addicts are treated very poorly throughout history. it's time to have a small win within the community, making an application that adds movement to that lifestyle. drugs can benefit from a bit of organization, anyway. there's nothing cooler to me right now other than being able to understand quick info about drugs in a heartbeat. 
 
 it's something i've needed for a while, but never knew how to bring into existence until now. as an addict myself, i've been told the idea is "life-saving" by people within the drug community. that is how i know i'm on to something. people who could really use a utility like this are aware of how badly they've needed it. it's become subconscious in the mind of a drug addict to always be worth bones.
 
@@ -63,8 +63,6 @@ the only downside is that i need to open lots of files to make huge updates to l
 
 - `exit` will formally exit the application. you could also just spam ctrl + c.
 
-- `astro` will send the application into astrology mode where you can conduct research on the multiple subjects related to astrology. now includes wiki!
-
-- various video game wikis!
+- `astro` will send the application into astrology mode where you can conduct research on the multiple subjects related to astrology. there is even online horoscopes!
 
 ![image](https://user-images.githubusercontent.com/90430427/133362528-8c613e06-56f8-40bf-b2fc-4b01bce7d19a.png)
