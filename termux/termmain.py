@@ -15,16 +15,16 @@ drug = input("grungegirl --> ")
 # Web (Debbie)
 
 if drug.lower() == "web":
-	os.system('python ~/.grungegirl/query.py')
+	os.system('python ~/.grungegirl/termweb.py')
 
 if drug.lower() == "debbie":
-	os.system('python ~/.grungegirl/query.py')
+	os.system('python ~/.grungegirl/termweb.py')
 
 if drug.lower() == "deb":
-	os.system('python ~/.grungegirl/query.py')
+	os.system('python ~/.grungegirl/termweb.py')
 
 if drug.lower() == 'w':
-	os.system('python ~/.grungegirl/query.py')
+	os.system('python ~/.grungegirl/termweb.py')
 # Weed
 
 if drug.lower() == "weed":
@@ -97,22 +97,22 @@ elif drug.lower() == "dph":
 # astrology (strhckr)
 
 elif drug.lower() == "astro":
-	os.system('python ~/.grungegirl/astrology.py')
+	os.system('python ~/.grungegirl/termastro.py')
 
 elif drug.lower() == "astrology":
-	os.system('python ~/.grungegirl/astrology.py')
+	os.system('python ~/.grungegirl/termastro.py')
 
 elif drug.lower() == "strhckr":
-	os.system('python ~/.grungegirl/astrology.py')
+	os.system('python ~/.grungegirl/termastro.py')
 
 elif drug.lower() == "starhacker":
-	os.system('python ~/.grungegirl/astrology.py')
+	os.system('python ~/.grungegirl/termastro.py')
 
 elif drug.lower() == 'str':
-	os.system('python ~/.grungegirl/astrology.py')
+	os.system('python ~/.grungegirl/termastro.py')
 
 elif drug.lower() == 'a':
-	os.system('python ~/.grungegirl/astrology.py')
+	os.system('python ~/.grungegirl/termastro.py')
 
 # exit software
 
@@ -129,4 +129,4 @@ elif drug.lower() == 'close':
 	os.system('cd && clear')
 	exit('grungegirl exiting.')
 
-
+os.system('python ~/.grungegirl/termmain.py')
