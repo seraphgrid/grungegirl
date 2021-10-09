@@ -386,7 +386,6 @@ def astro():
     elif query.lower() == 'close':
         exit('closing strhckr.')
         os.system('python ~/.grungegirl/termmain.py')
-    os.system('python ~/.grungegirl/astrology.py')
 
 
 astro()

@@ -7,9 +7,8 @@ import time
 # uninstall
 os.system('clear')
 print("stitching bash shell back together.")
-os.system('cp ~/.bashrc_bak/.bashrc ~')
-time.sleep(2)
 os.system('rm -r ~/.bashrc_bak')
+os.system('rm -r .bashrc')
 time.sleep(2)
 print("backup .bashrc file deleted.")
 time.sleep(2)
