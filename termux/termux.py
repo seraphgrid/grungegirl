@@ -6,8 +6,8 @@ os.system('clear')
 print("backing up your .bashrc file. -death xx")
 os.system('mkdir ~/.bashrc_bak')
 time.sleep(2)
-os.system('sudo cp .bashrc ~')
-os.system('sudo cp ~/.bashrc ~/.bashrc_bak')
+os.system('cp .bashrc ~')
+os.system('cp ~/.bashrc ~/.bashrc_bak')
 
 
 # Termux Installation
