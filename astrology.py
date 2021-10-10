@@ -133,7 +133,7 @@ def astro():
 
 
     elif query.lower() == 'hs6':
-        os.system('python ~/.grungegirl/astrology/houses/sixthhhouse.py')
+        os.system('python ~/.grungegirl/astrology/houses/sixthhouse.py')
 
 
     elif query.lower() == 'hs7':
