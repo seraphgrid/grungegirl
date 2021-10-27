@@ -36,6 +36,7 @@ def termux():
     os.system('cp termmain.py ~/.grungegirl')
     os.system('cp termastro.py ~/.grungegirl')
     os.system('cp termweb.py ~/.grungegirl')
+    os.system('cp termot.py ~/.grungegirl')
     print("exporting drugs from columbia.")
     print(" ")
     print("harvesting shrooms. xx")

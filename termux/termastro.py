@@ -23,23 +23,26 @@ def astro():
 # Horoscope
 
     elif query.lower() == 'daily':
-        os.system('lynx https://www.0800-horoscope.com/daily.php')
+        os.system('lynx https://www.astrosage.com/horoscope/daily-horoscope-todays-horoscope.asp')
         os.system('clear')
-
+    elif query.lower() == 'tomorrow':
+        os.system('lynx https://www.astrosage.com/horoscope/tomorrow-horoscope.asp')
+        os.system('clear')
     elif query.lower() == 'weekly':
-        os.system('lynx https://www.0800-horoscope.com/weekly.php')
+        os.system('lynx https://www.astrosage.com/horoscope/tomorrow-horoscope.asp')
         os.system('clear')
     elif query.lower() == 'monthly':
-        os.system('lynx https://www.0800-horoscope.com/monthly.php')
+        os.system('lynx https://www.astrosage.com/horoscope/monthly-aries-horoscope.asp')
         os.system('clear')
+        
     elif query.lower() == 'day':
-        os.system('lynx https://www.0800-horoscope.com/daily.php')
+        os.system('lynx https://www.astrosage.com/horoscope/daily-horoscope-todays-horoscope.asp')
         os.system('clear')
     elif query.lower() == 'week':
-        os.system('lynx https://www.0800-horoscope.com/weekly.php')
+        os.system('lynx https://www.astrosage.com/horoscope/tomorrow-horoscope.asp')
         os.system('clear')
     elif query.lower() == 'month':
-        os.system('lynx https://www.0800-horoscope.com/monthly.php')
+        os.system('lynx https://www.astrosage.com/horoscope/monthly-aries-horoscope.asp')
         os.system('clear')
     elif query.lower() == 'pro':
         os.system('lynx https://www.astro.com/cgi/atxgen.cgi?btyp=wh')
