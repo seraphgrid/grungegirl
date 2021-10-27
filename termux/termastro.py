@@ -65,49 +65,41 @@ def astro():
     elif query.lower() == "aries":
         os.system("python ~/.grungegirl/astrology/signs/aries.py")
 
-
     elif query.lower() == "taurus":
         os.system('python ~/.grungegirl/astrology/signs/taurus.py')
-
 
     elif query.lower() == 'gemini':
         os.system('python ~/.grungegirl/astrology/signs/gemini.py')
 
-
     elif query.lower() == 'cancer':
         os.system('python ~/.grungegirl/astrology/signs/cancer.py')
-
 
     elif query.lower() == 'leo':
         os.system('python ~/.grungegirl/astrology/signs/leo.py')
 
-
     elif query.lower() == 'virgo':
         os.system('python ~/.grungegirl/astrology/signs/virgo.py')
-
 
     elif query.lower() == 'libra':
         os.system('python ~/.grungegirl/astrology/signs/libra.py')
 
-
     elif query.lower() == 'scorpio':
         os.system('python ~/.grungegirl/astrology/signs/scorpio.py')
-
 
     elif query.lower() == 'sagittarius':
         os.system('python ~/.grungegirl/astrology/signs/sag.py')
 
-
     elif query.lower() == 'capricorn':
         os.system('python ~/.grungegirl/astrology/signs/cap.py')
 
-
     elif query.lower() == 'capricorn':
         os.system('python ~/.grungegirl/astrology/signs/cap.py')
-
 
     elif query.lower() == 'aquarius':
         os.system('python ~/.grungegirl/astrology/signs/aqua.py')
+
+    elif query.lower() == 'pisces':
+        os.system('python ~/.grungegirl/astrology/signs/pisces.py')
 
 
 # Houses

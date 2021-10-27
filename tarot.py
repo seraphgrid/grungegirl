@@ -445,4 +445,4 @@ elif tarot.lower() == 'close':
 elif tarot.lower() == 'clear':
     os.system('clear')
 
-os.system('python tarot.py')
+os.system('python ~/.grungegirl/tarot.py')

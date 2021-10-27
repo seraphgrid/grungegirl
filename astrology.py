@@ -110,7 +110,6 @@ def astro():
     elif query.lower() == 'capricorn':
         os.system('python ~/.grungegirl/astrology/signs/cap.py')
 
-
     elif query.lower() == 'aquarius':
         os.system('python ~/.grungegirl/astrology/signs/aqua.py')
 
