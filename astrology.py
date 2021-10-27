@@ -114,6 +114,8 @@ def astro():
     elif query.lower() == 'aquarius':
         os.system('python ~/.grungegirl/astrology/signs/aqua.py')
 
+    elif query.lower() == 'pisces':
+        os.system('python ~/.grungegirl/astrology/signs/pisces.py')
 
 # Houses
 
