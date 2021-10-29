@@ -52,6 +52,23 @@ def astro():
 
 # Points
 
+    elif query.lower() == 'north node':
+        os.system('python ~/.grungegirl/astrology/points/nnode.py')
+
+    elif query.lower() == 'south node':
+        os.system('python ~/.grungegirl/astrology/points/snode.py')
+
+    elif query.lower() == 'nnode':
+        os.system('python ~/.grungegirl/astrology/points/nnode.py')
+
+    elif query.lower() == 'snode':
+        os.system('python ~/.grungegirl/astrology/points/snode.py')
+
+    elif query.lower() == 'nn':
+        os.system('python ~/.grungegirl/astrology/points/nnode.py')
+
+    elif query.lower() == 'sn':
+        os.system('python ~/.grungegirl/astrology/points/snode.py')
 # ----------------------- Ascendant
 
     elif query.lower() == 'asc':
