@@ -3,7 +3,7 @@ loverinfo = """In the Lovers card, the man and the woman in the image are being 
 lovertheme = """Themes: love, union, duoism, balance, harmony, balance."""
 
 loverup = """Upright: love, unions, partnerships, relationships, choices, romance, balance, unity."""
-loverdown = """"Downward: disharmony, imbalance, conflict, detachment, bad choices, indecision."""
+loverdown = """Downward: disharmony, imbalance, conflict, detachment, bad choices, indecision."""
 
 loversign = """Planet: Venus (Air/Water)"""
 
