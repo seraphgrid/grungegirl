@@ -3,13 +3,15 @@ import os
 import random
 
 tarot = input('technodeck --> ')
+
+
 # Shuffler
 
 def shuffler():
-
-    t=random.randint(0,77)
-    t2=['Upright', 'Downwards']
+    t = random.randint(0, 77)
+    t2 = ['Upright', 'Downwards']
     print(t, random.choice(t2))
+
 
 ## Major Arcana
 
@@ -668,6 +670,98 @@ elif tarot.lower() == 'tenw':
     os.system('python ~/.grungegirl/tarot/minor/wands/10w.py')
 
 
+# ---------- Knight of Wands ------------ #
+
+elif tarot.lower() == '42':
+    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
+
+elif tarot.lower() == 'knight of wands':
+    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
+
+elif tarot.lower() == 'w11':
+    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
+
+elif tarot.lower() == '11w':
+    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
+
+elif tarot.lower() == 'wands knight':
+    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
+
+elif tarot.lower() == 'knight wands':
+    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
+
+elif tarot.lower() == 'knw':
+    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
+
+# ---------- King of Wands ------------ #
+
+elif tarot.lower() == '43':
+    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
+
+elif tarot.lower() == 'king of wands':
+    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
+
+elif tarot.lower() == 'w12':
+    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
+
+elif tarot.lower() == '12w':
+    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
+
+elif tarot.lower() == 'wands king':
+    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
+
+elif tarot.lower() == 'king wands':
+    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
+
+elif tarot.lower() == 'kw':
+    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
+
+# ---------- Page of Wands ------------ #
+
+elif tarot.lower() == '44':
+    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
+
+elif tarot.lower() == 'page of wands':
+    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
+
+elif tarot.lower() == 'w13':
+    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
+
+elif tarot.lower() == '13w':
+    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
+
+elif tarot.lower() == 'wands page':
+    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
+
+elif tarot.lower() == 'page wands':
+    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
+
+elif tarot.lower() == 'pw':
+    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
+
+# ---------- Queen of Wands ------------ #
+
+elif tarot.lower() == '45':
+    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
+
+elif tarot.lower() == 'queen of wands':
+    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
+
+elif tarot.lower() == 'w11':
+    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
+
+elif tarot.lower() == '11w':
+    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
+
+elif tarot.lower() == 'wands queen':
+    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
+
+elif tarot.lower() == 'queen wands':
+    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
+
+elif tarot.lower() == 'qw':
+    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
+
 
 # ---------- Ace of Cups ------------ #
 
@@ -899,98 +993,6 @@ elif tarot.lower() == 'ten cups':
 elif tarot.lower() == 'tenc':
     os.system('python ~/.grungegirl/tarot/minor/cups/10c.py')
 
-# ---------- Knight of Wands ------------ #
-
-elif tarot.lower() == '42':
-    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
-
-elif tarot.lower() == 'knight of wands':
-    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
-
-elif tarot.lower() == 'w11':
-    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
-
-elif tarot.lower() == '11w':
-    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
-
-elif tarot.lower() == 'wands knight':
-    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
-
-elif tarot.lower() == 'knight wands':
-    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
-
-elif tarot.lower() == 'knw':
-    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
-
-# ---------- King of Wands ------------ #
-
-elif tarot.lower() == '43':
-    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
-
-elif tarot.lower() == 'king of wands':
-    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
-
-elif tarot.lower() == 'w12':
-    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
-
-elif tarot.lower() == '12w':
-    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
-
-elif tarot.lower() == 'wands king':
-    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
-
-elif tarot.lower() == 'king wands':
-    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
-
-elif tarot.lower() == 'kw':
-    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
-
-# ---------- Page of Wands ------------ #
-
-elif tarot.lower() == '44':
-    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
-
-elif tarot.lower() == 'page of wands':
-    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
-
-elif tarot.lower() == 'w13':
-    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
-
-elif tarot.lower() == '13w':
-    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
-
-elif tarot.lower() == 'wands page':
-    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
-
-elif tarot.lower() == 'page wands':
-    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
-
-elif tarot.lower() == 'pw':
-    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
-
-# ---------- Queen of Wands ------------ #
-
-elif tarot.lower() == '45':
-    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
-
-elif tarot.lower() == 'queen of wands':
-    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
-
-elif tarot.lower() == 'w11':
-    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
-
-elif tarot.lower() == '11w':
-    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
-
-elif tarot.lower() == 'wands queen':
-    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
-
-elif tarot.lower() == 'queen wands':
-    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
-
-elif tarot.lower() == 'qw':
-    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
-
 # ---------- Knight of Cups ------------ #
 
 elif tarot.locer() == '46':
@@ -1037,7 +1039,7 @@ elif tarot.locer() == 'king cups':
 elif tarot.locer() == 'kC':
     os.system('python ~/.grungegirl/tarot/minor/cups/kC.py')
 
- # ---------- King of Cups ------------ #
+# ---------- King of Cups ------------ #
 
 elif tarot.locer() == '48':
     os.system('python ~/.grungegirl/tarot/minor/cups/pC.py')
@@ -1060,7 +1062,7 @@ elif tarot.locer() == 'page cups':
 elif tarot.locer() == 'pC':
     os.system('python ~/.grungegirl/tarot/minor/cups/pC.py')
 
- # ---------- Queen of Cups ------------ #
+# ---------- Queen of Cups ------------ #
 
 elif tarot.locer() == '49':
     os.system('python ~/.grungegirl/tarot/minor/cups/qC.py')
@@ -1082,6 +1084,623 @@ elif tarot.locer() == 'queen cups':
 
 elif tarot.locer() == 'qC':
     os.system('python ~/.grungegirl/tarot/minor/cups/qC.py')
+
+# ---------- Ace of Swords ------------ #
+elif tarot.lower() == '50':
+    os.system('python ~/.grungegirl/tarot/minor/swords/aS.py')
+
+elif tarot.lower() == 'ace of swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/aS.py')
+
+elif tarot.lower() == 's1':
+    os.system('python ~/.grungegirl/tarot/minor/swords/aS.py')
+
+elif tarot.lower() == '1s':
+    os.system('python ~/.grungegirl/tarot/minor/swords/aS.py')
+
+elif tarot.lower() == 'swords ace':
+    os.system('python ~/.grungegirl/tarot/minor/swords/aS.py')
+
+elif tarot.lower() == 'ace swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/aS.py')
+
+elif tarot.lower() == 'aces':
+    os.system('python ~/.grungegirl/tarot/minor/swords/aS.py')
+
+# ---------- Two of Swords ------------ #
+elif tarot.lower() == '51':
+    os.system('python ~/.grungegirl/tarot/minor/swords/2s.py')
+
+elif tarot.lower() == 'two of swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/2s.py')
+
+elif tarot.lower() == 's2':
+    os.system('python ~/.grungegirl/tarot/minor/swords/2s.py')
+
+elif tarot.lower() == '2s':
+    os.system('python ~/.grungegirl/tarot/minor/swords/2s.py')
+
+elif tarot.lower() == 'swords two':
+    os.system('python ~/.grungegirl/tarot/minor/swords/2s.py')
+
+elif tarot.lower() == 'two swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/2s.py')
+
+elif tarot.lower() == 'twos':
+    os.system('python ~/.grungegirl/tarot/minor/swords/2s.py')
+
+# ---------- Three of Swords ------------ #
+elif tarot.lower() == '52':
+    os.system('python ~/.grungegirl/tarot/minor/swords/3s.py')
+
+elif tarot.lower() == 'three of swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/3s.py')
+
+elif tarot.lower() == 's3':
+    os.system('python ~/.grungegirl/tarot/minor/swords/3s.py')
+
+elif tarot.lower() == '3s':
+    os.system('python ~/.grungegirl/tarot/minor/swords/3s.py')
+
+elif tarot.lower() == 'swords three':
+    os.system('python ~/.grungegirl/tarot/minor/swords/3s.py')
+
+elif tarot.lower() == 'three swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/3s.py')
+
+elif tarot.lower() == 'threes':
+    os.system('python ~/.grungegirl/tarot/minor/swords/3s.py')
+
+# ---------- Four of Swords ------------ #
+elif tarot.lower() == '53':
+    os.system('python ~/.grungegirl/tarot/minor/swords/4s.py')
+
+elif tarot.lower() == 'four of swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/4s.py')
+
+elif tarot.lower() == 's4':
+    os.system('python ~/.grungegirl/tarot/minor/swords/4s.py')
+
+elif tarot.lower() == '4s':
+    os.system('python ~/.grungegirl/tarot/minor/swords/4s.py')
+
+elif tarot.lower() == 'swords four':
+    os.system('python ~/.grungegirl/tarot/minor/swords/4s.py')
+
+elif tarot.lower() == 'four swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/4s.py')
+
+elif tarot.lower() == 'fours':
+    os.system('python ~/.grungegirl/tarot/minor/swords/4s.py')
+
+# ---------- Five of Swords ------------ #
+elif tarot.lower() == '54':
+    os.system('python ~/.grungegirl/tarot/minor/swords/5s.py')
+
+elif tarot.lower() == 'five of swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/5s.py')
+
+elif tarot.lower() == 's5':
+    os.system('python ~/.grungegirl/tarot/minor/swords/5s.py')
+
+elif tarot.lower() == '5s':
+    os.system('python ~/.grungegirl/tarot/minor/swords/5s.py')
+
+elif tarot.lower() == 'swords five':
+    os.system('python ~/.grungegirl/tarot/minor/swords/5s.py')
+
+elif tarot.lower() == 'five swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/5s.py')
+
+elif tarot.lower() == 'fives':
+    os.system('python ~/.grungegirl/tarot/minor/swords/5s.py')
+
+# ---------- Six of Swords ------------ #
+elif tarot.lower() == '55':
+    os.system('python ~/.grungegirl/tarot/minor/swords/6s.py')
+
+elif tarot.lower() == 'six of swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/6s.py')
+
+elif tarot.lower() == 's6':
+    os.system('python ~/.grungegirl/tarot/minor/swords/6s.py')
+
+elif tarot.lower() == '6s':
+    os.system('python ~/.grungegirl/tarot/minor/swords/6s.py')
+
+elif tarot.lower() == 'swords six':
+    os.system('python ~/.grungegirl/tarot/minor/swords/6s.py')
+
+elif tarot.lower() == 'six swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/6s.py')
+
+elif tarot.lower() == 'sixs':
+    os.system('python ~/.grungegirl/tarot/minor/swords/6s.py')
+
+# ---------- Seven of Swords ------------ #
+elif tarot.lower() == '56':
+    os.system('python ~/.grungegirl/tarot/minor/swords/7s.py')
+
+elif tarot.lower() == 'seven of swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/7s.py')
+
+elif tarot.lower() == 's7':
+    os.system('python ~/.grungegirl/tarot/minor/swords/7s.py')
+
+elif tarot.lower() == '7s':
+    os.system('python ~/.grungegirl/tarot/minor/swords/7s.py')
+
+elif tarot.lower() == 'swords seven':
+    os.system('python ~/.grungegirl/tarot/minor/swords/7s.py')
+
+elif tarot.lower() == 'seven swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/7s.py')
+
+elif tarot.lower() == 'sevens':
+    os.system('python ~/.grungegirl/tarot/minor/swords/7s.py')
+
+# ---------- Eight of Swords ------------ #
+elif tarot.lower() == '57':
+    os.system('python ~/.grungegirl/tarot/minor/swords/8s.py')
+
+elif tarot.lower() == 'eight of swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/8s.py')
+
+elif tarot.lower() == 's8':
+    os.system('python ~/.grungegirl/tarot/minor/swords/8s.py')
+
+elif tarot.lower() == '8s':
+    os.system('python ~/.grungegirl/tarot/minor/swords/8s.py')
+
+elif tarot.lower() == 'swords eight':
+    os.system('python ~/.grungegirl/tarot/minor/swords/8s.py')
+
+elif tarot.lower() == 'eight swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/8s.py')
+
+elif tarot.lower() == 'eights':
+    os.system('python ~/.grungegirl/tarot/minor/swords/8s.py')
+
+# ---------- Nine of Swords ------------ #
+elif tarot.lower() == '58':
+    os.system('python ~/.grungegirl/tarot/minor/swords/9s.py')
+
+elif tarot.lower() == 'nine of swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/9s.py')
+
+elif tarot.lower() == 's9':
+    os.system('python ~/.grungegirl/tarot/minor/swords/9s.py')
+
+elif tarot.lower() == '9s':
+    os.system('python ~/.grungegirl/tarot/minor/swords/9s.py')
+
+elif tarot.lower() == 'swords nine':
+    os.system('python ~/.grungegirl/tarot/minor/swords/9s.py')
+
+elif tarot.lower() == 'nine swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/9s.py')
+
+elif tarot.lower() == 'nines':
+    os.system('python ~/.grungegirl/tarot/minor/swords/9s.py')
+
+# ---------- Ten of Swords ------------ #
+elif tarot.lower() == '59':
+    os.system('python ~/.grungegirl/tarot/minor/swords/10s.py')
+
+elif tarot.lower() == 'ten of swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/10s.py')
+
+elif tarot.lower() == 's10':
+    os.system('python ~/.grungegirl/tarot/minor/swords/10s.py')
+
+elif tarot.lower() == '10s':
+    os.system('python ~/.grungegirl/tarot/minor/swords/10s.py')
+
+elif tarot.lower() == 'swords ten':
+    os.system('python ~/.grungegirl/tarot/minor/swords/10s.py')
+
+elif tarot.lower() == 'ten swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/10s.py')
+
+elif tarot.lower() == 'tens':
+    os.system('python ~/.grungegirl/tarot/minor/swords/10s.py')
+
+# ---------- Knight of Swords ------------ #
+elif tarot.lower() == '60':
+    os.system('python ~/.grungegirl/tarot/minor/swords/knS.py')
+
+elif tarot.lower() == 'knight of swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/knS.py')
+
+elif tarot.lower() == 's11':
+    os.system('python ~/.grungegirl/tarot/minor/swords/knS.py')
+
+elif tarot.lower() == '11s':
+    os.system('python ~/.grungegirl/tarot/minor/swords/knS.py')
+
+elif tarot.lower() == 'swords knight':
+    os.system('python ~/.grungegirl/tarot/minor/swords/knS.py')
+
+elif tarot.lower() == 'knight swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/knS.py')
+
+elif tarot.lower() == 'kns':
+    os.system('python ~/.grungegirl/tarot/minor/swords/knS.py')
+
+# ---------- Ten of Swords ------------ #
+elif tarot.lower() == '61':
+    os.system('python ~/.grungegirl/tarot/minor/swords/kS.py')
+
+elif tarot.lower() == 'king of swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/kS.py')
+
+elif tarot.lower() == 's12':
+    os.system('python ~/.grungegirl/tarot/minor/swords/kS.py')
+
+elif tarot.lower() == '12s':
+    os.system('python ~/.grungegirl/tarot/minor/swords/kS.py')
+
+elif tarot.lower() == 'swords king':
+    os.system('python ~/.grungegirl/tarot/minor/swords/kS.py')
+
+elif tarot.lower() == 'king swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/kS.py')
+
+elif tarot.lower() == 'ks':
+    os.system('python ~/.grungegirl/tarot/minor/swords/kS.py')
+
+# ---------- Page of Swords ------------ #
+elif tarot.lower() == '62':
+    os.system('python ~/.grungegirl/tarot/minor/swords/pS.py')
+
+elif tarot.lower() == 'page of swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/pS.py')
+
+elif tarot.lower() == 's13':
+    os.system('python ~/.grungegirl/tarot/minor/swords/pS.py')
+
+elif tarot.lower() == '13s':
+    os.system('python ~/.grungegirl/tarot/minor/swords/pS.py')
+
+elif tarot.lower() == 'swords page':
+    os.system('python ~/.grungegirl/tarot/minor/swords/pS.py')
+
+elif tarot.lower() == 'page swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/pS.py')
+
+elif tarot.lower() == 'ps':
+    os.system('python ~/.grungegirl/tarot/minor/swords/pS.py')
+
+# ---------- Queen of Swords ------------ #
+elif tarot.lower() == '63':
+    os.system('python ~/.grungegirl/tarot/minor/swords/qS.py')
+
+elif tarot.lower() == 'queen of swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/qS.py')
+
+elif tarot.lower() == 's14':
+    os.system('python ~/.grungegirl/tarot/minor/swords/qS.py')
+
+elif tarot.lower() == '14s':
+    os.system('python ~/.grungegirl/tarot/minor/swords/qS.py')
+
+elif tarot.lower() == 'swords queen':
+    os.system('python ~/.grungegirl/tarot/minor/swords/qS.py')
+
+elif tarot.lower() == 'queen swords':
+    os.system('python ~/.grungegirl/tarot/minor/swords/qS.py')
+
+elif tarot.lower() == 'qs':
+    os.system('python ~/.grungegirl/tarot/minor/swords/qS.py')
+
+# ---------- Ace of Pentacles ------------ #
+elif tarot.lower() == '64':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/aP.py')
+
+elif tarot.lower() == 'ace of pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/aP.py')
+
+elif tarot.lower() == 'p1':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/aP.py')
+
+elif tarot.lower() == '1p':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/aP.py')
+
+elif tarot.lower() == 'pentacles one':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/aP.py')
+
+elif tarot.lower() == 'one pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/aP.py')
+
+elif tarot.lower() == 'onep':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/aP.py')
+
+# ---------- Two of Pentacles ------------ #
+elif tarot.lower() == '65':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/2p.py')
+
+elif tarot.lower() == 'two of pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/2p.py')
+
+elif tarot.lower() == 'p2':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/2p.py')
+
+elif tarot.lower() == '2p':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/2p.py')
+
+elif tarot.lower() == 'pentacles two':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/2p.py')
+
+elif tarot.lower() == 'two pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/2p.py')
+
+elif tarot.lower() == 'twop':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/2p.py')
+
+# ---------- Three of Pentacles ------------ #
+elif tarot.lower() == '66':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/3p.py')
+
+elif tarot.lower() == 'three of pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/3p.py')
+
+elif tarot.lower() == 'p3':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/3p.py')
+
+elif tarot.lower() == '3p':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/3p.py')
+
+elif tarot.lower() == 'pentacles three':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/3p.py')
+
+elif tarot.lower() == 'three pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/3p.py')
+
+elif tarot.lower() == 'threep':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/3p.py')
+
+# ---------- Four of Pentacles ------------ #
+elif tarot.lower() == '67':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/4p.py')
+
+elif tarot.lower() == 'four of pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/4p.py')
+
+elif tarot.lower() == 'p4':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/4p.py')
+
+elif tarot.lower() == '4p':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/4p.py')
+
+elif tarot.lower() == 'pentacles four':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/4p.py')
+
+elif tarot.lower() == 'four pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/4p.py')
+
+elif tarot.lower() == 'fourp':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/4p.py')
+
+# ---------- Five of Pentacles ------------ #
+elif tarot.lower() == '68':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/5p.py')
+
+elif tarot.lower() == 'five of pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/5p.py')
+
+elif tarot.lower() == 'p5':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/5p.py')
+
+elif tarot.lower() == '5p':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/5p.py')
+
+elif tarot.lower() == 'pentacles five':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/5p.py')
+
+elif tarot.lower() == 'five pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/5p.py')
+
+elif tarot.lower() == 'fivep':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/5p.py')
+
+# ---------- Ace of Pentacles ------------ #
+elif tarot.lower() == '69':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/6p.py')
+
+elif tarot.lower() == 'six of pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/6p.py')
+
+elif tarot.lower() == 'p6':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/6p.py')
+
+elif tarot.lower() == '6p':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/6p.py')
+
+elif tarot.lower() == 'pentacles six':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/6p.py')
+
+elif tarot.lower() == 'six pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/6p.py')
+
+elif tarot.lower() == 'sixp':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/6p.py')
+
+# ---------- Seven of Pentacles ------------ #
+elif tarot.lower() == '70':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/7p.py')
+
+elif tarot.lower() == 'seven of pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/7p.py')
+
+elif tarot.lower() == 'p7':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/7p.py')
+
+elif tarot.lower() == '7p':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/7p.py')
+
+elif tarot.lower() == 'pentacles seven':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/7p.py')
+
+elif tarot.lower() == 'seven pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/7p.py')
+
+elif tarot.lower() == 'sevenp':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/7p.py')
+
+# ---------- Eight of Pentacles ------------ #
+elif tarot.lower() == '71':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/8p.py')
+
+elif tarot.lower() == 'eight of pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/8p.py')
+
+elif tarot.lower() == 'p8':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/8p.py')
+
+elif tarot.lower() == '8p':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/8p.py')
+
+elif tarot.lower() == 'pentacles eight':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/8p.py')
+
+elif tarot.lower() == 'eight pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/8p.py')
+
+elif tarot.lower() == 'eightp':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/8p.py')
+
+# ---------- Nine of Pentacles ------------ #
+elif tarot.lower() == '72':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/9p.py')
+
+elif tarot.lower() == 'nine of pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/9p.py')
+
+elif tarot.lower() == 'p9':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/9p.py')
+
+elif tarot.lower() == '9p':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/9p.py')
+
+elif tarot.lower() == 'pentacles nine':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/9p.py')
+
+elif tarot.lower() == 'nine pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/9p.py')
+
+elif tarot.lower() == 'ninep':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/9p.py')
+
+# ---------- Ten of Pentacles ------------ #
+elif tarot.lower() == '73':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/10p.py')
+
+elif tarot.lower() == 'ten of pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/10p.py')
+
+elif tarot.lower() == 'p10':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/10p.py')
+
+elif tarot.lower() == '10p':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/10p.py')
+
+elif tarot.lower() == 'pentacles ten':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/10p.py')
+
+elif tarot.lower() == 'ten pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/10p.py')
+
+elif tarot.lower() == 'tenp':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/10p.py')
+
+# ---------- Knight of Pentacles ------------ #
+elif tarot.lower() == '74':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/knP.py')
+
+elif tarot.lower() == 'knight of pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/knP.py')
+
+elif tarot.lower() == 'p11':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/knP.py')
+
+elif tarot.lower() == '11p':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/knP.py')
+
+elif tarot.lower() == 'pentacles knight':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/knP.py')
+
+elif tarot.lower() == 'knight pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/knP.py')
+
+elif tarot.lower() == 'knp':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/knP.py')
+
+# ---------- King of Pentacles ------------ #
+elif tarot.lower() == '75':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/kP.py')
+
+elif tarot.lower() == 'king of pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/kP.py')
+
+elif tarot.lower() == 'p12':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/kP.py')
+
+elif tarot.lower() == '12p':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/kP.py')
+
+elif tarot.lower() == 'pentacles king':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/kP.py')
+
+elif tarot.lower() == 'king pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/kP.py')
+
+elif tarot.lower() == 'kp':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/kP.py')
+
+# ---------- Queen of Pentacles ------------ #
+elif tarot.lower() == '76':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/qP.py')
+
+elif tarot.lower() == 'queen of pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/qP.py')
+
+elif tarot.lower() == 'p13':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/qP.py')
+
+elif tarot.lower() == '13p':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/qP.py')
+
+elif tarot.lower() == 'pentacles queen':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/qP.py')
+
+elif tarot.lower() == 'queen pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/qP.py')
+
+elif tarot.lower() == 'qp':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/qP.py')
+
+# ---------- Page of Pentacles ------------ #
+elif tarot.lower() == '77':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/pP.py')
+
+elif tarot.lower() == 'page of pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/pP.py')
+
+elif tarot.lower() == 'p14':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/pP.py')
+
+elif tarot.lower() == '14p':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/pP.py')
+
+elif tarot.lower() == 'pentacles page':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/pP.py')
+
+elif tarot.lower() == 'page pentacles':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/pP.py')
+
+elif tarot.lower() == 'pp':
+    os.system('python ~/.grungegirl/tarot/minor/pentacles/pP.py')
+
 # Reader
 
 elif tarot.lower() == 'read':

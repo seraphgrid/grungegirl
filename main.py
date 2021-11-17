@@ -7,7 +7,7 @@ import os
 print("グランジガール  - 0.3 - bladee")
 print("愛は痛みです。 愛は至福です。")
 print(" ")
-print("DXM興ANGEL --> https://discord.gg/EJj9sJsSTN")
+print("THE興VOID+ --> https://discord.gg/EJj9sJsSTN")
 print(" ")
 drug = input("グランジガール --> ")
 
