@@ -667,6 +667,8 @@ elif tarot.lower() == 'ten wands':
 elif tarot.lower() == 'tenw':
     os.system('python ~/.grungegirl/tarot/minor/wands/10w.py')
 
+
+
 # ---------- Ace of Cups ------------ #
 
 elif tarot.lower() == '32':
@@ -896,6 +898,190 @@ elif tarot.lower() == 'ten cups':
 
 elif tarot.lower() == 'tenc':
     os.system('python ~/.grungegirl/tarot/minor/cups/10c.py')
+
+# ---------- Knight of Wands ------------ #
+
+elif tarot.lower() == '42':
+    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
+
+elif tarot.lower() == 'knight of wands':
+    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
+
+elif tarot.lower() == 'w11':
+    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
+
+elif tarot.lower() == '11w':
+    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
+
+elif tarot.lower() == 'wands knight':
+    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
+
+elif tarot.lower() == 'knight wands':
+    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
+
+elif tarot.lower() == 'knw':
+    os.system('python ~/.grungegirl/tarot/minor/wands/knW.py')
+
+# ---------- King of Wands ------------ #
+
+elif tarot.lower() == '43':
+    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
+
+elif tarot.lower() == 'king of wands':
+    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
+
+elif tarot.lower() == 'w12':
+    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
+
+elif tarot.lower() == '12w':
+    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
+
+elif tarot.lower() == 'wands king':
+    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
+
+elif tarot.lower() == 'king wands':
+    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
+
+elif tarot.lower() == 'kw':
+    os.system('python ~/.grungegirl/tarot/minor/wands/kW.py')
+
+# ---------- Page of Wands ------------ #
+
+elif tarot.lower() == '44':
+    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
+
+elif tarot.lower() == 'page of wands':
+    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
+
+elif tarot.lower() == 'w13':
+    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
+
+elif tarot.lower() == '13w':
+    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
+
+elif tarot.lower() == 'wands page':
+    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
+
+elif tarot.lower() == 'page wands':
+    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
+
+elif tarot.lower() == 'pw':
+    os.system('python ~/.grungegirl/tarot/minor/wands/pW.py')
+
+# ---------- Queen of Wands ------------ #
+
+elif tarot.lower() == '45':
+    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
+
+elif tarot.lower() == 'queen of wands':
+    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
+
+elif tarot.lower() == 'w11':
+    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
+
+elif tarot.lower() == '11w':
+    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
+
+elif tarot.lower() == 'wands queen':
+    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
+
+elif tarot.lower() == 'queen wands':
+    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
+
+elif tarot.lower() == 'qw':
+    os.system('python ~/.grungegirl/tarot/minor/wands/qW.py')
+
+# ---------- Knight of Cups ------------ #
+
+elif tarot.locer() == '46':
+    os.system('python ~/.grungegirl/tarot/minor/cups/knC.py')
+
+elif tarot.locer() == 'knight of cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/knC.py')
+
+elif tarot.locer() == 'c11':
+    os.system('python ~/.grungegirl/tarot/minor/cups/knC.py')
+
+elif tarot.locer() == '11c':
+    os.system('python ~/.grungegirl/tarot/minor/cups/knC.py')
+
+elif tarot.locer() == 'cups knight':
+    os.system('python ~/.grungegirl/tarot/minor/cups/knC.py')
+
+elif tarot.locer() == 'knight cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/knC.py')
+
+elif tarot.locer() == 'knc':
+    os.system('python ~/.grungegirl/tarot/minor/cups/knC.py')
+
+# ---------- King of Cups ------------ #
+
+elif tarot.locer() == '47':
+    os.system('python ~/.grungegirl/tarot/minor/cups/kC.py')
+
+elif tarot.locer() == 'king of cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/kC.py')
+
+elif tarot.locer() == 'c12':
+    os.system('python ~/.grungegirl/tarot/minor/cups/kC.py')
+
+elif tarot.locer() == '12c':
+    os.system('python ~/.grungegirl/tarot/minor/cups/kC.py')
+
+elif tarot.locer() == 'cups king':
+    os.system('python ~/.grungegirl/tarot/minor/cups/kC.py')
+
+elif tarot.locer() == 'king cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/kC.py')
+
+elif tarot.locer() == 'kC':
+    os.system('python ~/.grungegirl/tarot/minor/cups/kC.py')
+
+ # ---------- King of Cups ------------ #
+
+elif tarot.locer() == '48':
+    os.system('python ~/.grungegirl/tarot/minor/cups/pC.py')
+
+elif tarot.locer() == 'page of cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/pC.py')
+
+elif tarot.locer() == 'c13':
+    os.system('python ~/.grungegirl/tarot/minor/cups/pC.py')
+
+elif tarot.locer() == '13c':
+    os.system('python ~/.grungegirl/tarot/minor/cups/pC.py')
+
+elif tarot.locer() == 'cups page':
+    os.system('python ~/.grungegirl/tarot/minor/cups/pC.py')
+
+elif tarot.locer() == 'page cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/pC.py')
+
+elif tarot.locer() == 'pC':
+    os.system('python ~/.grungegirl/tarot/minor/cups/pC.py')
+
+ # ---------- Queen of Cups ------------ #
+
+elif tarot.locer() == '49':
+    os.system('python ~/.grungegirl/tarot/minor/cups/qC.py')
+
+elif tarot.locer() == 'queen of cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/qC.py')
+
+elif tarot.locer() == 'c14':
+    os.system('python ~/.grungegirl/tarot/minor/cups/qC.py')
+
+elif tarot.locer() == '14c':
+    os.system('python ~/.grungegirl/tarot/minor/cups/qC.py')
+
+elif tarot.locer() == 'cups queen':
+    os.system('python ~/.grungegirl/tarot/minor/cups/qC.py')
+
+elif tarot.locer() == 'queen cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/qC.py')
+
+elif tarot.locer() == 'qC':
+    os.system('python ~/.grungegirl/tarot/minor/cups/qC.py')
 # Reader
 
 elif tarot.lower() == 'read':
