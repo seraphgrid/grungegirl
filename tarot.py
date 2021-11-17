@@ -667,6 +667,235 @@ elif tarot.lower() == 'ten wands':
 elif tarot.lower() == 'tenw':
     os.system('python ~/.grungegirl/tarot/minor/wands/10w.py')
 
+# ---------- Ace of Cups ------------ #
+
+elif tarot.lower() == '32':
+    os.system('python ~/.grungegirl/tarot/minor/cups/aC.py')
+
+elif tarot.lower() == 'ace of cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/aC.py')
+
+elif tarot.lower() == 'ca':
+    os.system('python ~/.grungegirl/tarot/minor/cups/aC.py')
+
+elif tarot.lower() == 'ac':
+    os.system('python ~/.grungegirl/tarot/minor/cups/aC.py')
+
+elif tarot.lower() == 'cups ace':
+    os.system('python ~/.grungegirl/tarot/minor/cups/aC.py')
+
+elif tarot.lower() == 'ace cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/aC.py')
+
+elif tarot.lower() == 'acec':
+    os.system('python ~/.grungegirl/tarot/minor/cups/aC.py')
+
+# ---------- Two of Cups ------------ #
+
+elif tarot.lower() == '33':
+    os.system('python ~/.grungegirl/tarot/minor/cups/2c.py')
+
+elif tarot.lower() == 'two of cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/2c.py')
+
+elif tarot.lower() == 'c2':
+    os.system('python ~/.grungegirl/tarot/minor/cups/2c.py')
+
+elif tarot.lower() == '2c':
+    os.system('python ~/.grungegirl/tarot/minor/cups/2c.py')
+
+elif tarot.lower() == 'cups two':
+    os.system('python ~/.grungegirl/tarot/minor/cups/2c.py')
+
+elif tarot.lower() == 'two cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/2c.py')
+
+elif tarot.lower() == 'twoc':
+    os.system('python ~/.grungegirl/tarot/minor/cups/2c.py')
+
+# ---------- Three of Cups ------------ #
+
+elif tarot.lower() == '34':
+    os.system('python ~/.grungegirl/tarot/minor/cups/3c.py')
+
+elif tarot.lower() == 'three of cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/3c.py')
+
+elif tarot.lower() == 'c3':
+    os.system('python ~/.grungegirl/tarot/minor/cups/3c.py')
+
+elif tarot.lower() == '3c':
+    os.system('python ~/.grungegirl/tarot/minor/cups/3c.py')
+
+elif tarot.lower() == 'cups three':
+    os.system('python ~/.grungegirl/tarot/minor/cups/3c.py')
+
+elif tarot.lower() == 'three cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/3c.py')
+
+elif tarot.lower() == 'threec':
+    os.system('python ~/.grungegirl/tarot/minor/cups/3c.py')
+
+# ---------- Four of Cups ------------ #
+
+elif tarot.lower() == '35':
+    os.system('python ~/.grungegirl/tarot/minor/cups/4c.py')
+
+elif tarot.lower() == 'four of cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/4c.py')
+
+elif tarot.lower() == 'c4':
+    os.system('python ~/.grungegirl/tarot/minor/cups/4c.py')
+
+elif tarot.lower() == '4c':
+    os.system('python ~/.grungegirl/tarot/minor/cups/4c.py')
+
+elif tarot.lower() == 'cups four':
+    os.system('python ~/.grungegirl/tarot/minor/cups/4c.py')
+
+elif tarot.lower() == 'four cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/4c.py')
+
+elif tarot.lower() == 'fourc':
+    os.system('python ~/.grungegirl/tarot/minor/cups/4c.py')
+
+# ---------- Five of Cups ------------ #
+
+elif tarot.lower() == '36':
+    os.system('python ~/.grungegirl/tarot/minor/cups/5c.py')
+
+elif tarot.lower() == 'three of cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/5c.py')
+
+elif tarot.lower() == 'c3':
+    os.system('python ~/.grungegirl/tarot/minor/cups/5c.py')
+
+elif tarot.lower() == '3c':
+    os.system('python ~/.grungegirl/tarot/minor/cups/5c.py')
+
+elif tarot.lower() == 'cups three':
+    os.system('python ~/.grungegirl/tarot/minor/cups/5c.py')
+
+elif tarot.lower() == 'three cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/5c.py')
+
+elif tarot.lower() == 'threec':
+    os.system('python ~/.grungegirl/tarot/minor/cups/5c.py')
+
+# ---------- Six of Cups ------------ #
+
+elif tarot.lower() == '37':
+    os.system('python ~/.grungegirl/tarot/minor/cups/6c.py')
+
+elif tarot.lower() == 'six of cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/6c.py')
+
+elif tarot.lower() == 'c6':
+    os.system('python ~/.grungegirl/tarot/minor/cups/6c.py')
+
+elif tarot.lower() == '6c':
+    os.system('python ~/.grungegirl/tarot/minor/cups/6c.py')
+
+elif tarot.lower() == 'cups six':
+    os.system('python ~/.grungegirl/tarot/minor/cups/6c.py')
+
+elif tarot.lower() == 'six cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/6c.py')
+
+elif tarot.lower() == 'sixc':
+    os.system('python ~/.grungegirl/tarot/minor/cups/6c.py')
+
+# ---------- Seven of Cups ------------ #
+
+elif tarot.lower() == '38':
+    os.system('python ~/.grungegirl/tarot/minor/cups/7c.py')
+
+elif tarot.lower() == 'seven of cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/7c.py')
+
+elif tarot.lower() == 'c7':
+    os.system('python ~/.grungegirl/tarot/minor/cups/7c.py')
+
+elif tarot.lower() == '7c':
+    os.system('python ~/.grungegirl/tarot/minor/cups/7c.py')
+
+elif tarot.lower() == 'cups seven':
+    os.system('python ~/.grungegirl/tarot/minor/cups/7c.py')
+
+elif tarot.lower() == 'seven cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/7c.py')
+
+elif tarot.lower() == 'sevenc':
+    os.system('python ~/.grungegirl/tarot/minor/cups/7c.py')
+
+# ---------- Eight of Cups ------------ #
+
+elif tarot.lower() == '39':
+    os.system('python ~/.grungegirl/tarot/minor/cups/8c.py')
+
+elif tarot.lower() == 'eight of cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/8c.py')
+
+elif tarot.lower() == 'c8':
+    os.system('python ~/.grungegirl/tarot/minor/cups/8c.py')
+
+elif tarot.lower() == '8c':
+    os.system('python ~/.grungegirl/tarot/minor/cups/8c.py')
+
+elif tarot.lower() == 'cups eight':
+    os.system('python ~/.grungegirl/tarot/minor/cups/8c.py')
+
+elif tarot.lower() == 'eight cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/8c.py')
+
+elif tarot.lower() == 'eightc':
+    os.system('python ~/.grungegirl/tarot/minor/cups/8c.py')
+
+# ---------- Nine of Cups ------------ #
+
+elif tarot.lower() == '40':
+    os.system('python ~/.grungegirl/tarot/minor/cups/9c.py')
+
+elif tarot.lower() == 'nine of cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/9c.py')
+
+elif tarot.lower() == 'c9':
+    os.system('python ~/.grungegirl/tarot/minor/cups/9c.py')
+
+elif tarot.lower() == '9c':
+    os.system('python ~/.grungegirl/tarot/minor/cups/9c.py')
+
+elif tarot.lower() == 'cups nine':
+    os.system('python ~/.grungegirl/tarot/minor/cups/9c.py')
+
+elif tarot.lower() == 'nine cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/9c.py')
+
+elif tarot.lower() == 'ninec':
+    os.system('python ~/.grungegirl/tarot/minor/cups/9c.py')
+
+# ---------- Ten of Cups ------------ #
+
+elif tarot.lower() == '41':
+    os.system('python ~/.grungegirl/tarot/minor/cups/10c.py')
+
+elif tarot.lower() == 'ten of cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/10c.py')
+
+elif tarot.lower() == 'c10':
+    os.system('python ~/.grungegirl/tarot/minor/cups/10c.py')
+
+elif tarot.lower() == '10c':
+    os.system('python ~/.grungegirl/tarot/minor/cups/10c.py')
+
+elif tarot.lower() == 'cups ten':
+    os.system('python ~/.grungegirl/tarot/minor/cups/10c.py')
+
+elif tarot.lower() == 'ten cups':
+    os.system('python ~/.grungegirl/tarot/minor/cups/10c.py')
+
+elif tarot.lower() == 'tenc':
+    os.system('python ~/.grungegirl/tarot/minor/cups/10c.py')
 # Reader
 
 elif tarot.lower() == 'read':

@@ -7,21 +7,17 @@ fordown = """Downwards: bad luck, lack of control, clinging to control, unwelcom
 
 forsign = """Signs: Leo, Taurus, Scorpio & Aquarius (Fire, Fire, Water, Air)"""
 
-def for():
 
-    print('The Wheel of Fortune')
-    print(" ")
-    print('Maj. Arcana X')
-    print(" ")
-    print(forinfo)
-    print(" ")
-    print(fortheme)
-    print(" ")
-    print(forup)
-    print(" ")
-    print(fordown)
-    print(" ")
-    print(forsign)
-
-
-for()
+print('The Wheel of Fortune')
+print(" ")
+print('Maj. Arcana X')
+print(" ")
+print(forinfo)
+print(" ")
+print(fortheme)
+print(" ")
+print(forup)
+print(" ")
+print(fordown)
+print(" ")
+print(forsign)
