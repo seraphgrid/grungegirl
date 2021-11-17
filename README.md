@@ -64,5 +64,6 @@ the only downside is that i need to open lots of files to make huge updates to l
 - `exit` will formally exit the application. you could also just spam ctrl + c.
 
 - `astro` will send the application into astrology mode where you can conduct research on the multiple subjects related to astrology. there is even online horoscopes!
+- `tarot` aims to be a complete (as possible, for now) tarot reading suite. it can be used professionally.
 
 ![image](https://user-images.githubusercontent.com/90430427/133362528-8c613e06-56f8-40bf-b2fc-4b01bce7d19a.png)
