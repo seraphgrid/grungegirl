@@ -406,6 +406,20 @@ def astro():
 
     elif query.lower() == 'tr':
         os.system('python ~/.grungegirl/astrology/aspects/trine.py')
+
+# -------------------------- Septile
+
+    elif query.lower() == 'septile':
+        os.system('python ~/.grungegirl/astrology/aspects/septile.py)
+
+    elif query.lower() == 'sep':
+        os.system('python ~/.grungegirl/astrology/aspects/septile.py)
+
+    elif query.lower() == 'sept':
+        os.system('python ~/.grungegirl/astrology/aspects/septile.py)
+
+    elif query.lower() == 'sp':
+        os.system('python ~/.grungegirl/astrology/aspects/septile.py)
 # Exit
 
     elif query.lower() == 'exit':
