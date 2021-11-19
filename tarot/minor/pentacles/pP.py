@@ -6,9 +6,9 @@ pentapageup = '''Upright: ambitious, diligent, goal oriented, planner, consisten
 pentapagedown = '''Downwards: foolish, immature, irresponsible, lazy, underachiever, procrastinator, missed chances, poor prospects.'''
 
 def pentapage():
-    print('Two of Wands')
+    print('Page of Pentacles')
     print('')
-    print('Minor Arcana wII')
+    print('Minor Arcana pXIV')
     print('')
     print(pentapageinfo)
     print('')
