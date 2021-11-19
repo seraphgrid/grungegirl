@@ -215,7 +215,6 @@ def astro():
 
     elif query.lower() == 'saturn':
         os.system('python ~/.grungegirl/astrology/planets/saturn.py')
-        os.system('clear')
 
     elif query.lower() == 'uranus':
         os.system('python ~/.grungegirl/astrology/planets/uranus.py')
