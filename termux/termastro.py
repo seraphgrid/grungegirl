@@ -3,8 +3,8 @@ import sys
 
 
 def astro():
-
-    query = input("strhckr --> ")
+    print('占星術と星占い!')
+    query = input("星hacker --> ")
 
 
 # Wiki
@@ -25,16 +25,18 @@ def astro():
     elif query.lower() == 'daily':
         os.system('lynx https://www.astrosage.com/horoscope/daily-horoscope-todays-horoscope.asp')
         os.system('clear')
+
     elif query.lower() == 'tomorrow':
         os.system('lynx https://www.astrosage.com/horoscope/tomorrow-horoscope.asp')
         os.system('clear')
+
     elif query.lower() == 'weekly':
-        os.system('lynx https://www.astrosage.com/horoscope/tomorrow-horoscope.asp')
+        os.system('lynx https://www.astrosage.com/horoscope/weekly-horoscope.asp')
         os.system('clear')
+
     elif query.lower() == 'monthly':
         os.system('lynx https://www.astrosage.com/horoscope/monthly-aries-horoscope.asp')
         os.system('clear')
-        
     elif query.lower() == 'day':
         os.system('lynx https://www.astrosage.com/horoscope/daily-horoscope-todays-horoscope.asp')
         os.system('clear')
@@ -42,7 +44,7 @@ def astro():
         os.system('lynx https://www.astrosage.com/horoscope/tomorrow-horoscope.asp')
         os.system('clear')
     elif query.lower() == 'month':
-        os.system('lynx https://www.astrosage.com/horoscope/monthly-aries-horoscope.asp')
+        os.system('lynx https://www.astrosage.com/horoscope/weekly-horoscope.asp')
         os.system('clear')
     elif query.lower() == 'pro':
         os.system('lynx https://www.astro.com/cgi/atxgen.cgi?btyp=wh')
@@ -50,6 +52,23 @@ def astro():
 
 # Points
 
+    elif query.lower() == 'north node':
+        os.system('python ~/.grungegirl/astrology/points/nnode.py')
+
+    elif query.lower() == 'south node':
+        os.system('python ~/.grungegirl/astrology/points/snode.py')
+
+    elif query.lower() == 'nnode':
+        os.system('python ~/.grungegirl/astrology/points/nnode.py')
+
+    elif query.lower() == 'snode':
+        os.system('python ~/.grungegirl/astrology/points/snode.py')
+
+    elif query.lower() == 'nn':
+        os.system('python ~/.grungegirl/astrology/points/nnode.py')
+
+    elif query.lower() == 'sn':
+        os.system('python ~/.grungegirl/astrology/points/snode.py')
 # ----------------------- Ascendant
 
     elif query.lower() == 'asc':
@@ -68,32 +87,42 @@ def astro():
     elif query.lower() == "aries":
         os.system("python ~/.grungegirl/astrology/signs/aries.py")
 
+
     elif query.lower() == "taurus":
         os.system('python ~/.grungegirl/astrology/signs/taurus.py')
+
 
     elif query.lower() == 'gemini':
         os.system('python ~/.grungegirl/astrology/signs/gemini.py')
 
+
     elif query.lower() == 'cancer':
         os.system('python ~/.grungegirl/astrology/signs/cancer.py')
+
 
     elif query.lower() == 'leo':
         os.system('python ~/.grungegirl/astrology/signs/leo.py')
 
+
     elif query.lower() == 'virgo':
         os.system('python ~/.grungegirl/astrology/signs/virgo.py')
+
 
     elif query.lower() == 'libra':
         os.system('python ~/.grungegirl/astrology/signs/libra.py')
 
+
     elif query.lower() == 'scorpio':
         os.system('python ~/.grungegirl/astrology/signs/scorpio.py')
+
 
     elif query.lower() == 'sagittarius':
         os.system('python ~/.grungegirl/astrology/signs/sag.py')
 
+
     elif query.lower() == 'capricorn':
         os.system('python ~/.grungegirl/astrology/signs/cap.py')
+
 
     elif query.lower() == 'capricorn':
         os.system('python ~/.grungegirl/astrology/signs/cap.py')
@@ -104,56 +133,152 @@ def astro():
     elif query.lower() == 'pisces':
         os.system('python ~/.grungegirl/astrology/signs/pisces.py')
 
-
 # Houses
 
     elif query.lower() == 'hs1':
         os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
 
+    elif query.lower() == 'the first house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'house one':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'first house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
 
     elif query.lower() == 'hs2':
         os.system('python ~/.grungegirl/astrology/houses/secondhouse.py')
 
+    elif query.lower() == 'the second house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'house two':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'second house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
 
     elif query.lower() == 'hs3':
         os.system('python ~/.grungegirl/astrology/houses/thirdhouse.py')
+
+    elif query.lower() == 'the third house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'house three':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'third house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
 
 
     elif query.lower() == 'hs4':
         os.system('python ~/.grungegirl/astrology/houses/fourthhouse.py')
 
+    elif query.lower() == 'the fourth house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'house four':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'fourth house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
 
     elif query.lower() == 'hs5':
         os.system('python ~/.grungegirl/astrology/houses/fifthhouse.py')
 
+    elif query.lower() == 'the fifth house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'house five':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'fifth house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
 
     elif query.lower() == 'hs6':
-        os.system('python ~/.grungegirl/astrology/houses/sixthhhouse.py')
+        os.system('python ~/.grungegirl/astrology/houses/sixthhouse.py')
 
+    elif query.lower() == 'the sixth house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'house six':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'sixth house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
 
     elif query.lower() == 'hs7':
         os.system('python ~/.grungegirl/astrology/houses/seventhhouse.py')
 
+    elif query.lower() == 'the seventh house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'house seven':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'seventh house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
 
     elif query.lower() == 'hs8':
         os.system('python ~/.grungegirl/astrology/houses/eighthhouse.py')
 
+    elif query.lower() == 'the eighth house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'house eight':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'eighth house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
 
     elif query.lower() == 'hs9':
         os.system('python ~/.grungegirl/astrology/houses/ninthhouse.py')
 
+    elif query.lower() == 'the ninth house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'house nine':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'ninth house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
 
     elif query.lower() == 'hs10':
         os.system('python ~/.grungegirl/astrology/houses/tenthhouse.py')
 
+    elif query.lower() == 'the tenth house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'house ten':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'tenth house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
 
     elif query.lower() == 'hs11':
         os.system('python ~/.grungegirl/astrology/houses/eleventhhouse.py')
 
+    elif query.lower() == 'the elevnth house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'house eleven':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'eleventh house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
 
     elif query.lower() == 'hs12':
         os.system('python ~/.grungegirl/astrology/houses/twelfthhouse.py')
 
+    elif query.lower() == 'the twelfth house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'house twelve':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
+
+    elif query.lower() == 'twelfth house':
+        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
 
 # Planets
 
@@ -187,7 +312,6 @@ def astro():
 
     elif query.lower() == 'saturn':
         os.system('python ~/.grungegirl/astrology/planets/saturn.py')
-        os.system('clear')
 
     elif query.lower() == 'uranus':
         os.system('python ~/.grungegirl/astrology/planets/uranus.py')
@@ -378,20 +502,34 @@ def astro():
 
     elif query.lower() == 'tr':
         os.system('python ~/.grungegirl/astrology/aspects/trine.py')
+
+# -------------------------- Septile
+
+    elif query.lower() == 'septile':
+        os.system('python ~/.grungegirl/astrology/aspects/septile.py')
+
+    elif query.lower() == 'sep':
+        os.system('python ~/.grungegirl/astrology/aspects/septile.py')
+
+    elif query.lower() == 'sept':
+        os.system('python ~/.grungegirl/astrology/aspects/septile.py')
+
+    elif query.lower() == 'sp':
+        os.system('python ~/.grungegirl/astrology/aspects/septile.py')
 # Exit
 
     elif query.lower() == 'exit':
         exit('closing strhckr.')
-        os.system('python ~/.grungegirl/termmain.py')
+
 
     elif query.lower() == 'clear':
-        exit('closing strhckr.')
-        os.system('python ~/.grungegirl/termmain.py')
+        os.system('clear')
+
 
     elif query.lower() == 'close':
         exit('closing strhckr.')
-        os.system('python ~/.grungegirl/termmain.py')
+
 
 
 astro()
-os.system('python ~/.grungegirl/termastro.py')
+os.system('python ~/.grungegirl/astrology.py')
