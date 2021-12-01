@@ -1,15 +1,11 @@
 import sys
 import os
 import random
+import time
 
 tarot = input('techno強deck --> ')
 # Shuffler
 
-def shuffler():
-
-    t=random.randint(0,77)
-    t2=['U', 'D']
-    print(t, random.choice(t2))
 
 ## Major Arcana
 
@@ -1701,14 +1697,95 @@ elif tarot.lower() == 'pp':
 
 # Reader
 
-elif tarot.lower() == 'read':
+def shuffler():
+
+    card = random.randint(0, 77)
+    card_mode = ['U', 'D']
+    print(card, random.choice(card_mode))
+
+
+def pastpresentfuture():
+
+    card = random.randint(0, 77)
+    card2 = random.randint(0, 77)
+    card3 = random.randint(0, 77)
+    card_mode = ['U', 'D']
+
+    print('過去past:', card, random.choice(card_mode))
+
+    print('現在pres:', card2, random.choice(card_mode))
+
+    print('先future:', card3, random.choice(card_mode))
+
+def celtic():
+
+    card = random.randint(0, 77)
+    card2 = random.randint(0, 77)
+    card3 = random.randint(0, 77)
+    card4 = random.randint(0, 77)
+    card5 = random.randint(0, 77)
+    card6 = random.randint(0, 77)
+    card7 = random.randint(0, 77)
+    card8 = random.randint(0, 77)
+    card9 = random.randint(0, 77)
+    card10 = random.randint(0, 77)
+    card_mode = ['U', 'D']
+
+    print('The Present:', card, random.choice(card_mode))
+
+    print('The Challenge:', card2, random.choice(card_mode))
+
+    print('The Past:', card3, random.choice(card_mode))
+
+    print('The Future:', card4, random.choice(card_mode))
+
+    print('The Goal:', card5, random.choice(card_mode))
+
+    print('Querent Motive:', card6, random.choice(card_mode))
+
+    print('Recommendation:', card7, random.choice(card_mode))
+
+    print('External Influences:', card8, random.choice(card_mode))
+
+    print('Hopes and/or Fears:', card9, random.choice(card_mode))
+
+    print('End Result of Current Trajectory:', card10, random.choice(card_mode))
+
+def majoronly():
+
+    major_arcana = random.randint(0, 21)
+    maj_mode = ['U', 'D']
+    print(major_arcana, random.choice(maj_mode))
+
+if tarot.lower() == 'read':
     shuffler()
 
-elif tarot.lower() == 'reading':
+if tarot.lower() == 'reading':
     shuffler()
 
-elif tarot.lower() == '':
+if tarot.lower() == 'r':
     shuffler()
+
+if tarot.lower() == 'celtic':
+    celtic()
+
+if tarot.lower() == 'cel':
+    celtic()
+
+if tarot.lower() == 'majoronly':
+    majoronly()
+
+if tarot.lower() == 'major only':
+    majoronly()
+
+if tarot.lower() == 'mj':
+    majoronly()
+
+if tarot.lower() == 'ppp':
+    pastpresentfuture()
+
+if tarot.lower() == 'past present future':
+    pastpresentfuture()
 
 # Exiting and Clearing
 
@@ -1716,6 +1793,21 @@ elif tarot.lower() == 'exit':
     exit()
 
 elif tarot.lower() == 'close':
+    exit()
+
+elif tarot.lower() == 'c':
+    exit()
+
+elif tarot.lower() == 'a':
+    os.system('python ~/.grungegirl/astrology.py')
+    exit()
+
+elif tarot.lower() == 'w':
+    os.system('python ~/.grungegirl/query.py')
+    exit()
+
+elif tarot.lower() == 'g':
+    os.system('python ~/.grungegirl/main.py')
     exit()
 
 elif tarot.lower() == 'clear':

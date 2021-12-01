@@ -162,6 +162,8 @@ elif drug.lower() == "exit":
 elif drug.lower() == "clear":
 	os.system('clear')
 
+elif drug.lower() == 'c':
+	exit('grungegirl exiting.')
 
 elif drug.lower() == 'close':
 	os.system('clear')

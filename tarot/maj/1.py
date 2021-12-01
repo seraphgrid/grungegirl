@@ -2,7 +2,7 @@ maginfo = """The Magician is one tarot card that is filled with symbolism. The c
 
 magtheme = """Themes: The act of Raw Creation, positive manipulation, manifestation, trendsetting, trailblazing, microcosm/macrocosm, as above so below, all things becoming."""
 
-magup = """Upright: willpower, desire, being resourceful,, skill, ability, concentration, manifestation."""
+magup = """Upright: willpower, desire, being resourceful, skill, ability, concentration, manifestation."""
 magdown = """Downward: manipulation, cunning, trickery, wasted talent, illusion, deception."""
 
 magsign = """Sign: Aries (Fire)"""

@@ -16,12 +16,10 @@ search = input("debbieデビー --> ")
 def query():
 
     if search.lower() == "nothing":
-        os.system(
-            "browsh http://psychonautwiki.org/")
+        os.system("browsh http://psychonautwiki.org/")
 
     elif search.lower() == "":
-        os.system(
-            "browsh http://psychonautwiki.org/")
+        os.system("browsh http://psychonautwiki.org/")
 
     elif search.lower() == "search":
         os.system('browsh http://psychonautwiki.org')
@@ -139,6 +137,7 @@ def query():
         os.system('browsh https://minecraft.fandom.com/wiki/Minecraft_Wiki')
 
 # exit software
+    
     elif search.lower() == "exit":
         exit("closing debbie.")
 
@@ -147,6 +146,19 @@ def query():
 
     elif search.lower() == "close":
         exit("closing debbie.")
+
+    elif search.lower() == "c":
+        exit("closing debbie.")
+
+    elif search.lower() == 'a':
+        os.system('python ~/.grungegirl/astrology.py')
+        exit()
+
+    elif search.lower() == 't':
+        os.system('python ~/.grungegirl/tarot.py')
+        exit()
+
 query()
+
 
 os.system('python ~/.grungegirl/query.py')

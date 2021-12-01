@@ -1,6 +1,6 @@
 def trine():
     print('')
-    print('Square')
+    print('Trine')
     print('')
     print('''An aspect of 120 degrees between two planets. Planets that form a trine to each other usually stand in the same element but in a different quality. The trine encompasses one third of the zodiac circle and is therefore often associated with the divine number 3 in number mysticism. It appears to be a cosmic gift in the horoscope. 
     

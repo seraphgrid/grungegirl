@@ -3,7 +3,7 @@ wandpageinfo = '''A well-dressed young man is boldly holding a stick standing on
 wandpagetheme = '''Themes: increasing attention span, diligence, distractedness, fear of the unknown, abstract ideas, curiosity.'''
 
 wandpageup = '''Upright: adventure, excitement, fresh ideas, cheerfulness, energetic, fearless, extroverted.'''
-wandpagedown = '''Downwards: '''
+wandpagedown = '''Downwards: hasty, impatient, lacking ideas, tantrums, laziness, boring, unreliable, distracted.'''
 
 def wandpage():
     print('Page of Wands')
