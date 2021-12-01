@@ -19,21 +19,6 @@ Windows users will need to install Windows Subsystem for Linux alongside a compa
 
 You may have to run `. ~/.bashrc` after the installation to be sure that the `grungegirl` command works.
 
-## planned updates. cycles for the future.
-
-- Massive repository of drugs organized by category, class, price and legality.
-- Overwhelming breadth of information related to astrology, accessible offline and fast.
-- Onion Link/Tor Browser Redirect, Sellers, Marketplaces, Amazon. Editable through Python coding to launch a browser of your choice.
-- Information available on how to securely use Tor and the rest of the internet.
-
-- `crypto` command for monitoring cryptocurrency prices and managing a wallet.
-- `buy` will open a list of products that you can access online in a browser of your choosing.
-- `rehab` will use approximate location to find and target rehabs in your area.
-- `reports` will display trip reports based on whatever drug you request to hear them about.
-
-
-![image](https://user-images.githubusercontent.com/90430427/133165416-e009fb21-b4ca-46e4-b3d2-1b61543a1a41.png)
-
 ## included functions. humble beginnings.
 
 - `web` opens the ability to search psychonaut.wiki for more information related to the available list of drugs. 
@@ -41,6 +26,6 @@ You may have to run `. ~/.bashrc` after the installation to be sure that the `gr
 - `exit` will formally exit the application. you could also just spam ctrl + c.
 
 - `astro` will send the application into astrology mode where you can conduct research on the multiple subjects related to astrology. there is even online horoscopes!
-- `tarot` aims to be a complete (as possible, for now) tarot reading suite. it can be used professionally.
+- `tarot` is a complete tarot reading suite with spreads and other helpful commands! it can be used professionally!
 
 ![image](https://user-images.githubusercontent.com/90430427/133362528-8c613e06-56f8-40bf-b2fc-4b01bce7d19a.png)
