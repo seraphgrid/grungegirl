@@ -10,6 +10,8 @@ welcome.
 
 ## Installation
 
+Windows users will need to install Windows Subsystem for Linux alongside a compatible distro to be able to use this. Ubuntu is recommended. 
+
 1. git clone this directory or download the provided package. 
 2. `cd grungegirl/`
 3. `python install.py`
