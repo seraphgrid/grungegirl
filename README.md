@@ -21,9 +21,9 @@ You may have to run `. ~/.bashrc` after the installation to be sure that the `gr
 
 ## included functions. humble beginnings.
 
-- `web` opens the ability to search psychonaut.wiki for more information related to the available list of drugs. 
+- wide, ever-expanding repository of information related to drugs and video games
 
-- `exit` will formally exit the application. you could also just spam ctrl + c.
+- `web` opens the ability to search psychonaut.wiki for more information related to the available list of drugs. 
 
 - `astro` will send the application into astrology mode where you can conduct research on the multiple subjects related to astrology. there is even online horoscopes!
 - `tarot` is a complete tarot reading suite with spreads and other helpful commands! it can be used professionally!
