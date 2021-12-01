@@ -1757,6 +1757,8 @@ def majoronly():
     maj_mode = ['U', 'D']
     print(major_arcana, random.choice(maj_mode))
 
+# One Card Pull
+
 if tarot.lower() == 'read':
     shuffler()
 
@@ -1766,13 +1768,27 @@ if tarot.lower() == 'reading':
 if tarot.lower() == 'r':
     shuffler()
 
+if tarot.lower() == '':
+    shuffler()
+
+# Spreads
+
 if tarot.lower() == 'celtic':
     celtic()
 
 if tarot.lower() == 'cel':
     celtic()
 
+if tarot.lower() == 'celtic cross':
+    celtic()
+
+if tarot.lower() == 'cc':
+    celtic()
+
 if tarot.lower() == 'majoronly':
+    majoronly()
+
+if tarot.lower == 'm':
     majoronly()
 
 if tarot.lower() == 'major only':
@@ -1782,6 +1798,9 @@ if tarot.lower() == 'mj':
     majoronly()
 
 if tarot.lower() == 'ppp':
+    pastpresentfuture()
+
+if tarot.lower() == 'p':
     pastpresentfuture()
 
 if tarot.lower() == 'past present future':
