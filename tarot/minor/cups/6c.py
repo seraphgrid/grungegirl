@@ -6,7 +6,7 @@ cupsixup = '''Upright: nostalgia, memories, familiarity, healing, comfort, senti
 cupsixdown = '''Downwards: stuck in past, rose-colored glasses, moving forward, leaving home, independence.'''
 
 def cupsix():
-    print('Six of Cups)
+    print('Six of Cups')
     print('')
     print('Minor Arcana cVI')
     print('')
