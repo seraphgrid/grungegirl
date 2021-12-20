@@ -2,6 +2,7 @@ import time
 import random
 import ggsave
 import os
+import rage
 
 bp = ggsave.bpn
 crystals = ggsave.crystalsn
@@ -15,6 +16,7 @@ mining_rate = ggsave.mining_raten
 wallet = ggsave.walletn
 
 
+
 def command_line():
     
     global bp
@@ -23,7 +25,7 @@ def command_line():
     global price_ms
     global price_mr
     
-    print("Crystals:", crystals)
+    print("Scrap Metal:", crystals)
     if crystals == bp:
         print("inventory_maximum_capacity_alert")
     print(wallet, "Amerinium")
@@ -56,12 +58,18 @@ def mining():
         print("Preparing laser...")
         time.sleep(3)
         print("Stabilizing...")
-        time.sleep(4)
-        print("Mining...")
-        crystals += mining_rate
-        time.sleep(mining_speed)
-        print(crystals, "crystals collected thus far.")
-        sav()
+        rng = [ 'a', 'b' ]
+        rng2 = random.choice(rng)
+        if rng2 == 'a':
+            os.system('python rage.py')
+        if rng2 == 'b':
+            time.sleep(4)
+            print("Mining space junk...")
+            crystals += mining_rate
+            time.sleep(mining_speed)
+            print(crystals, "scraps of metal and plastic collected thus far.")
+            sav()
+
         command_line()
     elif crystals == bp:
         command_line()
@@ -79,7 +87,7 @@ def automine():
         crystals += bp
         sav()
         time.sleep(mining_speed)
-        print(crystals, "crystals collected thus far.")
+        print(crystals, "scraps of metal and plastic collected thus far.")
         print("Inventory dump in progress.")
         time.sleep(4)
         money = crystals / random.randrange(4, 20)
