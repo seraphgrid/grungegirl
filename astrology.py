@@ -3,19 +3,25 @@ import sys
 
 
 def astro():
+
+    search = [ 'search', '', 'wiki' ]
+
+    nnode = [ 'north node', 'nnode', 'nn' ]
+
+    snode = [ 'south node', 'snode', 'sn' ]
+
+    asc = [ 'asc', 'ascendant', 'ascendent' ]
+
+    hse1 = [ 'hs1', 'the first house', 'house one', 'first house' ]
+
+    hs2 = [ 'hs2', 'the second house', 'second house', 'house two']
+
     query = input("星hacker --> ")
 
 
-# Wiki
+    # Wiki
 
-    if query.lower() == 'search':
-        os.system('browsh https://www.astro.com/astrowiki/en/Main_Page')
-        os.system('clear')
-    if query.lower() == '':
-        os.system('browsh https://www.astro.com/astrowiki/en/Main_Page')
-        os.system('clear')
-
-    if query.lower() == 'wiki':
+    if query.lower() == search[0:2]:
         os.system('browsh https://www.astro.com/astrowiki/en/Main_Page')
         os.system('clear')
 
@@ -51,34 +57,15 @@ def astro():
 
 # Points
 
-    elif query.lower() == 'north node':
+    elif query.lower() == nnode[0:2]:
         os.system('python ~/.grungegirl/astrology/points/nnode.py')
 
-    elif query.lower() == 'south node':
+    elif query.lower() == snode[0:2]:
         os.system('python ~/.grungegirl/astrology/points/snode.py')
 
-    elif query.lower() == 'nnode':
-        os.system('python ~/.grungegirl/astrology/points/nnode.py')
-
-    elif query.lower() == 'snode':
-        os.system('python ~/.grungegirl/astrology/points/snode.py')
-
-    elif query.lower() == 'nn':
-        os.system('python ~/.grungegirl/astrology/points/nnode.py')
-
-    elif query.lower() == 'sn':
-        os.system('python ~/.grungegirl/astrology/points/snode.py')
 # ----------------------- Ascendant
 
-    elif query.lower() == 'asc':
-        os.system('python ~/.grungegirl/astrology/points/ascendant.py')
-
-
-    elif query.lower() == 'ascendant':
-        os.system('python ~/.grungegirl/astrology/points/ascendant.py')
-
-
-    elif query.lower() == 'ascendent':
+    elif query.lower() == asc[0:2]:
         os.system('python ~/.grungegirl/astrology/points/ascendant.py')
 
 # Signs
@@ -134,29 +121,11 @@ def astro():
 
 # Houses
 
-    elif query.lower() == 'hs1':
+    elif query.lower() == hse1[0:3]:
         os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
 
-    elif query.lower() == 'the first house':
-        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
-
-    elif query.lower() == 'house one':
-        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
-
-    elif query.lower() == 'first house':
-        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
-
-    elif query.lower() == 'hs2':
+    elif query.lower() == hs2[0:3]:
         os.system('python ~/.grungegirl/astrology/houses/secondhouse.py')
-
-    elif query.lower() == 'the second house':
-        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
-
-    elif query.lower() == 'house two':
-        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
-
-    elif query.lower() == 'second house':
-        os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
 
     elif query.lower() == 'hs3':
         os.system('python ~/.grungegirl/astrology/houses/thirdhouse.py')

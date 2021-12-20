@@ -1,0 +1,9 @@
+bp = 100
+crystals = 0
+money = 630
+mining_speed = 1
+price_bp = 150
+price_ms = 230
+rate_multi = range(1, 8)
+price_mr = 330
+mining_rate = 15
