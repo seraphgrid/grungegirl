@@ -3,7 +3,7 @@ import time
 import os
 import rage_s
 import rage_s_bakup
-import main
+import trash
 
 ship_h = 100
 enship_h = 100
@@ -13,9 +13,8 @@ attack2 = 14.5
 shipchance = True
 evchance = [False]
 shield = 100
-
-
-print("You've been attacked!")
+pwrcount = 3
+pwrdmg = 20
 
 
 def sav2():
@@ -69,7 +68,7 @@ def damage_enemy():
     print("Enemy ship at", enship_h, "health.")
     while enship_h < 0:
         print("Enemy ship defeated!")
-        os.system('python main.py')
+        command_line()
 
 
     
@@ -92,10 +91,33 @@ def damage_player():
     print("Your ship at", ship_h, "health.")
     while ship_h < 0:
         print("Your ship defeated!")
-        os.system('python main.py')
+        
 
     
     
+
+
+def shieldless():
+
+    global evchance
+    global enship_h
+    global ship_h
+    global dmgx
+    global attack
+    global attack2
+    global shipchance
+    global shield
+
+    if shield == 0:
+        damage_player()
+        shipattk()
+    elif shield > 0:
+        ship_h = ship_h + attack2
+        shield -= 5
+        print("Shields sustaining at", shield)
+        shipattk()
+        
+
 def shipattk():
     
     global evchance
@@ -134,10 +156,12 @@ def shipattk():
     if attackprompt.lower() == 's':
         shieldless()
         shipattk()
+    
+    if attackprompt.lower() == "p":
+        poweratk()
 
-
-def shieldless():
-
+def poweratk():
+    
     global evchance
     global enship_h
     global ship_h
@@ -146,24 +170,24 @@ def shieldless():
     global attack2
     global shipchance
     global shield
-
-    if shield == 0:
-        damage_player()
+    global pwrdmg
+    global pwrcount
+    
+    if pwrcount == 0:
         shipattk()
-    elif shield > 0:
-        shieldful = [ 'a', 'b' ]
-        shieldful2 = random.choice(shieldful)
-        if shieldful2 == 'a':
-            damage_player()
-            shipattk()
-        if shieldful2 == 'b':
-            ship_h = ship_h + attack2
-            shield -= 5
-            print("Shields sustaining at", shield)
-            shipattk()
-
-        
-shipattk()
+    
+    print("Firing laser...")
+    enship_health = enship_h - pwrdmg
+    pwrcount -= 1
+    enship_h = enship_health
+    print("Enemy ship at", enship_h, "health.")
+    while enship_h < 0:
+        print("Enemy ship defeated!")
+        command_line()
+    
+if rng2 == 'a':
+    print("You've been attacked!")
+    shipattk()
 
 ship_h = rage_s.ship_hn
 enship_h = rage_s.enship_hn

@@ -1,10 +1,11 @@
-bpn = 1000
-crystalsn = 0
+bpn = 100
+scrapsn = 0
 moneyn = 0
 mining_speedn = 7
-price_bpn = 150
-price_msn = 230
+price_bpn = 250
+price_msn = 360
+price_pwrn = 700
 rate_multin = 2, 20
-price_mrn = 330
-mining_raten = 1, 7
+price_mrn = 420
+mining_raten = 3
 walletn = 0
