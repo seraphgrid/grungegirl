@@ -1,13 +1,13 @@
 import random
 import time
 import os
-ship_hn = 134.0
-enship_hn = 11.5
+ship_hn = 156
+enship_hn = 186
 dmgxn = 11
-attackn = 13.5
-attack2n = 14.5
+attackn = range(3, 13)
+attack2n = range(3, 13)
 shipchancen = True
 evchancen = [False]
-shieldn = 0
-pwrcountn = 0
-pwrdmgn = 0
+shieldn = 5
+pwrcountn = 5
+pwrdmgn = 5
