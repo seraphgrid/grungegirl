@@ -125,7 +125,7 @@ def astro():
 
     hs2 = ['hs2', 'the second house', 'second house']
 
-    elif query.lower() == hse1[0:2]:
+    if query.lower() == hse1[0:2]:
         os.system('python ~/.grungegirl/astrology/houses/firsthouse.py')
 
     elif query.lower() == 'hs2':

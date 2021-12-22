@@ -80,7 +80,13 @@ def v9():
 
     # Void Linux
 
+
+    # Create .bashrc cause void is a special girl and doesn't need one but I fucking do
+
+
+
     # Install Lynx
+
     print("Installing Lynx...")
     time.sleep(2)
     os.system('sudo xbps-install -Suv lynx')
@@ -113,6 +119,7 @@ def v9():
     time.sleep(2)
 
     # Alias binding script so "grungegirl" works on the command line.
+    os.system('sudo touch ~/.bashrc')
     os.system('sh ~/.grungegirl/voidgirls/bind-void.sh')
 
     # Warning advising use of VPN with Browser for safety purposes.
@@ -122,7 +129,6 @@ def v9():
     os.system('cd && clear && . ~/.bashrc')
 
 os.system('clear')
-os.system('touch ~/.bashrc')
 print("backing up your .bashrc file. -death xx")
 os.system('mkdir ~/.bashrc_bak')
 time.sleep(2)
@@ -132,14 +138,9 @@ os.system('sudo cp ~/.bashrc ~/.bashrc_bak')
 verify1 = input('Are you using Termux? (y/n) ')
 veri_valid = [ 'y', 'n' ]
 
-if verify1 == [0]:
+if verify1 == veri_valid[0]:
     os.system('python ~/grungegirl/termux/termux.py')
-    exit()
 
-if verify1 != veri_valid:
-    verify1()
-
-# If Termux is a no, check to see if they have Void.
 if verify1 == veri_valid[1]:
     void_query = input("Do you have Void Linux? (y/n) ")
     void_valid = ['y', 'n']

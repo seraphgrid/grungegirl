@@ -5,7 +5,14 @@ import os
 import time
 
 #folder check
-os.system('sh filecheck.sh')
+uninstall_ask = input('Uninstalling on Void? (y/n) ')
+valid_input = [ 'y', 'n' ]
+if uninstall_ask == valid_input[0]:
+    os.system('sh voidcheck.sh')
+
+if uninstall_ask == valid_input[1]:
+    os.system('sh filecheck.sh')
+
 
 # uninstall
 print('version 0.3 - bladee')

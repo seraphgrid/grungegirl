@@ -246,10 +246,13 @@ def shipattk():
 
     if attackprompt.lower() == valid_attack[0]:
         while True:
+
             # Flip coin.
+
             a = ['a', 'b']
             fns2 = random.choice(a)
             # If coin lands on side a, misfire.
+
             if fns2 == 'a':
                 fns3 = random.choice(a)
                 if fns3 == 'a':
@@ -264,6 +267,7 @@ def shipattk():
 
 
                 # If coin lands on side b, the shot lands.
+
                 if fns3 == 'b':
                     if attack_cnt < 0:
                         reloaded = False
@@ -674,5 +678,5 @@ if in_battle == True:
     shipattk()
 else:
     command_line()
-os.system('python trash.py')
+os.system('python ~/.grungegirl/amerinium/trash.py')
 
