@@ -33,6 +33,9 @@ pwrdmg = 20
 aimed = False
 en_aimed = False
 reloaded = False
+in_battle = False
+
+
 
 
 def command_line():
@@ -54,10 +57,11 @@ def command_line():
         print(wallet, "Ameriniates")
     if wallet > 1:
         print(wallet, "Ameriniates")
-        
-        
+
+    valid_input = ['mine', 'sell', 'upgrade', 'save', 'automine']
+    valid_util = [ 'clear', 'exit' ]
     command_line = input("Command: ")
-    valid_input = ['mine', 'sell', 'upgrade', 'save', 'automine' ]
+
     
     
 
@@ -75,10 +79,18 @@ def command_line():
         
     if command_line == valid_input[4]:
         automine()
+
+    if command_line == valid_util[0]:
+        os.system('clear')
+
+    if command_line == valid_util[1]:
+        sav()
+        os.system('grungegirl')
         
     if command_line != valid_input:
         command_line = input("Command: ")
         valid_input = ['mine', 'sell', 'upgrade', 'save', 'automine', 'a' ]
+        valid_util = ['clear', 'exit']
         
         if command_line == valid_input[0]:
             mining()
@@ -94,6 +106,13 @@ def command_line():
             
         if command_line == valid_input[4]:
             automine()
+
+        if command_line == valid_util[0]:
+            os.system('clear')
+
+        if command_line == valid_util[1]:
+            sav()
+            os.system('grungegirl')
         
 def player_aim():
 
@@ -113,9 +132,6 @@ def player_aim():
 
 
     if enship_h > 0:
-        play_aim = True
-
-    if play_aim == True:
         print("Aiming cannon...")
         time.sleep(2)
         print("Locking on..")
@@ -198,6 +214,11 @@ def shipattk():
     global pwrcount
     global attack_cnt
     global reloaded
+    global in_battle
+
+    in_battle = True
+    sav()
+    sav2()
 
     if enship_h < 0:
 	    pwrcount = 4
@@ -221,6 +242,7 @@ def shipattk():
     attackprompt = input("C: ")
     valid_attack = [ 'a', 'shield', 'powershot' ]
     valid_def = [ 'aim', 'reload' ]
+    utilcom = [ 'clear', 'exit' ]
 
     if attackprompt.lower() == valid_attack[0]:
         while True:
@@ -281,12 +303,20 @@ def shipattk():
 
     if attackprompt.lower() == valid_def[1]:
         rload()
+
+    if attackprompt.lower() == utilcom[0]:
+        os.system('clear')
+
+    if attackprompt.lower() == utilcom[1]:
+        sav()
+        os.system('grungegirl')
         
     if attackprompt.lower() != valid_attack:
         shipattk()
 
     if attackprompt.lower() != valid_def:
         shipattk()
+
 
 
 
@@ -449,6 +479,7 @@ def sell():
        
 
 def sav():
+
     # open file
     file = open("ggsave.py", "w")
 
@@ -540,6 +571,7 @@ def damage_enemy():
     global attack2
     global shipchance
     global wallet
+    global in_battle
 
     print("Firing laser...")
     enship_health = enship_h - random.choice(attack)
@@ -549,6 +581,7 @@ def damage_enemy():
         wallet += 100
         time.sleep(2)
         print("Enemy ship defeated! Amerinium awarded!")
+        in_battle = False
         sav()
         command_line()
 
@@ -563,6 +596,7 @@ def damage_player():
     global shipchance
     global shield
     global wallet
+    global in_battle
 
     print("Your ship has been damaged!")
     ship_health = ship_h - random.choice(attack2)
@@ -573,6 +607,8 @@ def damage_player():
         if wallet < 0:
             wallet = 0
         print("Your ship defeated! 250 Amerinium lost!")
+        in_battle = False
+        sav()
         command_line()
 
 
@@ -634,6 +670,9 @@ def poweratk():
     if aimed == False:
         print("You have not aimed!")
 
-command_line()
+if in_battle == True:
+    shipattk()
+else:
+    command_line()
 os.system('python trash.py')
 

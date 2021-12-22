@@ -22,37 +22,37 @@ def astro():
     # Wiki
 
     if query.lower() == search[0:2]:
-        os.system('browsh https://www.astro.com/astrowiki/en/Main_Page')
+        os.system('lynx https://www.astro.com/astrowiki/en/Main_Page')
         os.system('clear')
 
 # Horoscope
 
     elif query.lower() == 'daily':
-        os.system('browsh https://www.astrosage.com/horoscope/daily-horoscope-todays-horoscope.asp')
+        os.system('lynx https://www.astrosage.com/horoscope/daily-horoscope-todays-horoscope.asp')
         os.system('clear')
 
     elif query.lower() == 'tomorrow':
-        os.system('browsh https://www.astrosage.com/horoscope/tomorrow-horoscope.asp')
+        os.system('lynx https://www.astrosage.com/horoscope/tomorrow-horoscope.asp')
         os.system('clear')
 
     elif query.lower() == 'weekly':
-        os.system('browsh https://www.astrosage.com/horoscope/weekly-horoscope.asp')
+        os.system('lynx https://www.astrosage.com/horoscope/weekly-horoscope.asp')
         os.system('clear')
 
     elif query.lower() == 'monthly':
-        os.system('browsh https://www.astrosage.com/horoscope/monthly-aries-horoscope.asp')
+        os.system('lynx https://www.astrosage.com/horoscope/monthly-aries-horoscope.asp')
         os.system('clear')
     elif query.lower() == 'day':
-        os.system('browsh https://www.astrosage.com/horoscope/daily-horoscope-todays-horoscope.asp')
+        os.system('lynx https://www.astrosage.com/horoscope/daily-horoscope-todays-horoscope.asp')
         os.system('clear')
     elif query.lower() == 'week':
-        os.system('browsh https://www.astrosage.com/horoscope/tomorrow-horoscope.asp')
+        os.system('lynx https://www.astrosage.com/horoscope/tomorrow-horoscope.asp')
         os.system('clear')
     elif query.lower() == 'month':
-        os.system('browsh https://www.astrosage.com/horoscope/weekly-horoscope.asp')
+        os.system('lynx https://www.astrosage.com/horoscope/weekly-horoscope.asp')
         os.system('clear')
     elif query.lower() == 'pro':
-        os.system('browsh https://www.astro.com/cgi/atxgen.cgi?btyp=wh')
+        os.system('lynx https://www.astro.com/cgi/atxgen.cgi?btyp=wh')
         os.system('clear')
 
 # Points
