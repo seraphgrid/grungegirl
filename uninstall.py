@@ -15,7 +15,7 @@ if uninstall_ask == valid_input[1]:
 
 
 # uninstall
-print('version 0.3 - bladee')
+print('version 0.4 - telepath')
 print('')
 print('経験')
 time.sleep(3)

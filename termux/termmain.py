@@ -4,13 +4,19 @@ import os
 
 # version name, version tagline, drug search
 
-print("grungegirl - 0.2 - babygirl")
+print("grungegirl - 0.4 - telepath")
 print("you're so beautiful. angels never die.")
 print(" ")
 print("XMR Donation Address:")
 print("46KrXnQKeG7JDWnRBQBRsiezxEaop2ZYC2t8LyXsbjEgLynVb8T9V6Zc9KX1jEfhozhucbGXt44SVYjWn8iyAiFf6As1RqA")
 print(" ")
 drug = input("grungegirl --> ")
+
+
+
+
+if drug.lower() == "amerinium":
+	os.system('python ~/.grungegirl/amerinium/trash.py')
 
 # astrology (strhckr)
 

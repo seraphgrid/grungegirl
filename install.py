@@ -80,11 +80,6 @@ def v9():
 
     # Void Linux
 
-
-    # Create .bashrc cause void is a special girl and doesn't need one but I fucking do
-
-
-
     # Install Lynx
 
     print("Installing Lynx...")
