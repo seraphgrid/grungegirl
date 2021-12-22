@@ -4,7 +4,7 @@ import os
 
 # version name, version tagline, drug search
 
-print("グランジガール  - 0.3 - bladee")
+print("グランジガール  - 0.3 - huntress")
 print("愛は痛みです。 愛は至福です。")
 print(" ")
 print("THE興VOID+ --> https://discord.gg/EJj9sJsSTN")

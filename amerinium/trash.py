@@ -27,7 +27,7 @@ attack = range(3, 13)
 attack2 = range(3, 13)
 shipchance = True
 evchance = [False]
-shield = 5
+shield = 10
 pwrcount = 4
 pwrdmg = 20
 aimed = False
@@ -224,7 +224,7 @@ def shipattk():
 	    pwrcount = 4
 	    ship_h = 200
 	    enship_h = 200
-	    shield = 5
+	    shield = 10
 	
         
     
@@ -232,7 +232,7 @@ def shipattk():
 	    pwrcount = 4
 	    ship_h = 200
 	    enship_h = 200
-	    shield = 5
+	    shield = 10
 		
         
     
@@ -676,7 +676,7 @@ def poweratk():
 
 if in_battle == True:
     shipattk()
-else:
+if in_battle == False:
     command_line()
 os.system('python ~/.grungegirl/amerinium/trash.py')
 
