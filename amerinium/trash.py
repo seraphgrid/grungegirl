@@ -22,15 +22,17 @@ wallet = ggsave.walletn
 ship_h = 250
 enship_h = 200
 dmgx = 11
-attack = 13.5
-attack2 = 14.5
+attack_cnt = 15
+attack = range(3, 13)
+attack2 = range(3, 13)
 shipchance = True
 evchance = [False]
 shield = 5
-pwrcount = 2
+pwrcount = 4
 pwrdmg = 20
 aimed = False
 en_aimed = False
+reloaded = False
 
 
 def command_line():
@@ -45,7 +47,7 @@ def command_line():
     
     
     if scraps == bp:
-        print("inventory_maximum_capacity_alert")
+        print("Inventory at max capacity.")
     if wallet == 1:
         print(wallet, "Amerinium")
     if wallet == 0:
@@ -55,7 +57,7 @@ def command_line():
         
         
     command_line = input("Command: ")
-    valid_input = ['m', 's', 'u', 'ss', 'am', 'a' ]
+    valid_input = ['mine', 'sell', 'upgrade', 'save', 'automine' ]
     
     
 
@@ -76,7 +78,7 @@ def command_line():
         
     if command_line != valid_input:
         command_line = input("Command: ")
-        valid_input = ['m', 's', 'u', 'ss', 'am', 'a' ]
+        valid_input = ['mine', 'sell', 'upgrade', 'save', 'automine', 'a' ]
         
         if command_line == valid_input[0]:
             mining()
@@ -122,7 +124,7 @@ def player_aim():
         rngplus2 = random.choice(rngplus)
         if rngplus2 == 'a':
             print("Your ship has been damaged by an asteroid!")
-            ship_health = ship_h - attack2
+            ship_health = ship_h - random.choice(attack2)
             ship_h = ship_health
             print("Your ship at", ship_h, "health.")
         if rngplus2 == 'b':
@@ -160,7 +162,7 @@ def en_aim():
         rngplus2 = random.choice(rngplus)
         if rngplus2 == 'a':
             print("Enemy ship has been damaged by asteroid!")
-            ship_health = enship_h - attack2
+            ship_health = enship_h - random.choice(attack2)
             enship_h = ship_health
             print("Enemy ship at", enship_h, "health.")
         if rngplus2 == 'b':
@@ -168,6 +170,21 @@ def en_aim():
             print("Locked on.")
             en_aimed = True
             shipattk()
+
+
+def rload():
+
+    global reloaded
+    global attack_cnt
+
+    print("Reloading...")
+    time.sleep(2)
+    attack_cnt = 15
+    reloaded = True
+    print("Reloaded.")
+
+
+
 
 def shipattk():
     global evchance
@@ -179,17 +196,19 @@ def shipattk():
     global shipchance
     global shield
     global pwrcount
+    global attack_cnt
+    global reloaded
 
-    if enship_h == 0:
-	    pwrcount = 2
+    if enship_h < 0:
+	    pwrcount = 4
 	    ship_h = 200
 	    enship_h = 200
 	    shield = 5
 	
         
     
-    if ship_h == 0:
-	    pwrcount = 2
+    if ship_h < 0:
+	    pwrcount = 4
 	    ship_h = 200
 	    enship_h = 200
 	    shield = 5
@@ -200,46 +219,77 @@ def shipattk():
     print("Health:", ship_h)
     print("en_Health:", enship_h)
     attackprompt = input("C: ")
-    valid_attack = [ 'a', 's', 'p' ]
-    valid_def = [ 'aim' ]
+    valid_attack = [ 'a', 'shield', 'powershot' ]
+    valid_def = [ 'aim', 'reload' ]
 
     if attackprompt.lower() == valid_attack[0]:
         while True:
+            # Flip coin.
             a = ['a', 'b']
             fns2 = random.choice(a)
+            # If coin lands on side a, misfire.
             if fns2 == 'a':
                 fns3 = random.choice(a)
                 if fns3 == 'a':
-                    print('You missed!')
-                    shipattk()
+                    if attack_cnt < 0:
+                        reloaded = False
+                        print("Out of ammo. Reload needed.")
+                        shipattk()
+                    if reloaded == True:
+                        attack_cnt -= 1
+                        print('You missed!')
+                        shipattk()
+
+
+                # If coin lands on side b, the shot lands.
                 if fns3 == 'b':
-                    damage_enemy()
-                    shipattk()
+                    if attack_cnt < 0:
+                        reloaded = False
+                    if reloaded == True:
+                        attack_cnt -= 1
+                        damage_enemy()
+                        shipattk()
+                    if reloaded == False:
+                        print("Out of ammo. Reload needed.")
+                        shipattk()
+
+
+            # The enemy can land a shot before you do, but also misfire.
+            # This is due to the lore of the game. Mining ships probably wouldn't be the most combat-adept.
             elif fns2 == 'b':
-                fns3 = random.choice(a)
-                if fns3 == 'a':
+                fns5 = random.choice(a)
+                if fns5 == 'a':
                     print('The enemy ship missed!')
                     shipattk()
-                if fns3 == 'b':
+                if fns5 == 'b':
                     damage_player()
                     shipattk()
                     
-                    
+    # Triggering various attack parameters.
     if attackprompt.lower() == valid_attack[1]:
         shieldless()
         shipattk()
 
     if attackprompt.lower() == valid_attack[2]:
         poweratk()
+        aimed = False
+
+    # Triggering various defense parameters.
 
     if attackprompt.lower() == valid_def[0]:
         player_aim()
+
+    if attackprompt.lower() == valid_def[1]:
+        rload()
         
     if attackprompt.lower() != valid_attack:
         shipattk()
 
     if attackprompt.lower() != valid_def:
         shipattk()
+
+
+
 
 def mining():
 
@@ -492,11 +542,12 @@ def damage_enemy():
     global wallet
 
     print("Firing laser...")
-    enship_health = enship_h - attack
+    enship_health = enship_h - random.choice(attack)
     enship_h = enship_health
     print("Enemy ship at", enship_h, "health.")
     while enship_h < 0:
         wallet += 100
+        time.sleep(2)
         print("Enemy ship defeated! Amerinium awarded!")
         sav()
         command_line()
@@ -514,7 +565,7 @@ def damage_player():
     global wallet
 
     print("Your ship has been damaged!")
-    ship_health = ship_h - attack2
+    ship_health = ship_h - random.choice(attack2)
     ship_h = ship_health
     print("Your ship at", ship_h, "health.")
     if ship_h < 0:
@@ -540,7 +591,7 @@ def shieldless():
         damage_player()
         shipattk()
     if shield > 0:
-        ship_h = ship_h + attack2
+        ship_h = ship_h + random.choice(attack2)
         shield -= 5
         print("Shields sustaining at", shield)
         shipattk()
@@ -566,11 +617,11 @@ def poweratk():
         shipattk()
 
     if aimed == True:
-
         print("Firing laser...")
         enship_health = enship_h - pwrdmg
         pwrcount -= 1
         enship_h = enship_health
+        aimed = False
         print("Enemy ship at", enship_h, "health.")
         while enship_h < 0:
             wallet += 200
