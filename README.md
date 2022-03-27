@@ -17,7 +17,7 @@ Windows users will need to install Windows Subsystem for Linux alongside a compa
 3. `python install.py`
 4. `grungegirl`
 
-You may have to run `. ~/.bashrc` after the installation to be sure that the `grungegirl` command works.
+You may have to run `. ~/.bashrc` after the installation to be sure that the `grungegirl` command works. (I KNOW NOW THAT YOURE NOT SUPPOSED TO DO THIS IM CHANGING IT LOL)
 
 ## included functions. humble beginnings.
 
