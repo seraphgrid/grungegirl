@@ -1,8 +1,4 @@
-### grungegirl is currently undergoing a beautification process. the file quantity is unnecessary, alongside several other problems with the installation process. and some distros straight up bork, requiring a more generalized function to install. if it does not work for you at this time, that is my fault alone unless it is something that you know is your fault.
-
-It currently works on Ubuntu, Fedora and Void Linux without a hitch. I know that from my own tests building it on a from-scratch-as-possible installation of all three. 
-
-The next update of grungegirl will see all of the weirder problems (really just spaghetti code to make things do things) removed. A number of developers have joined the project in order to make it something more than just a rough idea. So, I'm taking up the mantle and refining the project with heightened attention to detail. Bare in mind that I'm not the next Linus Torvalds, just someone trying to bring drug culture to life. Mistakes will arise and I'm hoping you will be vocal about them, albeit kindly... 
+grungegirl is currently undergoing a beautification process. the file quantity is unnecessary, alongside several other problems with the installation process. and some distros straight up bork, requiring a more generalized function to install. if it does not work for you at this time, that is my fault alone unless it is something that you know is your fault.
 
 ![image](https://user-images.githubusercontent.com/90430427/133154198-7da21197-0acb-43ac-8155-4d1edbcf3f02.png)
 
@@ -22,6 +18,8 @@ Windows users will need to install Windows Subsystem for Linux alongside a compa
 2. `cd grungegirl/`
 3. `python install.py`
 4. `grungegirl`
+
+This strategy currently works on Ubuntu, Fedora, Arch, and Void Linux. 
 
 You may have to run `. ~/.bashrc` after the installation to be sure that the `grungegirl` command works. (I KNOW NOW THAT YOURE NOT SUPPOSED TO DO THIS IM CHANGING IT LOL)
 
