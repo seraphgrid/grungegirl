@@ -15,7 +15,6 @@ os.system('cp ~/.bashrc ~/.bashrc_bak')
 
 def termux():
 
-    # girls know how to code
 
     print('welcome to grungegirl.')
     print('installing lynx on termux.')

@@ -1,10 +1,10 @@
-#!/bin/bash
+#!/bin/sh
 
-if [ ! -f "~/.bashrc_bak/.bashrc"]; then
-  sudo cp ~/.bashrc_bak/.bashrc ~
+if [ ! -f "$HOME/.bashrc_bak" ]; then
+  sudo mv -r ~/.bashrc_bak ~/.bashrc
   sudo rm -r ~/.bashrc_bak
 fi
 
-if [ ! -f "~/.grungegirl/" ]; then
+if [ ! -f "$HOME/.grungegirl/" ]; then
  sudo rm -r ~/.grungegirl
 fi
