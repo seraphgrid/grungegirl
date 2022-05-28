@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9da8c3b-9e3a-4d47-b84e-b1692f7ff0f9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/grungegirl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/grungegirl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amerinium/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/amerinium/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amerinium/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amerinium/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amerinium/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amerinium/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amerinium/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amerinium/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amerinium/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/amerinium/.idea/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amerinium/ggsave.py" beforeDir="false" afterPath="$PROJECT_DIR$/amerinium/ggsave.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amerinium/ggsave_bakup.py" beforeDir="false" afterPath="$PROJECT_DIR$/amerinium/ggsave_bakup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amerinium/rage.py" beforeDir="false" afterPath="$PROJECT_DIR$/amerinium/rage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amerinium/rage_s.py" beforeDir="false" afterPath="$PROJECT_DIR$/amerinium/rage_s.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amerinium/rage_s_bakup.py" beforeDir="false" afterPath="$PROJECT_DIR$/amerinium/rage_s_bakup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amerinium/trash.py" beforeDir="false" afterPath="$PROJECT_DIR$/amerinium/trash.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/aspects/bi-quin.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/aspects/bi-quin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/aspects/conjunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/aspects/conjunction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/aspects/opposition.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/aspects/opposition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/aspects/quincunx.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/aspects/quincunx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/aspects/quintile.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/aspects/quintile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/aspects/sem-quin.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/aspects/sem-quin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/aspects/semi-sextile.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/aspects/semi-sextile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/aspects/semi-sq.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/aspects/semi-sq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/aspects/septile.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/aspects/septile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/aspects/sesquisq.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/aspects/sesquisq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/aspects/sextile.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/aspects/sextile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/aspects/square.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/aspects/square.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/aspects/trine.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/aspects/trine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/asteroids/chiron.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/asteroids/chiron.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/asteroids/lilith.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/asteroids/lilith.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/asteroids/pallas.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/asteroids/pallas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/houses/eighthhouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/houses/eighthhouse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/houses/eleventhhouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/houses/eleventhhouse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/houses/fifthhouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/houses/fifthhouse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/houses/firsthouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/houses/firsthouse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/houses/fourthhouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/houses/fourthhouse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/houses/ninthhouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/houses/ninthhouse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/houses/secondhouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/houses/secondhouse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/houses/seventhhouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/houses/seventhhouse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/houses/sixthhouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/houses/sixthhouse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/houses/tenthhouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/houses/tenthhouse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/houses/thirdhouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/houses/thirdhouse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/houses/twelfthhouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/houses/twelfthhouse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/planets/earth.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/planets/earth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/planets/jupiter.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/planets/jupiter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/planets/mars.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/planets/mars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/planets/mercury.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/planets/mercury.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/planets/moon.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/planets/moon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/planets/neptune.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/planets/neptune.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/planets/pluto.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/planets/pluto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/planets/saturn.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/planets/saturn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/planets/sun.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/planets/sun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/planets/uranus.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/planets/uranus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/planets/venus.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/planets/venus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/points/ascendant.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/points/ascendant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/points/nnode.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/points/nnode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/points/snode.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/points/snode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/signs/aqua.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/signs/aqua.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/signs/aries.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/signs/aries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/signs/cancer.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/signs/cancer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/signs/cap.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/signs/cap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/signs/gemini.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/signs/gemini.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/signs/leo.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/signs/leo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/signs/libra.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/signs/libra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/signs/pisces.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/signs/pisces.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/signs/sag.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/signs/sag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/signs/scorpio.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/signs/scorpio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/signs/taurus.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/signs/taurus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astrology/signs/virgo.py" beforeDir="false" afterPath="$PROJECT_DIR$/astrology/signs/virgo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bind-alias.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bind-alias.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browsh-fedora.sh" beforeDir="false" afterPath="$PROJECT_DIR$/browsh-fedora.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browsh.sh" beforeDir="false" afterPath="$PROJECT_DIR$/browsh.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/ambien.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/ambien.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/amphet/mdma.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/amphet/mdma.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/amphet/meth.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/amphet/meth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/amphet/speed.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/amphet/speed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/coke.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/coke.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/depress/alc.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/depress/alc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/depress/diaz.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/depress/diaz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/depress/gaba.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/depress/gaba.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/depress/heroin.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/depress/heroin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/depress/hydro.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/depress/hydro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/depress/kratom.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/depress/kratom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/depress/xanax.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/depress/xanax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/dph.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/dph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/dxm.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/dxm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/fent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/lsd.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/lsd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/psychedelics/1P_LSD.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/psychedelics/1P_LSD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/psychedelics/2C-B-Fly.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/psychedelics/2C-B-Fly.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/psychedelics/4-AcO-Met.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/psychedelics/4-AcO-Met.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/psychedelics/4homet.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/psychedelics/4homet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/psychedelics/ayahuasca.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/psychedelics/ayahuasca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/psychedelics/dmt.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/psychedelics/dmt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/psychedelics/lsd.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/psychedelics/lsd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/psychedelics/pey.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/psychedelics/pey.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/psychedelics/salvia.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/psychedelics/salvia.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/psychedelics/shrooms.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/psychedelics/shrooms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drugs/weed.py" beforeDir="false" afterPath="$PROJECT_DIR$/drugs/weed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filecheck.sh" beforeDir="false" afterPath="$PROJECT_DIR$/filecheck.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ggsave.py" beforeDir="false" afterPath="$PROJECT_DIR$/ggsave.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install.py" beforeDir="false" afterPath="$PROJECT_DIR$/install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query.py" beforeDir="false" afterPath="$PROJECT_DIR$/query.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rage_s.py" beforeDir="false" afterPath="$PROJECT_DIR$/rage_s.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reinstall.sh" beforeDir="false" afterPath="$PROJECT_DIR$/reinstall.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/0.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/10.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/11.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/12.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/13.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/14.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/15.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/16.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/17.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/18.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/19.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/20.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/21.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/21.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/5.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/6.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/7.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/8.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/maj/9.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/maj/9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/cups/10c.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/cups/10c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/cups/2c.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/cups/2c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/cups/3c.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/cups/3c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/cups/4c.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/cups/4c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/cups/5c.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/cups/5c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/cups/6c.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/cups/6c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/cups/7c.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/cups/7c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/cups/8c.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/cups/8c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/cups/9c.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/cups/9c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/cups/aC.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/cups/aC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/cups/kC.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/cups/kC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/cups/knC.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/cups/knC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/cups/pC.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/cups/pC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/cups/qC.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/cups/qC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/pentacles/10p.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/pentacles/10p.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/pentacles/2p.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/pentacles/2p.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/pentacles/3p.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/pentacles/3p.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/pentacles/4p.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/pentacles/4p.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/pentacles/5p.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/pentacles/5p.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/pentacles/6p.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/pentacles/6p.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/pentacles/7p.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/pentacles/7p.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/pentacles/8p.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/pentacles/8p.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/pentacles/9p.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/pentacles/9p.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/pentacles/aP.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/pentacles/aP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/pentacles/kP.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/pentacles/kP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/pentacles/knP.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/pentacles/knP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/pentacles/pP.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/pentacles/pP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/pentacles/qP.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/pentacles/qP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/swords/#aS.py#" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/swords/#aS.py#" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/swords/10s.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/swords/10s.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/swords/2s.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/swords/2s.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/swords/3s.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/swords/3s.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/swords/4s.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/swords/4s.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/swords/5s.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/swords/5s.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/swords/6s.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/swords/6s.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/swords/7s.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/swords/7s.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/swords/8s.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/swords/8s.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/swords/9s.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/swords/9s.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/swords/aS.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/swords/aS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/swords/kS.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/swords/kS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/swords/knS.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/swords/knS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/swords/pS.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/swords/pS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/swords/qS.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/swords/qS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/wands/10w.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/wands/10w.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/wands/2w.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/wands/2w.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/wands/3w.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/wands/3w.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/wands/4w.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/wands/4w.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/wands/5w.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/wands/5w.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/wands/6w.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/wands/6w.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/wands/7w.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/wands/7w.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/wands/8w.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/wands/8w.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/wands/9w.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/wands/9w.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/wands/aW.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/wands/aW.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/wands/kW.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/wands/kW.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/wands/knW.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/wands/knW.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/wands/pW.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/wands/pW.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarot/minor/wands/qW.py" beforeDir="false" afterPath="$PROJECT_DIR$/tarot/minor/wands/qW.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/termux/.bashrc" beforeDir="false" afterPath="$PROJECT_DIR$/termux/.bashrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/termux/bind-term.sh" beforeDir="false" afterPath="$PROJECT_DIR$/termux/bind-term.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/termux/runfirst.sh" beforeDir="false" afterPath="$PROJECT_DIR$/termux/runfirst.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/termux/termastro.py" beforeDir="false" afterPath="$PROJECT_DIR$/termux/termastro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/termux/termmain.py" beforeDir="false" afterPath="$PROJECT_DIR$/termux/termmain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/termux/termot.py" beforeDir="false" afterPath="$PROJECT_DIR$/termux/termot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/termux/termun.py" beforeDir="false" afterPath="$PROJECT_DIR$/termux/termun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/termux/termux.py" beforeDir="false" afterPath="$PROJECT_DIR$/termux/termux.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/termux/termweb.py" beforeDir="false" afterPath="$PROJECT_DIR$/termux/termweb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uninstall.py" beforeDir="false" afterPath="$PROJECT_DIR$/uninstall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/updatelist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/updatelist.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voidcheck.sh" beforeDir="false" afterPath="$PROJECT_DIR$/voidcheck.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voidgirls/bind-void.sh" beforeDir="false" afterPath="$PROJECT_DIR$/voidgirls/bind-void.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voidgirls/voidastro.py" beforeDir="false" afterPath="$PROJECT_DIR$/voidgirls/voidastro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voidgirls/voidgirls.py" beforeDir="false" afterPath="$PROJECT_DIR$/voidgirls/voidgirls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voidgirls/voidweb.py" beforeDir="false" afterPath="$PROJECT_DIR$/voidgirls/voidweb.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/scraper.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29LneclzAqE4s4fJQnClggj6EKh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/tayaiwakura/Downloads/sorc/tek",
+    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable",
+    "settings.editor.splitter.proportion": "0.24951077"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.scraper">
+    <configuration name="Unnamed (1)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="grungegirl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="grungegirl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="grungegirl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="ShConfigurationType" nameIsGenerated="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Unnamed (1)" />
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.scraper" />
+      <item itemvalue="Shell Script.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.scraper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9da8c3b-9e3a-4d47-b84e-b1692f7ff0f9" name="Changes" comment="" />
+      <created>1652901330347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652901330347</updated>
+    </task>
+    <servers />
+  </component>
+</project>
