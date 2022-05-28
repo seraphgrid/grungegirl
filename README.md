@@ -8,6 +8,7 @@
 
 `python uninstall.py`
 
+#
 
 `working: arch, fedora, ubuntu, slackware, void`
 
