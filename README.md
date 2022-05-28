@@ -1,8 +1,8 @@
-grungegirl is currently undergoing a beautification process. the file quantity is unnecessary, alongside several other problems with the installation process. and some distros straight up bork, requiring a more generalized function to install. if it does not work for you at this time, that is my fault alone unless it is something that you know is your fault.
+# UNDERGOING CHANGES IN ORDER TO MAKE EVERYTHING LESS ANNOYING SORRY.
 
 ![image](https://user-images.githubusercontent.com/90430427/133154198-7da21197-0acb-43ac-8155-4d1edbcf3f02.png)
 
-# grungegirl. cli-based drug search for girls.
+# grungegirl. 
 
 welcome.
 
@@ -21,7 +21,7 @@ Windows users will need to install Windows Subsystem for Linux alongside a compa
 
 This strategy currently works on Ubuntu, Fedora, Arch, and Void Linux. 
 
-You may have to run `. ~/.bashrc` after the installation to be sure that the `grungegirl` command works. (I KNOW NOW THAT YOURE NOT SUPPOSED TO DO THIS IM CHANGING IT LOL)
+You may have to run `. ~/.bashrc` after the installation to be sure that the `grungegirl` command works. 
 
 ## included functions. humble beginnings.
 
