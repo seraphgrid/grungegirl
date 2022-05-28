@@ -1,6 +1,8 @@
+`python3, yay, lynx/browsh`
+
 `git clone https://github.com/deathslittlegirl/grungegirl`
 
-`python / python3 install.py`
+`python install.py` or `python3 install.py`
 
 /
 
