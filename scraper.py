@@ -1,30 +1,16 @@
-import requests
-from bs4 import BeautifulSoup
-import random
+# Success code is 200. 
+query = input("Drug: ")
 
-def scrapeWikiArticle(url):
-	response = requests.get(
-		url=url,
-	)
-	
-	soup = BeautifulSoup(response.content, 'html.parser')
+req_site = req.get('https://psychonautwiki.org/wiki/' + query.lower() + '#Common_names')
 
-	title = soup.find(id="firstHeading")
-	print(title.text)
+print(req_site)
 
-	allLinks = soup.find(id="bodyContent").find_all("a")
-	random.shuffle(allLinks)
-	linkToScrape = 0
+parser = bs(req_site.content, 'html.parser')
+bodyContent = parser.find('div', id='bodyContent')
+contentText = parser.find('div', class_='mw-parser-output')
+wikifind = contentText.find_all(['p'])
+dfind = bodyContent.find_all('p')
 
-	for link in allLinks:
-		# We are only interested in other wiki articles
-		if link['href'].find("/wiki/") == -1: 
-			continue
+for line in wikifind:
 
-		# Use this link to scrape
-		linkToScrape = link
-		break
-
-	scrapeWikiArticle = input("url: " + linkToScrape['href'])
-
-scrapeWikiArticle("https://en.wikipedia.org/wiki/Web_scraping")
+    print(line.text)
