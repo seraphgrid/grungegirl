@@ -5,6 +5,6 @@
 echo "alias grungegirl='python ~/.grungegirl/main.py'" >> ~/.bashrc
 
 echo 'インストールが完了。'
-echo 'version 0.5 - huntress'
+echo 'version 0.5 - telepath'
 sleep 2
-. $HOME/.bashrc
+echo 'run uninstall.py to get rid of her.'

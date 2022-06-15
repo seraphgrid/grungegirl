@@ -1,24 +1,15 @@
 #!/usr/bin/env python
 
-# Setting the stage
-
 import os
 import time
 
-# making backup bashrc file
-
-
-# The V8 Engine
-
-
-def v8():
+def neko():
     
     print("wooooowwwwww")
     time.sleep(2)
     print("Rainbow cat. Phase reader. Blast keg.")
     time.sleep(2)
-    os.system('clear')
-    
+
     distrol = [ 'slackware', 'debian', 'fedora', 'void', 'void linux', 'arch', 'arch linux', 'termux' ]
 
     distro = input("Distribution: ")
@@ -28,8 +19,6 @@ def v8():
         print("backing up your .bashrc file. -death xx") 
         time.sleep(2)
         os.system('cp -rv ~/.bashrc ~/.bashrc_bak')
-        os.system('clear')
-
 
     if distro.lower() == distrol[0]:
         
@@ -83,7 +72,7 @@ def v8():
         
 
         print('VPN recommended for browsh/lynxでは、VPNを使用してください')
-        time.sleep(3)
+        time.sleep(1)
 
         os.system('sh bind-alias.sh')
         time.sleep(1)
@@ -107,7 +96,7 @@ def v8():
         os.system('sudo touch ~/.bashrc')
         os.system('sh ~/.grungegirl/voidgirls/bind-void.sh') 
         print('VPN recommended for browsh/lynxでは、VPNを使用してください')
-        time.sleep(3)
+        time.sleep(1)
 
         os.system('sh bind-alias.sh')
         time.sleep(1)
@@ -127,7 +116,7 @@ def v8():
         time.sleep(2)
 
         print('VPN recommended for browsh/lynxでは、VPNを使用してください')
-        time.sleep(3)
+        time.sleep(1)
         os.system('sh bind-alias.sh')
         time.sleep(1)
  
@@ -137,4 +126,4 @@ def v8():
         os.system('python termux/termux.py')
         exit()
 
-v8()
+neko()

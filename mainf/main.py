@@ -2,7 +2,7 @@
 import os
 
 # version name, version tagline, drug search
-print("0.5 - Angelia")
+print("0.5 - neko")
 print("")
 drug = input(":: ")
 

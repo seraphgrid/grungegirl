@@ -34,5 +34,4 @@ with open(f'{home}.bashrc') as rc:
 print('version 0.5 - telepath')
 print('')
 print('経験')
-time.sleep(2)
-os.system('clear')
+
