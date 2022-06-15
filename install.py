@@ -13,7 +13,7 @@ import time
 
 def v8():
     
-    print("i know nothing. so do you. -death")
+    print("wooooowwwwww")
     time.sleep(2)
     print("Rainbow cat. Phase reader. Blast keg.")
     time.sleep(2)
@@ -27,7 +27,7 @@ def v8():
         os.system('clear')
         print("backing up your .bashrc file. -death xx") 
         time.sleep(2)
-        os.system('sudo cp -rv ~/.bashrc ~/.bashrc_bak')
+        os.system('cp -rv ~/.bashrc ~/.bashrc_bak')
         os.system('clear')
 
 
@@ -55,7 +55,7 @@ def v8():
          
         os.system('wget https://github.com/browsh-org/browsh/releases/download/v1.6.4/browsh_1.6.4_linux_amd64.deb')
         os.system('sudo dpkg -i ./browsh_1.6.4_linux_amd64.deb')
-        os.system('sudo rm -rfv browsh_1.6.4_linux_amd64.deb')
+        os.system('sudo rm -rfv ./browsh_1.6.4_linux_amd64.deb')
         os.system('echo "browsh installation complete."')
         
         print('VPN recommended for browsh/lynxでは、VPNを使用してください')
@@ -71,11 +71,14 @@ def v8():
         
         print('Red-Hatシステムにブラウザをインストールする。')
         os.system('wget https://github.com/browsh-org/browsh/releases/download/v1.6.4/browsh_1.6.4_linux_amd64.rpm')
-        os.system('sudo rpm -i browsh_1.6.4_linux_amd64.rpm && rm -r browsh_1.6.4_linux_amd64.rpm')
+        os.system('sudo rpm -i ./browsh_1.6.4_linux_amd64.rpm') 
+        os.system('rm -rfv ./browsh_1.6.4_linux_amd64.rpm')
         os.system('mkdir ~/.grungegirl')
-        os.system('cp -rv mainf/astrology.py mainf/tarot.py mainf/query.py mainf/astrology.py mainf/main.py ~/.grungegirl')  
+        os.system('cp -rv mainf/astrology.py mainf/tarot.py mainf/query.py mainf/main.py ~/.grungegirl')  
         os.system('cp -rv tarot/ drugs/ astrology/ ~/.grungegirl')
+       
         print('歓迎するグランジガール.')
+       
         time.sleep(1)
         
 

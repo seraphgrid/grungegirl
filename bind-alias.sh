@@ -5,6 +5,6 @@
 echo "alias grungegirl='python ~/.grungegirl/main.py'" >> ~/.bashrc
 
 echo 'インストールが完了。'
-echo 'version 0.4 - huntress'
+echo 'version 0.5 - huntress'
 sleep 2
-source ~/.bashrc
+. $HOME/.bashrc

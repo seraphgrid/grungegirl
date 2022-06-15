@@ -3,20 +3,36 @@
 # Imports
 import os
 import time
+import shutil as sh
 
 #folder check
-uninstall_ask = input('Uninstalling on Void? (y/n) ')
-valid_input = [ 'y', 'n' ]
-if uninstall_ask == valid_input[0]:
-    os.system('sh voidcheck.sh')
 
-if uninstall_ask == valid_input[1]:
-    os.system('sh filecheck.sh')
+grungegirl = "alias grungegirl='python ~/.grungegirl/main.py'"
+home = '/home/' + os.getlogin() + '/'
 
+with open(f'{home}.bashrc') as rc:
 
+    rclines = rc.readlines()
+
+    with open(f'{home}.bashrc_bak', "w") as rcb:
+
+        for alias in rclines:
+            if alias.strip('\n') != grungegirl:
+                rcb.write(alias)
+
+        rc.close()
+        rcb.close()
+
+        os.system(f'mv {home}.bashrc_bak {home}.bashrc')
+
+        os.system(f'rm -rfv {home}.bashrc_bak {home}.grungegirl/')
+        
+        print("grungegirl removed.")
+
+        
 # uninstall
-print('version 0.4 - telepath')
+print('version 0.5 - telepath')
 print('')
 print('経験')
-time.sleep(3)
+time.sleep(2)
 os.system('clear')

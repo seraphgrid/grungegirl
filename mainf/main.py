@@ -2,13 +2,9 @@
 import os
 
 # version name, version tagline, drug search
-
-print("グランジガール  - 0.4 - telepath")
-print("愛は痛みです。 愛は至福です。")
-print(" ")
-print("THE興VOID+ --> https://discord.gg/EJj9sJsSTN")
-print(" ")
-drug = input("グランジガール --> ")
+print("0.5 - Angelia")
+print("")
+drug = input(":: ")
 
 
 # Web (Debbie)
