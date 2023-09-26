@@ -131,10 +131,10 @@ os.system("browsh https://wiki.openttd.org/en/")
 # Minecraft wiki (also dis)
 
 elif search.lower() == 'minecraft':
-os.system('browsh https://minecraft.fandom.com/wiki/Minecraft_Wiki')
+os.system('browsh https://minecraft.wiki/w/Minecraft_Wiki')
 
 elif search.lower() == 'mc':
-os.system('browsh https://minecraft.fandom.com/wiki/Minecraft_Wiki')
+os.system('browsh https://minecraft.wiki/w/Minecraft_Wiki')
 
 # exit software
 

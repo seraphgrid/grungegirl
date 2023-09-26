@@ -129,10 +129,10 @@ def query():
 # Minecraft wiki (also dis)
 
     elif search.lower() == 'minecraft':
-        os.system('lynx https://minecraft.fandom.com/wiki/Minecraft_Wiki')
+        os.system('lynx https://minecraft.wiki/w/Minecraft_Wiki')
 
     elif search.lower() == 'mc':
-        os.system('lynx https://minecraft.fandom.com/wiki/Minecraft_Wiki')
+        os.system('lynx https://minecraft.wiki/w/Minecraft_Wiki')
 
 # exit software
     elif search.lower() == "exit":
