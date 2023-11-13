@@ -32,7 +32,7 @@ def neko():
         os.system('sh bind-alias.sh')
         time.sleep(1)
 
-        print("Slackware installation complete. Hopefully everything works.")
+        print("Slackware installation complete.")
         exit()
 
     elif distro.lower() == distrol[1]:
