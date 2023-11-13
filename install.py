@@ -24,7 +24,7 @@ def neko():
         
         os.system('mkdir ~/.grungegirl')
         os.system('cp -rv tarot/ drugs/ astrology/ ~/.grungegirl') 
-        os.system('cp -rv slack/astrology.py slack/query.py slack/tarot.py slack/main.py ~/.grungegirl') 
+        os.system('cp -rv slack/*.py ~/.grungegirl') 
                 
         print('VPN recommended for browsh/lynxでは、VPNを使用してください')
         time.sleep(3)
