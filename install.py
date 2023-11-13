@@ -40,7 +40,7 @@ def neko():
         print("Debian selected.")
         os.system('mkdir ~/.grungegirl')
         os.system('cp -rv drugs/ tarot/ astrology/ ~/.grungegirl') 
-        os.system('cp -rv mainf/astrology.py mainf/tarot.py mainf/main.py mainf/tarot.py mainf/query.py ~/.grungegirl')
+        os.system('cp -rv mainf/*.py ~/.grungegirl')
          
         os.system('wget https://github.com/browsh-org/browsh/releases/download/v1.6.4/browsh_1.6.4_linux_amd64.deb')
         os.system('sudo dpkg -i ./browsh_1.6.4_linux_amd64.deb')
@@ -63,7 +63,7 @@ def neko():
         os.system('sudo rpm -i ./browsh_1.6.4_linux_amd64.rpm') 
         os.system('rm -rfv ./browsh_1.6.4_linux_amd64.rpm')
         os.system('mkdir ~/.grungegirl')
-        os.system('cp -rv mainf/astrology.py mainf/tarot.py mainf/query.py mainf/main.py ~/.grungegirl')  
+        os.system('cp -rv mainf/*.py ~/.grungegirl')  
         os.system('cp -rv tarot/ drugs/ astrology/ ~/.grungegirl')
        
         print('歓迎するグランジガール.')
@@ -77,7 +77,7 @@ def neko():
         os.system('sh bind-alias.sh')
         time.sleep(1)
  
-        exit("Red-hat installation complete. I refuse to call it Fedora.")
+        exit("Red-hat installation complete. there was a stupid joke behind that sentence once")
 
     elif distro.lower() == distrol[3:4]:
        
@@ -106,10 +106,12 @@ def neko():
 
     elif distro.lower() == distrol[5:6]:
         
-        print("yay required to proceed. otherwise you will get some stupid error")
+        print("yay required to proceed. otherwise you will get some stupid error.")
+        time.sleep(2)
+        print("and im just gonna run yay anyway, but error handling will come")
         time.sleep(2)
         os.system('cp -r drugs/ tarot/ astrology/ ~/.grungegirl') 
-        os.system('cp -r mainf/astrology.py mainf/tarot.py mainf/main.py mainf/tarot.py mainf/query.py ~/.grungegirl')
+        os.system('cp -r mainf/*.py ~/.grungegirl')
         
         os.system('yay -a browsh')
         print('yayのインストールが完了しました。 私たちはあなたを愛し、赤ちゃん。')
