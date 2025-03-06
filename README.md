@@ -1,5 +1,7 @@
 `goal: smaller, faster code, and less noise. - due: mar 9`
 
+`goal: more pillz - due: mar 13`
+
 `python3, yay, w3m/browsh`
 
 `git clone https://github.com/seraphgrid/aexa`
