@@ -1,3 +1,5 @@
+`goal: smaller, faster code, and less noise. - due: mar 9`
+
 `python3, yay, lynx/browsh`
 
 `git clone https://github.com/seraphgrid/grungegirl`
