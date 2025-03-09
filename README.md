@@ -1,8 +1,15 @@
-`goal: smaller, faster code, and less noise. - due: mar 9`
+`aexa`: `an offline drug encyclopedia with tools for spiritual practices.`
 
-`goal: more pillz - due: mar 13`
 
-`python3, yay, w3m/browsh`
+```
+goal: smaller, faster code, and less noise. - due: mar 9`
+
+goal: more pillz - due: mar 13
+
+```
+
+`deps`: `python3` | `yay` | `w3m/browsh`
+
 
 `git clone https://github.com/seraphgrid/aexa`
 
